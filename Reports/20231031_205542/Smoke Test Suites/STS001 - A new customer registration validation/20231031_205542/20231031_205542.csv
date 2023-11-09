@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+STS001 - A new customer registration validation,Chrome 118.0.0.0,All the test cases related to a new customer registration to the web application,,2023-10-31 20:55:51,2023-10-31 20:56:13,22.506s,FAILED
+,,,,,,,
+Test Cases/Main Test Cases/MTC001 - Register,Chrome 118.0.0.0,,smoke,2023-10-31 20:55:51,2023-10-31 20:56:13,22.272s,FAILED
+"callTestCase(findTestCase(""Reusable Test Cases/Open the webapp""), [:], STOP_ON_FAILURE)",Chrome 118.0.0.0,,,2023-10-31 20:55:51,2023-10-31 20:55:59,7.489s,PASSED
+"callTestCase(findTestCase(""Reusable Test Cases/Enter a new user info""), [:], STOP_ON_FAILURE)",Chrome 118.0.0.0,,,2023-10-31 20:55:59,2023-10-31 20:56:11,12.636s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_ParaBank_Customer_Created/lblWelcome""), expectedWelcomeMessage + username)",Chrome 118.0.0.0,,,2023-10-31 20:56:11,2023-10-31 20:56:12,0.814s,FAILED
+"verifyElementText(findTestObject(""Object Repository/Page_ParaBank_Customer_Created/lblSuccessfulAccountCreation""), expectedSuccessfulAccountCreationMessage)",Chrome 118.0.0.0,,,2023-10-31 20:56:12,2023-10-31 20:56:13,0.686s,FAILED
+closeBrowser(),Chrome 118.0.0.0,,,2023-10-31 20:56:13,2023-10-31 20:56:13,0.177s,PASSED

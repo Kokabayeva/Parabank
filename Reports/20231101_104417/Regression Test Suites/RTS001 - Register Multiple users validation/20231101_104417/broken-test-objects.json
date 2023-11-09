@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_ParaBank_Accounts_Overview/lkLogOut",
+      "brokenLocator": "//div[@id\u003d\u0027leftPanel\u0027]/ul/li[8]/a",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//li[8]/a",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20231101_104417/Regression Test Suites/RTS001 - Register Multiple users validation/20231101_104417/Object Repository/Page_ParaBank_Accounts_Overview/lkLogOut_position.png"
+    }
+  ]
+}

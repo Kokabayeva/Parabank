@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>article2NewOnlineBillPay</name>
+   <tag></tag>
+   <elementGuidId>873ba1b2-14fa-4360-9611-62ee388edb5b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>ul.events > li:nth-of-type(3) > a</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='rightPanel']/ul[3]/li[3]/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>86dae43d-8690-4ccf-9b5e-ff624742215d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>news.htm;jsessionid=09BC803E522CCC8ED3884823A5103E97#5</value>
+      <webElementGuid>a6cc3a80-9f11-48c5-a9a0-192c4f6a69e3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>New! Online Bill Pay</value>
+      <webElementGuid>379cb0e4-e6f2-4862-a4f7-824a7c76e477</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;rightPanel&quot;)/ul[@class=&quot;events&quot;]/li[3]/a[1]</value>
+      <webElementGuid>b13e6fbe-906a-4566-a1e3-7ce98c1331f6</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='rightPanel']/ul[3]/li[3]/a</value>
+      <webElementGuid>33635721-fd18-496a-bd03-22fd241b8110</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'New! Online Bill Pay')]</value>
+      <webElementGuid>b243999e-0be2-43d0-899b-33adfdbe501d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'news.htm;jsessionid=09BC803E522CCC8ED3884823A5103E97#5')]</value>
+      <webElementGuid>6dd61483-059e-4358-ba96-81cd622073d7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//ul[3]/li[3]/a</value>
+      <webElementGuid>d307cdc2-210e-49b1-a115-1a10b63685e8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'news.htm;jsessionid=09BC803E522CCC8ED3884823A5103E97#5' and (text() = 'New! Online Bill Pay' or . = 'New! Online Bill Pay')]</value>
+      <webElementGuid>472eaf74-0e53-45f6-834a-20419370de21</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

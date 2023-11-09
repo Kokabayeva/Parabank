@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>MTC015 - Verify Contact icon</name>
+   <tag>smoke</tag>
+   <comment></comment>
+   <testCaseGuid>af781958-5836-4671-b629-7b62bffb53d9</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>94605798-a7d7-438b-b2f3-d1c8d6b167fb</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Customer Care'</defaultValue>
+      <description></description>
+      <id>94605798-a7d7-438b-b2f3-d1c8d6b167fb</id>
+      <masked>false</masked>
+      <name>expectedH1CustomerCareText</name>
+   </variable>
+</TestCaseEntity>

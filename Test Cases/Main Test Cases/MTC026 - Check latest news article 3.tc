@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>MTC026 - Check latest news article 3</name>
+   <tag>regression</tag>
+   <comment></comment>
+   <testCaseGuid>ce35c632-75fe-4a8e-921e-cb121fc60854</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1201bca6-1554-48f6-9202-45c531886a85</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'ParaBank News'</defaultValue>
+      <description></description>
+      <id>1201bca6-1554-48f6-9202-45c531886a85</id>
+      <masked>false</masked>
+      <name>expectedH1ParaBankNews</name>
+   </variable>
+</TestCaseEntity>

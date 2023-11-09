@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>MTC007 - Verify main page title</name>
+   <tag>smoke</tag>
+   <comment></comment>
+   <testCaseGuid>f9690b1a-106a-4d03-bb1e-7c5e6914f4ed</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e8d4c256-de2b-448a-ac8c-3a545f6f35f9</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'ParaBank | Welcome | Online Banking'</defaultValue>
+      <description></description>
+      <id>e8d4c256-de2b-448a-ac8c-3a545f6f35f9</id>
+      <masked>false</masked>
+      <name>expectedTitle</name>
+   </variable>
+</TestCaseEntity>

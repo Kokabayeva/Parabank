@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+STS001 - A new customer registration verification,Windows - Chrome 109.0.0.0,All the test cases related to a new customer registration to the web application,,2023-11-03 18:50:35,2023-11-03 18:52:29,1m - 53.896s,FAILED
+,,,,,,,
+Test Cases/Main Test Cases/MTC001 - User Registration,Windows - Chrome 109.0.0.0,,smoke,2023-11-03 18:50:35,2023-11-03 18:52:29,1m - 53.697s,FAILED
+"callTestCase(findTestCase(""Reusable Test Cases/Open the webapp""), [:], CONTINUE_ON_FAILURE)",Windows - Chrome 109.0.0.0,,,2023-11-03 18:50:36,2023-11-03 18:51:24,47.598s,PASSED
+"click(findTestObject(""Object Repository/Page_ParaBank  Welcome  Online Banking/lkRegister""))",Windows - Chrome 109.0.0.0,,,2023-11-03 18:51:24,2023-11-03 18:51:27,3.363s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtFirstName""), firstName)",Windows - Chrome 109.0.0.0,,,2023-11-03 18:51:27,2023-11-03 18:51:31,4.085s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtLastName""), lastName)",Windows - Chrome 109.0.0.0,,,2023-11-03 18:51:31,2023-11-03 18:51:36,4.420s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtAddress""), address)",Windows - Chrome 109.0.0.0,,,2023-11-03 18:51:36,2023-11-03 18:51:40,4.599s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtCity""), city)",Windows - Chrome 109.0.0.0,,,2023-11-03 18:51:40,2023-11-03 18:51:44,4.096s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtState""), state)",Windows - Chrome 109.0.0.0,,,2023-11-03 18:51:44,2023-11-03 18:51:49,4.627s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtZipCode""), zipCode)",Windows - Chrome 109.0.0.0,,,2023-11-03 18:51:49,2023-11-03 18:51:54,4.506s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtPhoneNumber""), phone)",Windows - Chrome 109.0.0.0,,,2023-11-03 18:51:54,2023-11-03 18:51:58,4.102s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtSSN""), ssn)",Windows - Chrome 109.0.0.0,,,2023-11-03 18:51:58,2023-11-03 18:52:02,4.150s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtUsername""), username)",Windows - Chrome 109.0.0.0,,,2023-11-03 18:52:02,2023-11-03 18:52:06,4.622s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtPassword""), password)",Windows - Chrome 109.0.0.0,,,2023-11-03 18:52:06,2023-11-03 18:52:11,4.260s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtRepeatedPassword""), password)",Windows - Chrome 109.0.0.0,,,2023-11-03 18:52:11,2023-11-03 18:52:15,4.353s,PASSED
+"click(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/btnRegister""))",Windows - Chrome 109.0.0.0,,,2023-11-03 18:52:15,2023-11-03 18:52:18,2.602s,PASSED
+"verifyElementText(findTestObject(""Page_ParaBank_Customer_Created/lblWelcome""), expectedWelcomeMessage + username)",Windows - Chrome 109.0.0.0,,,2023-11-03 18:52:18,2023-11-03 18:52:23,5.771s,FAILED
+"verifyElementText(findTestObject(""Page_ParaBank_Customer_Created/lblSuccessfulAccountCreation""), expectedSuccessfulAccountCreationMessage)",Windows - Chrome 109.0.0.0,,,2023-11-03 18:52:23,2023-11-03 18:52:28,4.857s,FAILED
+closeBrowser(),Windows - Chrome 109.0.0.0,,,2023-11-03 18:52:28,2023-11-03 18:52:29,0.907s,PASSED

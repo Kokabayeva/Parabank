@@ -1,0 +1,46 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+STS002 - login verification,MacOS - Edge Chromium 118,All the test cases related to login in,,2023-11-03 17:54:37,2023-11-03 17:59:45,5m - 7.637s,FAILED
+,,,,,,,
+Test Cases/Reusable Test Cases/Login,MacOS - Edge Chromium 118,,,2023-11-03 17:54:38,2023-11-03 17:55:39,1m - 1.669s,PASSED
+"callTestCase(findTestCase(""Reusable Test Cases/Open the webapp""), [:], CONTINUE_ON_FAILURE)",MacOS - Edge Chromium 118,,,2023-11-03 17:54:38,2023-11-03 17:55:25,46.798s,PASSED
+"setText(findTestObject(""Page_ParaBank  Welcome  Online Banking/txtUsername""), username)",MacOS - Edge Chromium 118,,,2023-11-03 17:55:25,2023-11-03 17:55:29,3.714s,PASSED
+"setText(findTestObject(""Page_ParaBank  Welcome  Online Banking/txtPassword""), findTestData(""InternalData"").getValue(""password"", 1))",MacOS - Edge Chromium 118,,,2023-11-03 17:55:29,2023-11-03 17:55:33,4.359s,PASSED
+"click(findTestObject(""Page_ParaBank  Welcome  Online Banking/btnLogin""))",MacOS - Edge Chromium 118,,,2023-11-03 17:55:33,2023-11-03 17:55:37,4.065s,PASSED
+"verifyElementText(findTestObject(""Page_ParaBank  Accounts Overview/h1AccountsOverview""), expectedAccountsOverviewText)",MacOS - Edge Chromium 118,,,2023-11-03 17:55:37,2023-11-03 17:55:39,2.095s,PASSED
+,,,,,,,
+Test Cases/Main Test Cases/MTC003 - Forgot login,MacOS - Edge Chromium 118,,smoke,2023-11-03 17:55:39,2023-11-03 17:57:08,1m - 28.413s,FAILED
+"callTestCase(findTestCase(""Reusable Test Cases/Open the webapp""), [:], CONTINUE_ON_FAILURE)",MacOS - Edge Chromium 118,,,2023-11-03 17:55:40,2023-11-03 17:56:26,46.556s,PASSED
+"click(findTestObject(""Object Repository/Page_ParaBank  Welcome  Online Banking/lkForgotLoginInfo""))",MacOS - Edge Chromium 118,,,2023-11-03 17:56:26,2023-11-03 17:56:30,3.364s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Customer_Lookup/txtFirstName""), firstName)",MacOS - Edge Chromium 118,,,2023-11-03 17:56:30,2023-11-03 17:56:34,4.511s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Customer_Lookup/txtLastName""), lastName)",MacOS - Edge Chromium 118,,,2023-11-03 17:56:34,2023-11-03 17:56:38,4.427s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Customer_Lookup/txtAddress.street""), address)",MacOS - Edge Chromium 118,,,2023-11-03 17:56:38,2023-11-03 17:56:43,4.071s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Customer_Lookup/txtAddress.city""), city)",MacOS - Edge Chromium 118,,,2023-11-03 17:56:43,2023-11-03 17:56:46,3.816s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Customer_Lookup/txtAddress.state""), state)",MacOS - Edge Chromium 118,,,2023-11-03 17:56:46,2023-11-03 17:56:50,4.052s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Customer_Lookup/txtAddress.zipCode""), zipCode)",MacOS - Edge Chromium 118,,,2023-11-03 17:56:50,2023-11-03 17:56:55,4.282s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Customer_Lookup/txtSSN""), ssn)",MacOS - Edge Chromium 118,,,2023-11-03 17:56:55,2023-11-03 17:56:59,3.956s,PASSED
+"click(findTestObject(""Object Repository/Page_ParaBank_Customer_Lookup/btnFindMyLoginInfo""))",MacOS - Edge Chromium 118,,,2023-11-03 17:56:59,2023-11-03 17:57:01,2.672s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_ParaBank_Customer_Lookup/h1CustomerLookup""), expectedCustomerLookupText)",MacOS - Edge Chromium 118,,,2023-11-03 17:57:01,2023-11-03 17:57:04,2.687s,FAILED
+"verifyElementText(findTestObject(""Object Repository/Page_ParaBank_Customer_Lookup/lblLoginInfoLookUpSuccess""), expectedLoginInfoLookupSuccessMessage)",MacOS - Edge Chromium 118,,,2023-11-03 17:57:04,2023-11-03 17:57:07,2.843s,FAILED
+closeBrowser(),MacOS - Edge Chromium 118,,,2023-11-03 17:57:07,2023-11-03 17:57:08,0.762s,PASSED
+,,,,,,,
+Test Cases/Main Test Cases/MTC004 - Forgot login info unsuccessful,MacOS - Edge Chromium 118,,regression,2023-11-03 17:57:08,2023-11-03 17:58:38,1m - 30.063s,PASSED
+"callTestCase(findTestCase(""Reusable Test Cases/Open the webapp""), [:], CONTINUE_ON_FAILURE)",MacOS - Edge Chromium 118,,,2023-11-03 17:57:08,2023-11-03 17:58:02,53.876s,PASSED
+"click(findTestObject(""Object Repository/Page_ParaBank  Welcome  Online Banking/lkForgotLoginInfo""))",MacOS - Edge Chromium 118,,,2023-11-03 17:58:02,2023-11-03 17:58:05,3.107s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Customer_Lookup/txtFirstName""), firstName)",MacOS - Edge Chromium 118,,,2023-11-03 17:58:05,2023-11-03 17:58:09,3.828s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Customer_Lookup/txtLastName""), lastName)",MacOS - Edge Chromium 118,,,2023-11-03 17:58:09,2023-11-03 17:58:13,4.021s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Customer_Lookup/txtAddress.street""), address)",MacOS - Edge Chromium 118,,,2023-11-03 17:58:13,2023-11-03 17:58:16,3.528s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Customer_Lookup/txtAddress.city""), city)",MacOS - Edge Chromium 118,,,2023-11-03 17:58:16,2023-11-03 17:58:20,3.656s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Customer_Lookup/txtAddress.state""), state)",MacOS - Edge Chromium 118,,,2023-11-03 17:58:20,2023-11-03 17:58:23,3.482s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Customer_Lookup/txtAddress.zipCode""), zipCode)",MacOS - Edge Chromium 118,,,2023-11-03 17:58:23,2023-11-03 17:58:27,3.389s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Customer_Lookup/txtSSN""), ssn)",MacOS - Edge Chromium 118,,,2023-11-03 17:58:27,2023-11-03 17:58:31,4.159s,PASSED
+"click(findTestObject(""Object Repository/Page_ParaBank_Customer_Lookup/btnFindMyLoginInfo""))",MacOS - Edge Chromium 118,,,2023-11-03 17:58:31,2023-11-03 17:58:33,2.466s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_ParaBank_Customer_Lookup/h1Error""), expectedErrorMessage)",MacOS - Edge Chromium 118,,,2023-11-03 17:58:33,2023-11-03 17:58:35,1.801s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_ParaBank_Customer_Lookup/lblLoginInfoLookUpFailure""), expectedCustomerLookupFailureText)",MacOS - Edge Chromium 118,,,2023-11-03 17:58:35,2023-11-03 17:58:37,1.581s,PASSED
+closeBrowser(),MacOS - Edge Chromium 118,,,2023-11-03 17:58:37,2023-11-03 17:58:38,0.975s,PASSED
+,,,,,,,
+Test Cases/Main Test Cases/MTC016 - Logout,MacOS - Edge Chromium 118,,smoke,2023-11-03 17:58:38,2023-11-03 17:59:45,1m - 7.220s,FAILED
+"callTestCase(findTestCase(""Reusable Test Cases/Login""), [:], CONTINUE_ON_FAILURE)",MacOS - Edge Chromium 118,,,2023-11-03 17:58:38,2023-11-03 17:59:41,1m - 2.786s,PASSED
+"click(findTestObject(""Page_ParaBank  Accounts Overview/lnkLogOut""))",MacOS - Edge Chromium 118,,,2023-11-03 17:59:41,2023-11-03 17:59:41,0.868s,FAILED
+"navigateToUrl(""https://parabank.parasoft.com/parabank/index.htm?ConnType=JDBC"")",MacOS - Edge Chromium 118,,,2023-11-03 17:59:41,2023-11-03 17:59:42,0.714s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_ParaBank  Welcome  Online Banking/lnkATMServices""), ""ATM Services"")",MacOS - Edge Chromium 118,,,2023-11-03 17:59:42,2023-11-03 17:59:44,1.948s,PASSED
+closeBrowser(),MacOS - Edge Chromium 118,,,2023-11-03 17:59:44,2023-11-03 17:59:45,0.805s,PASSED

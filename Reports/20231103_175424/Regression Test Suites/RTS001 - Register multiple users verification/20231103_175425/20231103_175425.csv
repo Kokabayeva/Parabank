@@ -1,0 +1,150 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+RTS001 - Register multiple users verification,Linux - Firefox 118.0,This test suite validates registration of multiple users into webapp,,2023-11-03 17:54:35,2023-11-03 18:23:08,28m - 32.331s,FAILED
+,,,,,,,
+Test Cases/Main Test Cases/MTC001 - User Registration,Linux - Firefox 118.0,,smoke,2023-11-03 17:54:36,2023-11-03 18:04:32,9m - 55.609s,FAILED
+"callTestCase(findTestCase(""Reusable Test Cases/Open the webapp""), [:], CONTINUE_ON_FAILURE)",Linux - Firefox 118.0,,,2023-11-03 17:54:37,2023-11-03 17:55:05,28.068s,FAILED
+"click(findTestObject(""Object Repository/Page_ParaBank  Welcome  Online Banking/lkRegister""))",Linux - Firefox 118.0,,,2023-11-03 17:55:05,2023-11-03 17:55:43,37.703s,FAILED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtFirstName""), firstName)",Linux - Firefox 118.0,,,2023-11-03 17:55:43,2023-11-03 17:56:20,36.979s,FAILED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtLastName""), lastName)",Linux - Firefox 118.0,,,2023-11-03 17:56:20,2023-11-03 17:56:57,37.928s,FAILED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtAddress""), address)",Linux - Firefox 118.0,,,2023-11-03 17:56:57,2023-11-03 17:57:36,38.168s,FAILED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtCity""), city)",Linux - Firefox 118.0,,,2023-11-03 17:57:36,2023-11-03 17:58:13,37.395s,FAILED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtState""), state)",Linux - Firefox 118.0,,,2023-11-03 17:58:13,2023-11-03 17:58:50,37.156s,FAILED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtZipCode""), zipCode)",Linux - Firefox 118.0,,,2023-11-03 17:58:50,2023-11-03 17:59:29,38.487s,FAILED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtPhoneNumber""), phone)",Linux - Firefox 118.0,,,2023-11-03 17:59:29,2023-11-03 18:00:07,38.313s,FAILED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtSSN""), ssn)",Linux - Firefox 118.0,,,2023-11-03 18:00:07,2023-11-03 18:00:45,37.989s,FAILED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtUsername""), username)",Linux - Firefox 118.0,,,2023-11-03 18:00:45,2023-11-03 18:01:22,37.349s,FAILED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtPassword""), password)",Linux - Firefox 118.0,,,2023-11-03 18:01:22,2023-11-03 18:02:01,38.476s,FAILED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtRepeatedPassword""), password)",Linux - Firefox 118.0,,,2023-11-03 18:02:01,2023-11-03 18:02:39,37.731s,FAILED
+"click(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/btnRegister""))",Linux - Firefox 118.0,,,2023-11-03 18:02:39,2023-11-03 18:03:17,37.956s,FAILED
+"verifyElementText(findTestObject(""Page_ParaBank_Customer_Created/lblWelcome""), expectedWelcomeMessage + username)",Linux - Firefox 118.0,,,2023-11-03 18:03:17,2023-11-03 18:03:54,37.496s,FAILED
+"verifyElementText(findTestObject(""Page_ParaBank_Customer_Created/lblSuccessfulAccountCreation""), expectedSuccessfulAccountCreationMessage)",Linux - Firefox 118.0,,,2023-11-03 18:03:54,2023-11-03 18:04:31,36.668s,FAILED
+closeBrowser(),Linux - Firefox 118.0,,,2023-11-03 18:04:31,2023-11-03 18:04:32,0.949s,PASSED
+,,,,,,,
+Test Cases/Main Test Cases/MTC001 - User Registration,Linux - Firefox 118.0,,smoke,2023-11-03 18:04:32,2023-11-03 18:14:31,9m - 59.445s,FAILED
+"callTestCase(findTestCase(""Reusable Test Cases/Open the webapp""), [:], CONTINUE_ON_FAILURE)",Linux - Firefox 118.0,,,2023-11-03 18:04:32,2023-11-03 18:05:03,30.708s,FAILED
+"click(findTestObject(""Object Repository/Page_ParaBank  Welcome  Online Banking/lkRegister""))",Linux - Firefox 118.0,,,2023-11-03 18:05:03,2023-11-03 18:05:41,38.460s,FAILED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtFirstName""), firstName)",Linux - Firefox 118.0,,,2023-11-03 18:05:41,2023-11-03 18:06:18,37.423s,FAILED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtLastName""), lastName)",Linux - Firefox 118.0,,,2023-11-03 18:06:18,2023-11-03 18:06:57,38.457s,FAILED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtAddress""), address)",Linux - Firefox 118.0,,,2023-11-03 18:06:57,2023-11-03 18:07:35,37.728s,FAILED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtCity""), city)",Linux - Firefox 118.0,,,2023-11-03 18:07:35,2023-11-03 18:08:13,38.218s,FAILED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtState""), state)",Linux - Firefox 118.0,,,2023-11-03 18:08:13,2023-11-03 18:08:51,37.824s,FAILED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtZipCode""), zipCode)",Linux - Firefox 118.0,,,2023-11-03 18:08:51,2023-11-03 18:09:28,37.549s,FAILED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtPhoneNumber""), phone)",Linux - Firefox 118.0,,,2023-11-03 18:09:28,2023-11-03 18:10:06,37.598s,FAILED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtSSN""), ssn)",Linux - Firefox 118.0,,,2023-11-03 18:10:06,2023-11-03 18:10:43,37.268s,FAILED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtUsername""), username)",Linux - Firefox 118.0,,,2023-11-03 18:10:43,2023-11-03 18:11:20,37.370s,FAILED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtPassword""), password)",Linux - Firefox 118.0,,,2023-11-03 18:11:20,2023-11-03 18:11:59,38.429s,FAILED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtRepeatedPassword""), password)",Linux - Firefox 118.0,,,2023-11-03 18:11:59,2023-11-03 18:12:37,38.311s,FAILED
+"click(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/btnRegister""))",Linux - Firefox 118.0,,,2023-11-03 18:12:37,2023-11-03 18:13:15,38.164s,FAILED
+"verifyElementText(findTestObject(""Page_ParaBank_Customer_Created/lblWelcome""), expectedWelcomeMessage + username)",Linux - Firefox 118.0,,,2023-11-03 18:13:15,2023-11-03 18:13:53,37.359s,FAILED
+"verifyElementText(findTestObject(""Page_ParaBank_Customer_Created/lblSuccessfulAccountCreation""), expectedSuccessfulAccountCreationMessage)",Linux - Firefox 118.0,,,2023-11-03 18:13:53,2023-11-03 18:14:30,37.614s,FAILED
+closeBrowser(),Linux - Firefox 118.0,,,2023-11-03 18:14:30,2023-11-03 18:14:31,0.913s,PASSED
+,,,,,,,
+Test Cases/Main Test Cases/MTC001 - User Registration,Linux - Firefox 118.0,,smoke,2023-11-03 18:14:31,2023-11-03 18:23:02,8m - 30.427s,FAILED
+"callTestCase(findTestCase(""Reusable Test Cases/Open the webapp""), [:], CONTINUE_ON_FAILURE)",Linux - Firefox 118.0,,,2023-11-03 18:14:31,2023-11-03 18:14:53,21.806s,FAILED
+"click(findTestObject(""Object Repository/Page_ParaBank  Welcome  Online Banking/lkRegister""))",Linux - Firefox 118.0,,,2023-11-03 18:14:53,2023-11-03 18:15:32,38.829s,FAILED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtFirstName""), firstName)",Linux - Firefox 118.0,,,2023-11-03 18:15:32,2023-11-03 18:16:09,37.213s,FAILED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtLastName""), lastName)",Linux - Firefox 118.0,,,2023-11-03 18:16:09,2023-11-03 18:16:48,38.312s,FAILED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtAddress""), address)",Linux - Firefox 118.0,,,2023-11-03 18:16:48,2023-11-03 18:17:25,37.500s,FAILED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtCity""), city)",Linux - Firefox 118.0,,,2023-11-03 18:17:25,2023-11-03 18:18:02,37.449s,FAILED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtState""), state)",Linux - Firefox 118.0,,,2023-11-03 18:18:02,2023-11-03 18:18:40,37.876s,FAILED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtZipCode""), zipCode)",Linux - Firefox 118.0,,,2023-11-03 18:18:40,2023-11-03 18:19:18,37.558s,FAILED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtPhoneNumber""), phone)",Linux - Firefox 118.0,,,2023-11-03 18:19:18,2023-11-03 18:19:56,38.271s,FAILED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtSSN""), ssn)",Linux - Firefox 118.0,,,2023-11-03 18:19:56,2023-11-03 18:20:34,37.995s,FAILED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtUsername""), username)",Linux - Firefox 118.0,,,2023-11-03 18:20:34,2023-11-03 18:21:13,38.484s,FAILED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtPassword""), password)",Linux - Firefox 118.0,,,2023-11-03 18:21:13,2023-11-03 18:21:51,38.011s,FAILED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtRepeatedPassword""), password)",Linux - Firefox 118.0,,,2023-11-03 18:21:51,2023-11-03 18:22:29,37.870s,FAILED
+"click(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/btnRegister""))",Linux - Firefox 118.0,,,2023-11-03 18:22:29,2023-11-03 18:23:01,32.907s,FAILED
+"verifyElementText(findTestObject(""Page_ParaBank_Customer_Created/lblWelcome""), expectedWelcomeMessage + username)",Linux - Firefox 118.0,,,2023-11-03 18:23:01,2023-11-03 18:23:02,0.180s,FAILED
+"verifyElementText(findTestObject(""Page_ParaBank_Customer_Created/lblSuccessfulAccountCreation""), expectedSuccessfulAccountCreationMessage)",Linux - Firefox 118.0,,,2023-11-03 18:23:02,2023-11-03 18:23:02,0.117s,FAILED
+closeBrowser(),Linux - Firefox 118.0,,,2023-11-03 18:23:02,2023-11-03 18:23:02,0.014s,PASSED
+,,,,,,,
+Test Cases/Main Test Cases/MTC001 - User Registration,Linux - Firefox 118.0,,smoke,2023-11-03 18:23:02,2023-11-03 18:23:03,1.079s,FAILED
+"callTestCase(findTestCase(""Reusable Test Cases/Open the webapp""), [:], CONTINUE_ON_FAILURE)",Linux - Firefox 118.0,,,2023-11-03 18:23:02,2023-11-03 18:23:02,0.144s,FAILED
+"click(findTestObject(""Object Repository/Page_ParaBank  Welcome  Online Banking/lkRegister""))",Linux - Firefox 118.0,,,2023-11-03 18:23:02,2023-11-03 18:23:02,0.099s,FAILED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtFirstName""), firstName)",Linux - Firefox 118.0,,,2023-11-03 18:23:02,2023-11-03 18:23:02,0.108s,FAILED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtLastName""), lastName)",Linux - Firefox 118.0,,,2023-11-03 18:23:02,2023-11-03 18:23:02,0.074s,FAILED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtAddress""), address)",Linux - Firefox 118.0,,,2023-11-03 18:23:02,2023-11-03 18:23:03,0.060s,FAILED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtCity""), city)",Linux - Firefox 118.0,,,2023-11-03 18:23:03,2023-11-03 18:23:03,0.050s,FAILED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtState""), state)",Linux - Firefox 118.0,,,2023-11-03 18:23:03,2023-11-03 18:23:03,0.053s,FAILED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtZipCode""), zipCode)",Linux - Firefox 118.0,,,2023-11-03 18:23:03,2023-11-03 18:23:03,0.058s,FAILED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtPhoneNumber""), phone)",Linux - Firefox 118.0,,,2023-11-03 18:23:03,2023-11-03 18:23:03,0.057s,FAILED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtSSN""), ssn)",Linux - Firefox 118.0,,,2023-11-03 18:23:03,2023-11-03 18:23:03,0.051s,FAILED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtUsername""), username)",Linux - Firefox 118.0,,,2023-11-03 18:23:03,2023-11-03 18:23:03,0.043s,FAILED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtPassword""), password)",Linux - Firefox 118.0,,,2023-11-03 18:23:03,2023-11-03 18:23:03,0.046s,FAILED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtRepeatedPassword""), password)",Linux - Firefox 118.0,,,2023-11-03 18:23:03,2023-11-03 18:23:03,0.049s,FAILED
+"click(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/btnRegister""))",Linux - Firefox 118.0,,,2023-11-03 18:23:03,2023-11-03 18:23:03,0.053s,FAILED
+"verifyElementText(findTestObject(""Page_ParaBank_Customer_Created/lblWelcome""), expectedWelcomeMessage + username)",Linux - Firefox 118.0,,,2023-11-03 18:23:03,2023-11-03 18:23:03,0.054s,FAILED
+"verifyElementText(findTestObject(""Page_ParaBank_Customer_Created/lblSuccessfulAccountCreation""), expectedSuccessfulAccountCreationMessage)",Linux - Firefox 118.0,,,2023-11-03 18:23:03,2023-11-03 18:23:03,0.042s,FAILED
+closeBrowser(),Linux - Firefox 118.0,,,2023-11-03 18:23:03,2023-11-03 18:23:03,0.004s,PASSED
+,,,,,,,
+Test Cases/Main Test Cases/MTC002 - User Registration Failure,Linux - Firefox 118.0,,regression,2023-11-03 18:23:03,2023-11-03 18:23:04,0.950s,FAILED
+"callTestCase(findTestCase(""Reusable Test Cases/Open the webapp""), [:], CONTINUE_ON_FAILURE)",Linux - Firefox 118.0,,,2023-11-03 18:23:03,2023-11-03 18:23:04,0.108s,FAILED
+"click(findTestObject(""Object Repository/Page_ParaBank  Welcome  Online Banking/lkRegister""))",Linux - Firefox 118.0,,,2023-11-03 18:23:04,2023-11-03 18:23:04,0.045s,FAILED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtFirstName""), firstName)",Linux - Firefox 118.0,,,2023-11-03 18:23:04,2023-11-03 18:23:04,0.044s,FAILED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtLastName""), lastName)",Linux - Firefox 118.0,,,2023-11-03 18:23:04,2023-11-03 18:23:04,0.040s,FAILED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtAddress""), address)",Linux - Firefox 118.0,,,2023-11-03 18:23:04,2023-11-03 18:23:04,0.047s,FAILED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtCity""), city)",Linux - Firefox 118.0,,,2023-11-03 18:23:04,2023-11-03 18:23:04,0.040s,FAILED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtState""), state)",Linux - Firefox 118.0,,,2023-11-03 18:23:04,2023-11-03 18:23:04,0.042s,FAILED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtZipCode""), zipCode)",Linux - Firefox 118.0,,,2023-11-03 18:23:04,2023-11-03 18:23:04,0.041s,FAILED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtPhoneNumber""), phone)",Linux - Firefox 118.0,,,2023-11-03 18:23:04,2023-11-03 18:23:04,0.050s,FAILED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtSSN""), ssn)",Linux - Firefox 118.0,,,2023-11-03 18:23:04,2023-11-03 18:23:04,0.042s,FAILED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtUsername""), username)",Linux - Firefox 118.0,,,2023-11-03 18:23:04,2023-11-03 18:23:04,0.040s,FAILED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtPassword""), password)",Linux - Firefox 118.0,,,2023-11-03 18:23:04,2023-11-03 18:23:04,0.036s,FAILED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtRepeatedPassword""), password)",Linux - Firefox 118.0,,,2023-11-03 18:23:04,2023-11-03 18:23:04,0.043s,FAILED
+"click(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/btnRegister""))",Linux - Firefox 118.0,,,2023-11-03 18:23:04,2023-11-03 18:23:04,0.051s,FAILED
+"verifyElementText(findTestObject(""Page_ParaBank_Register_for_Free_Online_Account/lblAccountAlreadyExists""), expectedAccountAlreadyExistsMessage)",Linux - Firefox 118.0,,,2023-11-03 18:23:04,2023-11-03 18:23:04,0.044s,FAILED
+closeBrowser(),Linux - Firefox 118.0,,,2023-11-03 18:23:04,2023-11-03 18:23:04,0.005s,PASSED
+,,,,,,,
+Test Cases/Main Test Cases/MTC002 - User Registration Failure,Linux - Firefox 118.0,,regression,2023-11-03 18:23:04,2023-11-03 18:23:05,0.841s,FAILED
+"callTestCase(findTestCase(""Reusable Test Cases/Open the webapp""), [:], CONTINUE_ON_FAILURE)",Linux - Firefox 118.0,,,2023-11-03 18:23:04,2023-11-03 18:23:05,0.133s,FAILED
+"click(findTestObject(""Object Repository/Page_ParaBank  Welcome  Online Banking/lkRegister""))",Linux - Firefox 118.0,,,2023-11-03 18:23:05,2023-11-03 18:23:05,0.052s,FAILED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtFirstName""), firstName)",Linux - Firefox 118.0,,,2023-11-03 18:23:05,2023-11-03 18:23:05,0.050s,FAILED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtLastName""), lastName)",Linux - Firefox 118.0,,,2023-11-03 18:23:05,2023-11-03 18:23:05,0.054s,FAILED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtAddress""), address)",Linux - Firefox 118.0,,,2023-11-03 18:23:05,2023-11-03 18:23:05,0.049s,FAILED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtCity""), city)",Linux - Firefox 118.0,,,2023-11-03 18:23:05,2023-11-03 18:23:05,0.048s,FAILED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtState""), state)",Linux - Firefox 118.0,,,2023-11-03 18:23:05,2023-11-03 18:23:05,0.040s,FAILED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtZipCode""), zipCode)",Linux - Firefox 118.0,,,2023-11-03 18:23:05,2023-11-03 18:23:05,0.042s,FAILED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtPhoneNumber""), phone)",Linux - Firefox 118.0,,,2023-11-03 18:23:05,2023-11-03 18:23:05,0.042s,FAILED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtSSN""), ssn)",Linux - Firefox 118.0,,,2023-11-03 18:23:05,2023-11-03 18:23:05,0.048s,FAILED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtUsername""), username)",Linux - Firefox 118.0,,,2023-11-03 18:23:05,2023-11-03 18:23:05,0.050s,FAILED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtPassword""), password)",Linux - Firefox 118.0,,,2023-11-03 18:23:05,2023-11-03 18:23:05,0.049s,FAILED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtRepeatedPassword""), password)",Linux - Firefox 118.0,,,2023-11-03 18:23:05,2023-11-03 18:23:05,0.054s,FAILED
+"click(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/btnRegister""))",Linux - Firefox 118.0,,,2023-11-03 18:23:05,2023-11-03 18:23:05,0.047s,FAILED
+"verifyElementText(findTestObject(""Page_ParaBank_Register_for_Free_Online_Account/lblAccountAlreadyExists""), expectedAccountAlreadyExistsMessage)",Linux - Firefox 118.0,,,2023-11-03 18:23:05,2023-11-03 18:23:05,0.051s,FAILED
+closeBrowser(),Linux - Firefox 118.0,,,2023-11-03 18:23:05,2023-11-03 18:23:05,0.004s,PASSED
+,,,,,,,
+Test Cases/Main Test Cases/MTC002 - User Registration Failure,Linux - Firefox 118.0,,regression,2023-11-03 18:23:05,2023-11-03 18:23:06,1.088s,FAILED
+"callTestCase(findTestCase(""Reusable Test Cases/Open the webapp""), [:], CONTINUE_ON_FAILURE)",Linux - Firefox 118.0,,,2023-11-03 18:23:05,2023-11-03 18:23:06,0.105s,FAILED
+"click(findTestObject(""Object Repository/Page_ParaBank  Welcome  Online Banking/lkRegister""))",Linux - Firefox 118.0,,,2023-11-03 18:23:06,2023-11-03 18:23:06,0.042s,FAILED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtFirstName""), firstName)",Linux - Firefox 118.0,,,2023-11-03 18:23:06,2023-11-03 18:23:06,0.039s,FAILED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtLastName""), lastName)",Linux - Firefox 118.0,,,2023-11-03 18:23:06,2023-11-03 18:23:06,0.048s,FAILED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtAddress""), address)",Linux - Firefox 118.0,,,2023-11-03 18:23:06,2023-11-03 18:23:06,0.047s,FAILED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtCity""), city)",Linux - Firefox 118.0,,,2023-11-03 18:23:06,2023-11-03 18:23:06,0.045s,FAILED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtState""), state)",Linux - Firefox 118.0,,,2023-11-03 18:23:06,2023-11-03 18:23:06,0.043s,FAILED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtZipCode""), zipCode)",Linux - Firefox 118.0,,,2023-11-03 18:23:06,2023-11-03 18:23:06,0.077s,FAILED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtPhoneNumber""), phone)",Linux - Firefox 118.0,,,2023-11-03 18:23:06,2023-11-03 18:23:06,0.044s,FAILED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtSSN""), ssn)",Linux - Firefox 118.0,,,2023-11-03 18:23:06,2023-11-03 18:23:06,0.047s,FAILED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtUsername""), username)",Linux - Firefox 118.0,,,2023-11-03 18:23:06,2023-11-03 18:23:06,0.084s,FAILED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtPassword""), password)",Linux - Firefox 118.0,,,2023-11-03 18:23:06,2023-11-03 18:23:06,0.116s,FAILED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtRepeatedPassword""), password)",Linux - Firefox 118.0,,,2023-11-03 18:23:06,2023-11-03 18:23:06,0.107s,FAILED
+"click(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/btnRegister""))",Linux - Firefox 118.0,,,2023-11-03 18:23:06,2023-11-03 18:23:06,0.107s,FAILED
+"verifyElementText(findTestObject(""Page_ParaBank_Register_for_Free_Online_Account/lblAccountAlreadyExists""), expectedAccountAlreadyExistsMessage)",Linux - Firefox 118.0,,,2023-11-03 18:23:06,2023-11-03 18:23:06,0.093s,FAILED
+closeBrowser(),Linux - Firefox 118.0,,,2023-11-03 18:23:06,2023-11-03 18:23:06,0.007s,PASSED
+,,,,,,,
+Test Cases/Main Test Cases/MTC002 - User Registration Failure,Linux - Firefox 118.0,,regression,2023-11-03 18:23:07,2023-11-03 18:23:08,1.082s,FAILED
+"callTestCase(findTestCase(""Reusable Test Cases/Open the webapp""), [:], CONTINUE_ON_FAILURE)",Linux - Firefox 118.0,,,2023-11-03 18:23:07,2023-11-03 18:23:07,0.122s,FAILED
+"click(findTestObject(""Object Repository/Page_ParaBank  Welcome  Online Banking/lkRegister""))",Linux - Firefox 118.0,,,2023-11-03 18:23:07,2023-11-03 18:23:07,0.060s,FAILED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtFirstName""), firstName)",Linux - Firefox 118.0,,,2023-11-03 18:23:07,2023-11-03 18:23:07,0.091s,FAILED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtLastName""), lastName)",Linux - Firefox 118.0,,,2023-11-03 18:23:07,2023-11-03 18:23:07,0.076s,FAILED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtAddress""), address)",Linux - Firefox 118.0,,,2023-11-03 18:23:07,2023-11-03 18:23:07,0.088s,FAILED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtCity""), city)",Linux - Firefox 118.0,,,2023-11-03 18:23:07,2023-11-03 18:23:07,0.088s,FAILED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtState""), state)",Linux - Firefox 118.0,,,2023-11-03 18:23:07,2023-11-03 18:23:07,0.062s,FAILED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtZipCode""), zipCode)",Linux - Firefox 118.0,,,2023-11-03 18:23:07,2023-11-03 18:23:07,0.065s,FAILED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtPhoneNumber""), phone)",Linux - Firefox 118.0,,,2023-11-03 18:23:07,2023-11-03 18:23:07,0.052s,FAILED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtSSN""), ssn)",Linux - Firefox 118.0,,,2023-11-03 18:23:07,2023-11-03 18:23:07,0.050s,FAILED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtUsername""), username)",Linux - Firefox 118.0,,,2023-11-03 18:23:07,2023-11-03 18:23:07,0.051s,FAILED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtPassword""), password)",Linux - Firefox 118.0,,,2023-11-03 18:23:07,2023-11-03 18:23:08,0.062s,FAILED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtRepeatedPassword""), password)",Linux - Firefox 118.0,,,2023-11-03 18:23:08,2023-11-03 18:23:08,0.064s,FAILED
+"click(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/btnRegister""))",Linux - Firefox 118.0,,,2023-11-03 18:23:08,2023-11-03 18:23:08,0.058s,FAILED
+"verifyElementText(findTestObject(""Page_ParaBank_Register_for_Free_Online_Account/lblAccountAlreadyExists""), expectedAccountAlreadyExistsMessage)",Linux - Firefox 118.0,,,2023-11-03 18:23:08,2023-11-03 18:23:08,0.054s,FAILED
+closeBrowser(),Linux - Firefox 118.0,,,2023-11-03 18:23:08,2023-11-03 18:23:08,0.005s,PASSED

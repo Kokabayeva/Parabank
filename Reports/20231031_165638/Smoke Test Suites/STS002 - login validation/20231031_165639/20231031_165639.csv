@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+STS002 - login validation,,All the test cases related to login in,,2023-10-31 16:56:50,2023-10-31 16:56:55,4.627s,FAILED
+,,,,,,,
+Test Cases/Reusable Test Cases/Login,,,,2023-10-31 16:56:54,2023-10-31 16:56:55,0.397s,FAILED
+"callTestCase(findTestCase(""Reusable Test Cases/Open the webapp""), [:], CONTINUE_ON_FAILURE)",,,,2023-10-31 16:56:54,2023-10-31 16:56:55,0.128s,FAILED
+"setText(findTestObject(""Page_ParaBank_Welcome_Online_Banking/txtUsername""), username)",,,,2023-10-31 16:56:55,2023-10-31 16:56:55,0.054s,FAILED
+"setText(findTestObject(""Page_ParaBank_Welcome_Online_Banking/txtPassword""), findTestData(""InternalData"").getValue(""password"", 1))",,,,2023-10-31 16:56:55,2023-10-31 16:56:55,0.070s,FAILED
+"click(findTestObject(""Page_ParaBank_Welcome_Online_Banking/btnLogin""))",,,,2023-10-31 16:56:55,2023-10-31 16:56:55,0.063s,FAILED
+"verifyElementText(findTestObject(""Page_ParaBank_Accounts_Overview/h1AccountsOverview""), expectedAccountsOverviewText)",,,,2023-10-31 16:56:55,2023-10-31 16:56:55,0.054s,FAILED

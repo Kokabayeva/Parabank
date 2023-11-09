@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>MTC005 - Accounts Overview</name>
+   <tag>smoke</tag>
+   <comment></comment>
+   <testCaseGuid>a4b82c2d-1e44-4b38-8fc9-f571f899d817</testCaseGuid>
+</TestCaseEntity>

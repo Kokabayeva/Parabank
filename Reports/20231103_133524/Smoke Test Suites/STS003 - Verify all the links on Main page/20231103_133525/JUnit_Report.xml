@@ -1,0 +1,1094 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="STS003 - Verify all the links on Main page" time="467.263" tests="9" failures="3" errors="0">
+   <testsuite name="STS003 - Verify all the links on Main page" tests="9" failures="3" errors="0" time="467.263" skipped="0" timestamp="2023-11-03 13:35:32" hostname="gkokabayeva - USORLGKOKABYE1.us.deloitte.com" id="Test Suites/Smoke Test Suites/STS003 - Verify all the links on Main page">
+      <properties>
+         <property name="deviceName"/>
+         <property name="devicePlatform" value="MAC"/>
+         <property name="logFolder" value="C:\\Users\\GKOKABAYEVA\\Katalon Studio\\Parabank\\Reports\\20231103_133524\\Smoke Test Suites\\STS003 - Verify all the links on Main page\\20231103_133525"/>
+         <property name="logFiles" value="C:\\Users\\GKOKABAYEVA\\Katalon Studio\\Parabank\\Reports\\20231103_133524\\Smoke Test Suites\\STS003 - Verify all the links on Main page\\20231103_133525\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\GKOKABAYEVA\\Katalon Studio\\Parabank\\Reports\\20231103_133524\\Smoke Test Suites\\STS003 - Verify all the links on Main page\\20231103_133525\\1699033140075.png, C:\\Users\\GKOKABAYEVA\\Katalon Studio\\Parabank\\Reports\\20231103_133524\\Smoke Test Suites\\STS003 - Verify all the links on Main page\\20231103_133525\\1699033197636.png"/>
+         <property name="hostName" value="gkokabayeva - USORLGKOKABYE1.us.deloitte.com"/>
+         <property name="remoteDriverUrl" value="testcloud.katalon.com/hub"/>
+         <property name="desiredCapabilities" value="{&#xa;  &quot;safari:diagnose&quot;: false,&#xa;  &quot;strictFileInteractability&quot;: false,&#xa;  &quot;***:loadExtension&quot;: [&#xa;    &quot;https://prod-magicleap-user-files-us-east-1-v1.s3.amazonaws.com/extensions/orgId-691279/SmartWait.zip&quot;&#xa;  ],&#xa;  &quot;version&quot;: &quot;16&quot;,&#xa;  &quot;platform&quot;: &quot;MAC&quot;,&#xa;  &quot;proxy&quot;: {&#xa;    &quot;proxyType&quot;: &quot;DIRECT&quot;,&#xa;    &quot;autodetect&quot;: false&#xa;  },&#xa;  &quot;safari:automaticProfiling&quot;: false,&#xa;  &quot;webdriver.remote.sessionid&quot;: &quot;GX5JQ-KO1D2-Q1PSJ-KKGMD&quot;,&#xa;  &quot;requestId&quot;: &quot;52e9dcd9-2283-4131-b48c-7d28339020e6&quot;,&#xa;  &quot;safari:platformBuildVersion&quot;: &quot;22A380&quot;,&#xa;  &quot;acceptInsecureCerts&quot;: false,&#xa;  &quot;browserVersion&quot;: &quot;16&quot;,&#xa;  &quot;safari:useSimulator&quot;: false,&#xa;  &quot;webkit:WebRTC&quot;: {&#xa;    &quot;DisableICECandidateFiltering&quot;: false,&#xa;    &quot;DisableInsecureMediaCapture&quot;: false&#xa;  },&#xa;  &quot;safari:platformVersion&quot;: &quot;ventura&quot;,&#xa;  &quot;browserName&quot;: &quot;safari&quot;,&#xa;  &quot;javascriptEnabled&quot;: true,&#xa;  &quot;katalon:option&quot;: {&#xa;    &quot;unlimitedExecutionMinutes&quot;: true,&#xa;    &quot;userId&quot;: 1318437,&#xa;    &quot;organizationId&quot;: &quot;1272612&quot;,&#xa;    &quot;class&quot;: &quot;com.katalon.testcloud.grid.common.tunnel.domain.UserOptionCapability&quot;,&#xa;    &quot;runFromTestCloud&quot;: true,&#xa;    &quot;usingTunnel&quot;: false&#xa;  },&#xa;  &quot;safari:automaticInspection&quot;: false,&#xa;  &quot;platformName&quot;: &quot;MAC&quot;,&#xa;  &quot;setWindowRect&quot;: true&#xa;}"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="remoteOS" value="MacOS"/>
+         <property name="katalonVersion" value="9.0.0.212"/>
+         <property name="browser" value="Safari 16"/>
+         <property name="hostAddress" value="192.168.1.165"/>
+         <property name="sessionId" value="GX5JQ-KO1D2-Q1PSJ-KKGMD"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Main Test Cases/MTC007 - Verify main page title" time="51.246" classname="Test Cases/Main Test Cases/MTC007 - Verify main page title" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Main Test Cases/MTC007 - Verify main page title FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to verify equal between actual object 'ParaBank | About Us' and expected object 'ParaBank | Welcome | Online Banking' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object 'ParaBank | About Us' and expected object 'ParaBank | Welcome | Online Banking' are not equal&#xa;	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)&#xa;	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)&#xa;	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)&#xa;	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:146)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;	at MTC007 - Verify main page title.run(MTC007 - Verify main page title:24)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)&#xa;	at TempTestSuite1699032925044.run(TempTestSuite1699032925044.groovy:36)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:77)&#xa;	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)&#xa;	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:146)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;	at MTC007 - Verify main page title.run(MTC007 - Verify main page title:24)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)&#xa;	at TempTestSuite1699032925044.run(TempTestSuite1699032925044.groovy:36)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: com.kms.katalon.core.exception.StepFailedException: Actual object 'ParaBank | About Us' and expected object 'ParaBank | Welcome | Online Banking' are not equal&#xa;	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)&#xa;	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)&#xa;	... 23 more&#xa;"/>
+         <system-out><![CDATA[2023-11-03 13:35:33 - [TEST_CASE][FAILED] - Test Cases/Main Test Cases/MTC007 - Verify main page title: Test Cases/Main Test Cases/MTC007 - Verify main page title FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify equal between actual object 'ParaBank | About Us' and expected object 'ParaBank | Welcome | Online Banking' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object 'ParaBank | About Us' and expected object 'ParaBank | Welcome | Online Banking' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:146)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at MTC007 - Verify main page title.run(MTC007 - Verify main page title:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at TempTestSuite1699032925044.run(TempTestSuite1699032925044.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:77)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:146)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at MTC007 - Verify main page title.run(MTC007 - Verify main page title:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at TempTestSuite1699032925044.run(TempTestSuite1699032925044.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual object 'ParaBank | About Us' and expected object 'ParaBank | Welcome | Online Banking' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	... 23 more
+
+
+2023-11-03 13:35:33 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Reusable Test Cases/Open the webapp"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/Reusable Test Cases/Open the webapp' successfully
+
+2023-11-03 13:35:33 - [TEST_CASE][PASSED] - Test Cases/Reusable Test Cases/Open the webapp: Test Cases/Reusable Test Cases/Open the webapp
+
+2023-11-03 13:35:33 - [TEST_STEP][PASSED] - openBrowser(URL): Browser is opened with url: 'https://para.testar.org/parabank/about.htm;jsessionid=FB240F858FA900BA96DEE5A980656F85'
+
+2023-11-03 13:35:34 - [MESSAGE][INFO] - User set preference: ['os', 'macos']
+
+2023-11-03 13:35:34 - [MESSAGE][INFO] - User set preference: ['browserName', 'safari']
+
+2023-11-03 13:35:34 - [MESSAGE][INFO] - User set preference: ['browserVersion', '16']
+
+2023-11-03 13:35:34 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=1272612, tunnelId=, usingTunnel=false}']
+
+2023-11-03 13:35:34 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+2023-11-03 13:35:35 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-11-03 13:36:22 - [MESSAGE][PASSED] - Browser is opened with url: 'https://para.testar.org/parabank/about.htm;jsessionid=FB240F858FA900BA96DEE5A980656F85'
+
+2023-11-03 13:36:22 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-11-03 13:36:22 - [MESSAGE][PASSED] - Current window maximized
+
+2023-11-03 13:36:22 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Reusable Test Cases/Open the webapp' successfully
+
+2023-11-03 13:36:22 - [TEST_STEP][PASSED] - actualTitle = getWindowTitle(): Current window's title is: 'ParaBank | About Us'
+
+2023-11-03 13:36:23 - [MESSAGE][PASSED] - Current window's title is: 'ParaBank | About Us'
+
+2023-11-03 13:36:23 - [TEST_STEP][FAILED] - verifyEqual(actualTitle, expectedTitle): Unable to verify equal between actual object 'ParaBank | About Us' and expected object 'ParaBank | Welcome | Online Banking' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object 'ParaBank | About Us' and expected object 'ParaBank | Welcome | Online Banking' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:146)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at MTC007 - Verify main page title.run(MTC007 - Verify main page title:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at TempTestSuite1699032925044.run(TempTestSuite1699032925044.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+2023-11-03 13:36:23 - [MESSAGE][FAILED] - Unable to verify equal between actual object 'ParaBank | About Us' and expected object 'ParaBank | Welcome | Online Banking' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object 'ParaBank | About Us' and expected object 'ParaBank | Welcome | Online Banking' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:146)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at MTC007 - Verify main page title.run(MTC007 - Verify main page title:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at TempTestSuite1699032925044.run(TempTestSuite1699032925044.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+2023-11-03 13:36:23 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-11-03 13:36:24 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[2023-11-03 13:35:33 - [TEST_CASE][FAILED] - Test Cases/Main Test Cases/MTC007 - Verify main page title: Test Cases/Main Test Cases/MTC007 - Verify main page title FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify equal between actual object 'ParaBank | About Us' and expected object 'ParaBank | Welcome | Online Banking' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object 'ParaBank | About Us' and expected object 'ParaBank | Welcome | Online Banking' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:146)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at MTC007 - Verify main page title.run(MTC007 - Verify main page title:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at TempTestSuite1699032925044.run(TempTestSuite1699032925044.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:77)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:146)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at MTC007 - Verify main page title.run(MTC007 - Verify main page title:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at TempTestSuite1699032925044.run(TempTestSuite1699032925044.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual object 'ParaBank | About Us' and expected object 'ParaBank | Welcome | Online Banking' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	... 23 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Main Test Cases/MTC008 - Verify Services link" time="55.375" classname="Test Cases/Main Test Cases/MTC008 - Verify Services link" status="PASSED">
+         <system-out><![CDATA[2023-11-03 13:36:24 - [TEST_CASE][PASSED] - Test Cases/Main Test Cases/MTC008 - Verify Services link: Test Cases/Main Test Cases/MTC008 - Verify Services link
+
+2023-11-03 13:36:24 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Reusable Test Cases/Open the webapp"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/Reusable Test Cases/Open the webapp' successfully
+
+2023-11-03 13:36:24 - [TEST_CASE][PASSED] - Test Cases/Reusable Test Cases/Open the webapp: Test Cases/Reusable Test Cases/Open the webapp
+
+2023-11-03 13:36:24 - [TEST_STEP][PASSED] - openBrowser(URL): Browser is opened with url: 'https://para.testar.org/parabank/about.htm;jsessionid=FB240F858FA900BA96DEE5A980656F85'
+
+2023-11-03 13:36:24 - [MESSAGE][INFO] - User set preference: ['os', 'macos']
+
+2023-11-03 13:36:24 - [MESSAGE][INFO] - User set preference: ['browserName', 'safari']
+
+2023-11-03 13:36:24 - [MESSAGE][INFO] - User set preference: ['browserVersion', '16']
+
+2023-11-03 13:36:24 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=1272612, tunnelId=, usingTunnel=false}']
+
+2023-11-03 13:36:24 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+2023-11-03 13:36:24 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-11-03 13:37:13 - [MESSAGE][PASSED] - Browser is opened with url: 'https://para.testar.org/parabank/about.htm;jsessionid=FB240F858FA900BA96DEE5A980656F85'
+
+2023-11-03 13:37:13 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-11-03 13:37:13 - [MESSAGE][PASSED] - Current window maximized
+
+2023-11-03 13:37:13 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Reusable Test Cases/Open the webapp' successfully
+
+2023-11-03 13:37:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_ParaBank  Welcome  Online Banking/lnkServices")): Object: 'Object Repository/Page_ParaBank  Welcome  Online Banking/lnkServices' is clicked on
+
+2023-11-03 13:37:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ParaBank  Welcome  Online Banking/lnkServices' is clicked on
+
+2023-11-03 13:37:14 - [TEST_STEP][PASSED] - navigateToUrl(SERVICES_URL): Navigate to 'https://parabank.parasoft.com/parabank/services.htm' successfully
+
+2023-11-03 13:37:17 - [MESSAGE][PASSED] - Navigate to 'https://parabank.parasoft.com/parabank/services.htm' successfully
+
+2023-11-03 13:37:17 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_ParaBank  Services/lblAvailableBookstoreSOAPServices"), expectedBookstoreMessage): Actual text and expected text of test object 'Object Repository/Page_ParaBank  Services/lblAvailableBookstoreSOAPServices' are matched.
+
+2023-11-03 13:37:18 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_ParaBank  Services/lblAvailableBookstoreSOAPServices' are matched.
+
+2023-11-03 13:37:18 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-11-03 13:37:19 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Main Test Cases/MTC009 - Verify Products link" time="47.878" classname="Test Cases/Main Test Cases/MTC009 - Verify Products link" status="PASSED">
+         <system-out><![CDATA[2023-11-03 13:37:19 - [TEST_CASE][PASSED] - Test Cases/Main Test Cases/MTC009 - Verify Products link: Test Cases/Main Test Cases/MTC009 - Verify Products link
+
+2023-11-03 13:37:19 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Reusable Test Cases/Open the webapp"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/Reusable Test Cases/Open the webapp' successfully
+
+2023-11-03 13:37:19 - [TEST_CASE][PASSED] - Test Cases/Reusable Test Cases/Open the webapp: Test Cases/Reusable Test Cases/Open the webapp
+
+2023-11-03 13:37:19 - [TEST_STEP][PASSED] - openBrowser(URL): Browser is opened with url: 'https://para.testar.org/parabank/about.htm;jsessionid=FB240F858FA900BA96DEE5A980656F85'
+
+2023-11-03 13:37:19 - [MESSAGE][INFO] - User set preference: ['os', 'macos']
+
+2023-11-03 13:37:19 - [MESSAGE][INFO] - User set preference: ['browserName', 'safari']
+
+2023-11-03 13:37:19 - [MESSAGE][INFO] - User set preference: ['browserVersion', '16']
+
+2023-11-03 13:37:19 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=1272612, tunnelId=, usingTunnel=false}']
+
+2023-11-03 13:37:19 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+2023-11-03 13:37:19 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-11-03 13:38:02 - [MESSAGE][PASSED] - Browser is opened with url: 'https://para.testar.org/parabank/about.htm;jsessionid=FB240F858FA900BA96DEE5A980656F85'
+
+2023-11-03 13:38:02 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-11-03 13:38:02 - [MESSAGE][PASSED] - Current window maximized
+
+2023-11-03 13:38:02 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Reusable Test Cases/Open the webapp' successfully
+
+2023-11-03 13:38:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_ParaBank  Welcome  Online Banking/lnkProducts")): Object: 'Object Repository/Page_ParaBank  Welcome  Online Banking/lnkProducts' is clicked on
+
+2023-11-03 13:38:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ParaBank  Welcome  Online Banking/lnkProducts' is clicked on
+
+2023-11-03 13:38:03 - [TEST_STEP][PASSED] - navigateToUrl(PRODUCTS_URL): Navigate to 'https://www.parasoft.com/products/' successfully
+
+2023-11-03 13:38:04 - [MESSAGE][PASSED] - Navigate to 'https://www.parasoft.com/products/' successfully
+
+2023-11-03 13:38:04 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Automated Software Testing Tool Suite _51757b/ParasoftLogo"), ""): Actual text and expected text of test object 'Object Repository/Page_Automated Software Testing Tool Suite _51757b/ParasoftLogo' are matched.
+
+2023-11-03 13:38:05 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Automated Software Testing Tool Suite _51757b/ParasoftLogo' are matched.
+
+2023-11-03 13:38:05 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Automated Software Testing Tool Suite _51757b/lnkProducts"), 0): Object 'Object Repository/Page_Automated Software Testing Tool Suite _51757b/lnkProducts' is present
+
+2023-11-03 13:38:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-03 13:38:06 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Automated Software Testing Tool Suite _51757b/lnkProducts' is present
+
+2023-11-03 13:38:06 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-11-03 13:38:07 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Main Test Cases/MTC010 - Verify Locations link" time="55.757" classname="Test Cases/Main Test Cases/MTC010 - Verify Locations link" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Main Test Cases/MTC010 - Verify Locations link FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Actual text 'Solutions' and expected text 'SOLUTIONS' of test object 'Object Repository/Page_Automated Software Testing Solutions F_4f6c59/lnkSolutions' are NOT matched. (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text 'Solutions' and expected text 'SOLUTIONS' of test object 'Object Repository/Page_Automated Software Testing Solutions F_4f6c59/lnkSolutions' are NOT matched.&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4796)&#xa;	at MTC010 - Verify Locations link.run(MTC010 - Verify Locations link:29)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)&#xa;	at TempTestSuite1699032925044.run(TempTestSuite1699032925044.groovy:36)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4796)&#xa;	at MTC010 - Verify Locations link.run(MTC010 - Verify Locations link:29)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)&#xa;	at TempTestSuite1699032925044.run(TempTestSuite1699032925044.groovy:36)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Solutions' and expected text 'SOLUTIONS' of test object 'Object Repository/Page_Automated Software Testing Solutions F_4f6c59/lnkSolutions' are NOT matched.&#xa;	... 24 more&#xa;"/>
+         <system-out><![CDATA[2023-11-03 13:38:07 - [TEST_CASE][FAILED] - Test Cases/Main Test Cases/MTC010 - Verify Locations link: Test Cases/Main Test Cases/MTC010 - Verify Locations link FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual text 'Solutions' and expected text 'SOLUTIONS' of test object 'Object Repository/Page_Automated Software Testing Solutions F_4f6c59/lnkSolutions' are NOT matched. (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text 'Solutions' and expected text 'SOLUTIONS' of test object 'Object Repository/Page_Automated Software Testing Solutions F_4f6c59/lnkSolutions' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4796)
+	at MTC010 - Verify Locations link.run(MTC010 - Verify Locations link:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at TempTestSuite1699032925044.run(TempTestSuite1699032925044.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4796)
+	at MTC010 - Verify Locations link.run(MTC010 - Verify Locations link:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at TempTestSuite1699032925044.run(TempTestSuite1699032925044.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Solutions' and expected text 'SOLUTIONS' of test object 'Object Repository/Page_Automated Software Testing Solutions F_4f6c59/lnkSolutions' are NOT matched.
+	... 24 more
+
+
+2023-11-03 13:38:07 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Reusable Test Cases/Open the webapp"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/Reusable Test Cases/Open the webapp' successfully
+
+2023-11-03 13:38:07 - [TEST_CASE][PASSED] - Test Cases/Reusable Test Cases/Open the webapp: Test Cases/Reusable Test Cases/Open the webapp
+
+2023-11-03 13:38:07 - [TEST_STEP][PASSED] - openBrowser(URL): Browser is opened with url: 'https://para.testar.org/parabank/about.htm;jsessionid=FB240F858FA900BA96DEE5A980656F85'
+
+2023-11-03 13:38:07 - [MESSAGE][INFO] - User set preference: ['os', 'macos']
+
+2023-11-03 13:38:07 - [MESSAGE][INFO] - User set preference: ['browserName', 'safari']
+
+2023-11-03 13:38:07 - [MESSAGE][INFO] - User set preference: ['browserVersion', '16']
+
+2023-11-03 13:38:07 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=1272612, tunnelId=, usingTunnel=false}']
+
+2023-11-03 13:38:07 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+2023-11-03 13:38:07 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-11-03 13:38:55 - [MESSAGE][PASSED] - Browser is opened with url: 'https://para.testar.org/parabank/about.htm;jsessionid=FB240F858FA900BA96DEE5A980656F85'
+
+2023-11-03 13:38:55 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-11-03 13:38:56 - [MESSAGE][PASSED] - Current window maximized
+
+2023-11-03 13:38:56 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Reusable Test Cases/Open the webapp' successfully
+
+2023-11-03 13:38:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_ParaBank  Welcome  Online Banking/lnkLocations")): Object: 'Object Repository/Page_ParaBank  Welcome  Online Banking/lnkLocations' is clicked on
+
+2023-11-03 13:38:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ParaBank  Welcome  Online Banking/lnkLocations' is clicked on
+
+2023-11-03 13:38:57 - [TEST_STEP][PASSED] - navigateToUrl(SOLUTIONS_URL): Navigate to 'https://www.parasoft.com/solutions/' successfully
+
+2023-11-03 13:38:57 - [MESSAGE][PASSED] - Navigate to 'https://www.parasoft.com/solutions/' successfully
+
+2023-11-03 13:38:57 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Automated Software Testing Solutions F_4f6c59/ParasoftLogo"), 0): Object 'Object Repository/Page_Automated Software Testing Solutions F_4f6c59/ParasoftLogo' is present
+
+2023-11-03 13:38:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-03 13:38:58 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Automated Software Testing Solutions F_4f6c59/ParasoftLogo' is present
+
+2023-11-03 13:38:58 - [TEST_STEP][FAILED] - verifyElementText(findTestObject("Object Repository/Page_Automated Software Testing Solutions F_4f6c59/lnkSolutions"), solutionsLink): Actual text 'Solutions' and expected text 'SOLUTIONS' of test object 'Object Repository/Page_Automated Software Testing Solutions F_4f6c59/lnkSolutions' are NOT matched. (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text 'Solutions' and expected text 'SOLUTIONS' of test object 'Object Repository/Page_Automated Software Testing Solutions F_4f6c59/lnkSolutions' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4796)
+	at MTC010 - Verify Locations link.run(MTC010 - Verify Locations link:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at TempTestSuite1699032925044.run(TempTestSuite1699032925044.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+2023-11-03 13:39:02 - [MESSAGE][FAILED] - Actual text 'Solutions' and expected text 'SOLUTIONS' of test object 'Object Repository/Page_Automated Software Testing Solutions F_4f6c59/lnkSolutions' are NOT matched. (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text 'Solutions' and expected text 'SOLUTIONS' of test object 'Object Repository/Page_Automated Software Testing Solutions F_4f6c59/lnkSolutions' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4796)
+	at MTC010 - Verify Locations link.run(MTC010 - Verify Locations link:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at TempTestSuite1699032925044.run(TempTestSuite1699032925044.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+[[ATTACHMENT|C:\\Users\\GKOKABAYEVA\\Katalon Studio\\Parabank\\Reports\\20231103_133524\\Smoke Test Suites\\STS003 - Verify all the links on Main page\\20231103_133525\\1699033140075.png]]
+
+2023-11-03 13:39:02 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-11-03 13:39:03 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[2023-11-03 13:38:07 - [TEST_CASE][FAILED] - Test Cases/Main Test Cases/MTC010 - Verify Locations link: Test Cases/Main Test Cases/MTC010 - Verify Locations link FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual text 'Solutions' and expected text 'SOLUTIONS' of test object 'Object Repository/Page_Automated Software Testing Solutions F_4f6c59/lnkSolutions' are NOT matched. (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text 'Solutions' and expected text 'SOLUTIONS' of test object 'Object Repository/Page_Automated Software Testing Solutions F_4f6c59/lnkSolutions' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4796)
+	at MTC010 - Verify Locations link.run(MTC010 - Verify Locations link:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at TempTestSuite1699032925044.run(TempTestSuite1699032925044.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4796)
+	at MTC010 - Verify Locations link.run(MTC010 - Verify Locations link:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at TempTestSuite1699032925044.run(TempTestSuite1699032925044.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Solutions' and expected text 'SOLUTIONS' of test object 'Object Repository/Page_Automated Software Testing Solutions F_4f6c59/lnkSolutions' are NOT matched.
+	... 24 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Main Test Cases/MTC011 - Verify Admin Page link" time="56.533" classname="Test Cases/Main Test Cases/MTC011 - Verify Admin Page link" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Main Test Cases/MTC011 - Verify Admin Page link FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Actual text '&#xa;	Administration&#xa;' and expected text 'Administration' of test object 'Object Repository/Page_ParaBank  Administration/h1Administration' are NOT matched. (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text '&#xa;	Administration&#xa;' and expected text 'Administration' of test object 'Object Repository/Page_ParaBank  Administration/h1Administration' are NOT matched.&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4796)&#xa;	at MTC011 - Verify Admin Page link.run(MTC011 - Verify Admin Page link:26)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)&#xa;	at TempTestSuite1699032925044.run(TempTestSuite1699032925044.groovy:36)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4796)&#xa;	at MTC011 - Verify Admin Page link.run(MTC011 - Verify Admin Page link:26)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)&#xa;	at TempTestSuite1699032925044.run(TempTestSuite1699032925044.groovy:36)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text '&#xa;	Administration&#xa;' and expected text 'Administration' of test object 'Object Repository/Page_ParaBank  Administration/h1Administration' are NOT matched.&#xa;	... 24 more&#xa;"/>
+         <system-out><![CDATA[2023-11-03 13:39:03 - [TEST_CASE][FAILED] - Test Cases/Main Test Cases/MTC011 - Verify Admin Page link: Test Cases/Main Test Cases/MTC011 - Verify Admin Page link FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual text '
+	Administration
+' and expected text 'Administration' of test object 'Object Repository/Page_ParaBank  Administration/h1Administration' are NOT matched. (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text '
+	Administration
+' and expected text 'Administration' of test object 'Object Repository/Page_ParaBank  Administration/h1Administration' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4796)
+	at MTC011 - Verify Admin Page link.run(MTC011 - Verify Admin Page link:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at TempTestSuite1699032925044.run(TempTestSuite1699032925044.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4796)
+	at MTC011 - Verify Admin Page link.run(MTC011 - Verify Admin Page link:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at TempTestSuite1699032925044.run(TempTestSuite1699032925044.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text '
+	Administration
+' and expected text 'Administration' of test object 'Object Repository/Page_ParaBank  Administration/h1Administration' are NOT matched.
+	... 24 more
+
+
+2023-11-03 13:39:03 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Reusable Test Cases/Open the webapp"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/Reusable Test Cases/Open the webapp' successfully
+
+2023-11-03 13:39:03 - [TEST_CASE][PASSED] - Test Cases/Reusable Test Cases/Open the webapp: Test Cases/Reusable Test Cases/Open the webapp
+
+2023-11-03 13:39:03 - [TEST_STEP][PASSED] - openBrowser(URL): Browser is opened with url: 'https://para.testar.org/parabank/about.htm;jsessionid=FB240F858FA900BA96DEE5A980656F85'
+
+2023-11-03 13:39:03 - [MESSAGE][INFO] - User set preference: ['os', 'macos']
+
+2023-11-03 13:39:03 - [MESSAGE][INFO] - User set preference: ['browserName', 'safari']
+
+2023-11-03 13:39:03 - [MESSAGE][INFO] - User set preference: ['browserVersion', '16']
+
+2023-11-03 13:39:03 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=1272612, tunnelId=, usingTunnel=false}']
+
+2023-11-03 13:39:03 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+2023-11-03 13:39:03 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-11-03 13:39:53 - [MESSAGE][PASSED] - Browser is opened with url: 'https://para.testar.org/parabank/about.htm;jsessionid=FB240F858FA900BA96DEE5A980656F85'
+
+2023-11-03 13:39:53 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-11-03 13:39:53 - [MESSAGE][PASSED] - Current window maximized
+
+2023-11-03 13:39:53 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Reusable Test Cases/Open the webapp' successfully
+
+2023-11-03 13:39:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_ParaBank  Welcome  Online Banking/lnkAdminPage")): Object: 'Object Repository/Page_ParaBank  Welcome  Online Banking/lnkAdminPage' is clicked on
+
+2023-11-03 13:39:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ParaBank  Welcome  Online Banking/lnkAdminPage' is clicked on
+
+2023-11-03 13:39:54 - [TEST_STEP][PASSED] - navigateToUrl(ADMIN_PAGE_URL): Navigate to 'https://parabank.parasoft.com/parabank/admin.htm' successfully
+
+2023-11-03 13:39:56 - [MESSAGE][PASSED] - Navigate to 'https://parabank.parasoft.com/parabank/admin.htm' successfully
+
+2023-11-03 13:39:56 - [TEST_STEP][FAILED] - verifyElementText(findTestObject("Object Repository/Page_ParaBank  Administration/h1Administration"), expectedAdministrationHeader): Actual text '
+	Administration
+' and expected text 'Administration' of test object 'Object Repository/Page_ParaBank  Administration/h1Administration' are NOT matched. (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text '
+	Administration
+' and expected text 'Administration' of test object 'Object Repository/Page_ParaBank  Administration/h1Administration' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4796)
+	at MTC011 - Verify Admin Page link.run(MTC011 - Verify Admin Page link:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at TempTestSuite1699032925044.run(TempTestSuite1699032925044.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+2023-11-03 13:39:58 - [MESSAGE][FAILED] - Actual text '
+	Administration
+' and expected text 'Administration' of test object 'Object Repository/Page_ParaBank  Administration/h1Administration' are NOT matched. (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text '
+	Administration
+' and expected text 'Administration' of test object 'Object Repository/Page_ParaBank  Administration/h1Administration' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4796)
+	at MTC011 - Verify Admin Page link.run(MTC011 - Verify Admin Page link:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at TempTestSuite1699032925044.run(TempTestSuite1699032925044.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+[[ATTACHMENT|C:\\Users\\GKOKABAYEVA\\Katalon Studio\\Parabank\\Reports\\20231103_133524\\Smoke Test Suites\\STS003 - Verify all the links on Main page\\20231103_133525\\1699033197636.png]]
+
+2023-11-03 13:39:58 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-11-03 13:39:59 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[2023-11-03 13:39:03 - [TEST_CASE][FAILED] - Test Cases/Main Test Cases/MTC011 - Verify Admin Page link: Test Cases/Main Test Cases/MTC011 - Verify Admin Page link FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual text '
+	Administration
+' and expected text 'Administration' of test object 'Object Repository/Page_ParaBank  Administration/h1Administration' are NOT matched. (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text '
+	Administration
+' and expected text 'Administration' of test object 'Object Repository/Page_ParaBank  Administration/h1Administration' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4796)
+	at MTC011 - Verify Admin Page link.run(MTC011 - Verify Admin Page link:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at TempTestSuite1699032925044.run(TempTestSuite1699032925044.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4796)
+	at MTC011 - Verify Admin Page link.run(MTC011 - Verify Admin Page link:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at TempTestSuite1699032925044.run(TempTestSuite1699032925044.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text '
+	Administration
+' and expected text 'Administration' of test object 'Object Repository/Page_ParaBank  Administration/h1Administration' are NOT matched.
+	... 24 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Main Test Cases/MTC012 - Verify About Us link" time="48.105" classname="Test Cases/Main Test Cases/MTC012 - Verify About Us link" status="PASSED">
+         <system-out><![CDATA[2023-11-03 13:39:59 - [TEST_CASE][PASSED] - Test Cases/Main Test Cases/MTC012 - Verify About Us link: Test Cases/Main Test Cases/MTC012 - Verify About Us link
+
+2023-11-03 13:39:59 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Reusable Test Cases/Open the webapp"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/Reusable Test Cases/Open the webapp' successfully
+
+2023-11-03 13:40:00 - [TEST_CASE][PASSED] - Test Cases/Reusable Test Cases/Open the webapp: Test Cases/Reusable Test Cases/Open the webapp
+
+2023-11-03 13:40:00 - [TEST_STEP][PASSED] - openBrowser(URL): Browser is opened with url: 'https://para.testar.org/parabank/about.htm;jsessionid=FB240F858FA900BA96DEE5A980656F85'
+
+2023-11-03 13:40:00 - [MESSAGE][INFO] - User set preference: ['os', 'macos']
+
+2023-11-03 13:40:00 - [MESSAGE][INFO] - User set preference: ['browserName', 'safari']
+
+2023-11-03 13:40:00 - [MESSAGE][INFO] - User set preference: ['browserVersion', '16']
+
+2023-11-03 13:40:00 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=1272612, tunnelId=, usingTunnel=false}']
+
+2023-11-03 13:40:00 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+2023-11-03 13:40:00 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-11-03 13:40:42 - [MESSAGE][PASSED] - Browser is opened with url: 'https://para.testar.org/parabank/about.htm;jsessionid=FB240F858FA900BA96DEE5A980656F85'
+
+2023-11-03 13:40:42 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-11-03 13:40:43 - [MESSAGE][PASSED] - Current window maximized
+
+2023-11-03 13:40:43 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Reusable Test Cases/Open the webapp' successfully
+
+2023-11-03 13:40:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_ParaBank  Welcome  Online Banking/lnkAboutUs")): Object: 'Object Repository/Page_ParaBank  Welcome  Online Banking/lnkAboutUs' is clicked on
+
+2023-11-03 13:40:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ParaBank  Welcome  Online Banking/lnkAboutUs' is clicked on
+
+2023-11-03 13:40:44 - [TEST_STEP][PASSED] - navigateToUrl(ABOUT_US_URL): Navigate to 'https://parabank.parasoft.com/parabank/about.htm' successfully
+
+2023-11-03 13:40:45 - [MESSAGE][PASSED] - Navigate to 'https://parabank.parasoft.com/parabank/about.htm' successfully
+
+2023-11-03 13:40:45 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_ParaBank  About Us/h1ParaSoftDemoWebsite"), expectedParaSoftDemoWebsiteHeader): Actual text and expected text of test object 'Object Repository/Page_ParaBank  About Us/h1ParaSoftDemoWebsite' are matched.
+
+2023-11-03 13:40:46 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_ParaBank  About Us/h1ParaSoftDemoWebsite' are matched.
+
+2023-11-03 13:40:46 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-11-03 13:40:47 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Main Test Cases/MTC013 - Verify Home icon" time="52.759" classname="Test Cases/Main Test Cases/MTC013 - Verify Home icon" status="PASSED">
+         <system-out><![CDATA[2023-11-03 13:40:47 - [TEST_CASE][PASSED] - Test Cases/Main Test Cases/MTC013 - Verify Home icon: Test Cases/Main Test Cases/MTC013 - Verify Home icon
+
+2023-11-03 13:40:48 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Reusable Test Cases/Open the webapp"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/Reusable Test Cases/Open the webapp' successfully
+
+2023-11-03 13:40:48 - [TEST_CASE][PASSED] - Test Cases/Reusable Test Cases/Open the webapp: Test Cases/Reusable Test Cases/Open the webapp
+
+2023-11-03 13:40:48 - [TEST_STEP][PASSED] - openBrowser(URL): Browser is opened with url: 'https://para.testar.org/parabank/about.htm;jsessionid=FB240F858FA900BA96DEE5A980656F85'
+
+2023-11-03 13:40:48 - [MESSAGE][INFO] - User set preference: ['os', 'macos']
+
+2023-11-03 13:40:48 - [MESSAGE][INFO] - User set preference: ['browserName', 'safari']
+
+2023-11-03 13:40:48 - [MESSAGE][INFO] - User set preference: ['browserVersion', '16']
+
+2023-11-03 13:40:48 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=1272612, tunnelId=, usingTunnel=false}']
+
+2023-11-03 13:40:48 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+2023-11-03 13:40:48 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-11-03 13:41:36 - [MESSAGE][PASSED] - Browser is opened with url: 'https://para.testar.org/parabank/about.htm;jsessionid=FB240F858FA900BA96DEE5A980656F85'
+
+2023-11-03 13:41:36 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-11-03 13:41:36 - [MESSAGE][PASSED] - Current window maximized
+
+2023-11-03 13:41:36 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Reusable Test Cases/Open the webapp' successfully
+
+2023-11-03 13:41:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_ParaBank  Welcome  Online Banking/iconHome")): Object: 'Object Repository/Page_ParaBank  Welcome  Online Banking/iconHome' is clicked on
+
+2023-11-03 13:41:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ParaBank  Welcome  Online Banking/iconHome' is clicked on
+
+2023-11-03 13:41:37 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://para.testar.org/parabank/about.htm;jsessionid=FB240F858FA900BA96DEE5A980656F85' successfully
+
+2023-11-03 13:41:38 - [MESSAGE][PASSED] - Navigate to 'https://para.testar.org/parabank/about.htm;jsessionid=FB240F858FA900BA96DEE5A980656F85' successfully
+
+2023-11-03 13:41:38 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_ParaBank  Welcome  Online Banking/divArticles"), 0): Object 'Object Repository/Page_ParaBank  Welcome  Online Banking/divArticles' is present
+
+2023-11-03 13:41:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-03 13:41:39 - [MESSAGE][PASSED] - Object 'Object Repository/Page_ParaBank  Welcome  Online Banking/divArticles' is present
+
+2023-11-03 13:41:39 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-11-03 13:41:40 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Main Test Cases/MTC014 - Verify About icon" time="46.703" classname="Test Cases/Main Test Cases/MTC014 - Verify About icon" status="PASSED">
+         <system-out><![CDATA[2023-11-03 13:41:40 - [TEST_CASE][PASSED] - Test Cases/Main Test Cases/MTC014 - Verify About icon: Test Cases/Main Test Cases/MTC014 - Verify About icon
+
+2023-11-03 13:41:40 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Reusable Test Cases/Open the webapp"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/Reusable Test Cases/Open the webapp' successfully
+
+2023-11-03 13:41:41 - [TEST_CASE][PASSED] - Test Cases/Reusable Test Cases/Open the webapp: Test Cases/Reusable Test Cases/Open the webapp
+
+2023-11-03 13:41:41 - [TEST_STEP][PASSED] - openBrowser(URL): Browser is opened with url: 'https://para.testar.org/parabank/about.htm;jsessionid=FB240F858FA900BA96DEE5A980656F85'
+
+2023-11-03 13:41:41 - [MESSAGE][INFO] - User set preference: ['os', 'macos']
+
+2023-11-03 13:41:41 - [MESSAGE][INFO] - User set preference: ['browserName', 'safari']
+
+2023-11-03 13:41:41 - [MESSAGE][INFO] - User set preference: ['browserVersion', '16']
+
+2023-11-03 13:41:41 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=1272612, tunnelId=, usingTunnel=false}']
+
+2023-11-03 13:41:41 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+2023-11-03 13:41:41 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-11-03 13:42:22 - [MESSAGE][PASSED] - Browser is opened with url: 'https://para.testar.org/parabank/about.htm;jsessionid=FB240F858FA900BA96DEE5A980656F85'
+
+2023-11-03 13:42:22 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-11-03 13:42:22 - [MESSAGE][PASSED] - Current window maximized
+
+2023-11-03 13:42:22 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Reusable Test Cases/Open the webapp' successfully
+
+2023-11-03 13:42:22 - [TEST_STEP][PASSED] - click(findTestObject("Page_ParaBank  Welcome  Online Banking/iconAbout")): Object: 'Object Repository/Page_ParaBank  Welcome  Online Banking/iconAbout' is clicked on
+
+2023-11-03 13:42:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ParaBank  Welcome  Online Banking/iconAbout' is clicked on
+
+2023-11-03 13:42:24 - [TEST_STEP][PASSED] - navigateToUrl(ABOUT_US_URL): Navigate to 'https://parabank.parasoft.com/parabank/about.htm' successfully
+
+2023-11-03 13:42:25 - [MESSAGE][PASSED] - Navigate to 'https://parabank.parasoft.com/parabank/about.htm' successfully
+
+2023-11-03 13:42:25 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_ParaBank  About Us/h1ParaSoftDemoWebsite"), expectedParaSoftDemoWebsiteHeader): Actual text and expected text of test object 'Object Repository/Page_ParaBank  About Us/h1ParaSoftDemoWebsite' are matched.
+
+2023-11-03 13:42:26 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_ParaBank  About Us/h1ParaSoftDemoWebsite' are matched.
+
+2023-11-03 13:42:26 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-11-03 13:42:27 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Main Test Cases/MTC015 - Verify Contact icon" time="52.646" classname="Test Cases/Main Test Cases/MTC015 - Verify Contact icon" status="PASSED">
+         <system-out><![CDATA[2023-11-03 13:42:27 - [TEST_CASE][PASSED] - Test Cases/Main Test Cases/MTC015 - Verify Contact icon: Test Cases/Main Test Cases/MTC015 - Verify Contact icon
+
+2023-11-03 13:42:27 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Reusable Test Cases/Open the webapp"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/Reusable Test Cases/Open the webapp' successfully
+
+2023-11-03 13:42:27 - [TEST_CASE][PASSED] - Test Cases/Reusable Test Cases/Open the webapp: Test Cases/Reusable Test Cases/Open the webapp
+
+2023-11-03 13:42:27 - [TEST_STEP][PASSED] - openBrowser(URL): Browser is opened with url: 'https://para.testar.org/parabank/about.htm;jsessionid=FB240F858FA900BA96DEE5A980656F85'
+
+2023-11-03 13:42:27 - [MESSAGE][INFO] - User set preference: ['os', 'macos']
+
+2023-11-03 13:42:27 - [MESSAGE][INFO] - User set preference: ['browserName', 'safari']
+
+2023-11-03 13:42:27 - [MESSAGE][INFO] - User set preference: ['browserVersion', '16']
+
+2023-11-03 13:42:27 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=1272612, tunnelId=, usingTunnel=false}']
+
+2023-11-03 13:42:27 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+2023-11-03 13:42:27 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-11-03 13:43:13 - [MESSAGE][PASSED] - Browser is opened with url: 'https://para.testar.org/parabank/about.htm;jsessionid=FB240F858FA900BA96DEE5A980656F85'
+
+2023-11-03 13:43:13 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-11-03 13:43:14 - [MESSAGE][PASSED] - Current window maximized
+
+2023-11-03 13:43:14 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Reusable Test Cases/Open the webapp' successfully
+
+2023-11-03 13:43:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_ParaBank  Welcome  Online Banking/iconContact")): Object: 'Object Repository/Page_ParaBank  Welcome  Online Banking/iconContact' is clicked on
+
+2023-11-03 13:43:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ParaBank  Welcome  Online Banking/iconContact' is clicked on
+
+2023-11-03 13:43:15 - [TEST_STEP][PASSED] - navigateToUrl(CONTACT_URL): Navigate to 'https://parabank.parasoft.com/parabank/contact.htm' successfully
+
+2023-11-03 13:43:17 - [MESSAGE][PASSED] - Navigate to 'https://parabank.parasoft.com/parabank/contact.htm' successfully
+
+2023-11-03 13:43:17 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_ParaBank  Customer Care/h1CustomerCare"), expectedH1CustomerCareText): Actual text and expected text of test object 'Object Repository/Page_ParaBank  Customer Care/h1CustomerCare' are matched.
+
+2023-11-03 13:43:18 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_ParaBank  Customer Care/h1CustomerCare' are matched.
+
+2023-11-03 13:43:18 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_ParaBank  Customer Care/tableCustomerCare                                 _d1ea03"), 0): Object 'Object Repository/Page_ParaBank  Customer Care/tableCustomerCare                                 _d1ea03' is present
+
+2023-11-03 13:43:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-03 13:43:19 - [MESSAGE][PASSED] - Object 'Object Repository/Page_ParaBank  Customer Care/tableCustomerCare                                 _d1ea03' is present
+
+2023-11-03 13:43:19 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-11-03 13:43:20 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-11-03 13:35:32 - [TEST_SUITE][FAILED] - STS003 - Verify all the links on Main page: Test Cases/Main Test Cases/MTC007 - Verify main page title FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify equal between actual object 'ParaBank | About Us' and expected object 'ParaBank | Welcome | Online Banking' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object 'ParaBank | About Us' and expected object 'ParaBank | Welcome | Online Banking' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:146)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at MTC007 - Verify main page title.run(MTC007 - Verify main page title:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at TempTestSuite1699032925044.run(TempTestSuite1699032925044.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:77)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:146)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at MTC007 - Verify main page title.run(MTC007 - Verify main page title:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at TempTestSuite1699032925044.run(TempTestSuite1699032925044.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual object 'ParaBank | About Us' and expected object 'ParaBank | Welcome | Online Banking' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	... 23 more]]></system-out>
+      <system-err><![CDATA[2023-11-03 13:35:32 - [TEST_SUITE][FAILED] - STS003 - Verify all the links on Main page: Test Cases/Main Test Cases/MTC007 - Verify main page title FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify equal between actual object 'ParaBank | About Us' and expected object 'ParaBank | Welcome | Online Banking' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object 'ParaBank | About Us' and expected object 'ParaBank | Welcome | Online Banking' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:146)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at MTC007 - Verify main page title.run(MTC007 - Verify main page title:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at TempTestSuite1699032925044.run(TempTestSuite1699032925044.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:77)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:146)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at MTC007 - Verify main page title.run(MTC007 - Verify main page title:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at TempTestSuite1699032925044.run(TempTestSuite1699032925044.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual object 'ParaBank | About Us' and expected object 'ParaBank | Welcome | Online Banking' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	... 23 more]]></system-err>
+   </testsuite>
+</testsuites>

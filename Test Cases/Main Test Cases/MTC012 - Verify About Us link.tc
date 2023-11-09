@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>MTC012 - Verify About Us link</name>
+   <tag>smoke</tag>
+   <comment></comment>
+   <testCaseGuid>9bef3843-6bd3-486a-9931-87a01bbc9335</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f8c86d21-e653-4905-a745-d4c36eb3a99f</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'ParaSoft Demo Website'</defaultValue>
+      <description></description>
+      <id>f8c86d21-e653-4905-a745-d4c36eb3a99f</id>
+      <masked>false</masked>
+      <name>expectedParaSoftDemoWebsiteHeader</name>
+   </variable>
+</TestCaseEntity>

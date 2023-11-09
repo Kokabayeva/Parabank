@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>lblMinimumDeposit</name>
+   <tag></tag>
+   <elementGuidId>5b7b1d95-ac8d-404b-bedf-bf438de64f1b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>p:nth-of-type(2) > b</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='rightPanel']/div/div/form/p[2]/b</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>b</value>
+      <webElementGuid>ac03b34b-f700-4a48-96d0-43fcb21f82d7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>A minimum of $100.00 must be deposited into this account at time of opening. Please choose an existing account to transfer funds into the new account.</value>
+      <webElementGuid>a01f9b2c-5055-4566-836f-1592a33a1ddc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;rightPanel&quot;)/div[@class=&quot;ng-scope&quot;]/div[@class=&quot;ng-scope&quot;]/form[@class=&quot;ng-pristine ng-valid&quot;]/p[2]/b[1]</value>
+      <webElementGuid>3bea68ac-38a5-499d-b915-036f043f785d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='rightPanel']/div/div/form/p[2]/b</value>
+      <webElementGuid>9bf7491f-0f14-49c5-9025-4dc43317f22c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//p[2]/b</value>
+      <webElementGuid>93116796-6c89-4490-9582-d4409f78d508</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//b[(text() = 'A minimum of $100.00 must be deposited into this account at time of opening. Please choose an existing account to transfer funds into the new account.' or . = 'A minimum of $100.00 must be deposited into this account at time of opening. Please choose an existing account to transfer funds into the new account.')]</value>
+      <webElementGuid>347cb762-1117-4045-94c4-76080ca440ef</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

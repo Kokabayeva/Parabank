@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>MTC008 - Verify Services link</name>
+   <tag>smoke</tag>
+   <comment></comment>
+   <testCaseGuid>a5854123-f543-40b4-855f-83aab9477220</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>cf1b8abf-504d-4380-8421-9c484e5d5bba</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Available Bookstore SOAP services:'</defaultValue>
+      <description></description>
+      <id>cf1b8abf-504d-4380-8421-9c484e5d5bba</id>
+      <masked>false</masked>
+      <name>expectedBookstoreMessage</name>
+   </variable>
+</TestCaseEntity>

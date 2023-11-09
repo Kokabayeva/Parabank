@@ -1,0 +1,46 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+STS002 - Login verification,Windows - Chrome 109.0.0.0,All the test cases related to login in,,2023-11-03 19:00:56,2023-11-03 19:06:15,5m - 19.839s,FAILED
+,,,,,,,
+Test Cases/Reusable Test Cases/Login,Windows - Chrome 109.0.0.0,,,2023-11-03 19:00:56,2023-11-03 19:01:59,1m - 3.210s,PASSED
+"callTestCase(findTestCase(""Reusable Test Cases/Open the webapp""), [:], CONTINUE_ON_FAILURE)",Windows - Chrome 109.0.0.0,,,2023-11-03 19:00:56,2023-11-03 19:01:44,48.077s,PASSED
+"setText(findTestObject(""Page_ParaBank  Welcome  Online Banking/txtUsername""), username)",Windows - Chrome 109.0.0.0,,,2023-11-03 19:01:44,2023-11-03 19:01:48,4.083s,PASSED
+"setText(findTestObject(""Page_ParaBank  Welcome  Online Banking/txtPassword""), findTestData(""InternalData"").getValue(""password"", 1))",Windows - Chrome 109.0.0.0,,,2023-11-03 19:01:48,2023-11-03 19:01:52,3.639s,PASSED
+"click(findTestObject(""Page_ParaBank  Welcome  Online Banking/btnLogin""))",Windows - Chrome 109.0.0.0,,,2023-11-03 19:01:52,2023-11-03 19:01:57,4.781s,PASSED
+"verifyElementText(findTestObject(""Page_ParaBank  Accounts Overview/h1AccountsOverview""), expectedAccountsOverviewText)",Windows - Chrome 109.0.0.0,,,2023-11-03 19:01:57,2023-11-03 19:01:59,2.162s,PASSED
+,,,,,,,
+Test Cases/Main Test Cases/MTC003 - Forgot login,Windows - Chrome 109.0.0.0,,smoke,2023-11-03 19:01:59,2023-11-03 19:03:46,1m - 46.501s,FAILED
+"callTestCase(findTestCase(""Reusable Test Cases/Open the webapp""), [:], CONTINUE_ON_FAILURE)",Windows - Chrome 109.0.0.0,,,2023-11-03 19:01:59,2023-11-03 19:02:57,57.113s,PASSED
+"click(findTestObject(""Object Repository/Page_ParaBank  Welcome  Online Banking/lkForgotLoginInfo""))",Windows - Chrome 109.0.0.0,,,2023-11-03 19:02:57,2023-11-03 19:03:00,3.928s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Customer_Lookup/txtFirstName""), firstName)",Windows - Chrome 109.0.0.0,,,2023-11-03 19:03:00,2023-11-03 19:03:05,4.578s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Customer_Lookup/txtLastName""), lastName)",Windows - Chrome 109.0.0.0,,,2023-11-03 19:03:05,2023-11-03 19:03:10,4.705s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Customer_Lookup/txtAddress.street""), address)",Windows - Chrome 109.0.0.0,,,2023-11-03 19:03:10,2023-11-03 19:03:14,4.180s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Customer_Lookup/txtAddress.city""), city)",Windows - Chrome 109.0.0.0,,,2023-11-03 19:03:14,2023-11-03 19:03:19,4.781s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Customer_Lookup/txtAddress.state""), state)",Windows - Chrome 109.0.0.0,,,2023-11-03 19:03:19,2023-11-03 19:03:23,4.179s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Customer_Lookup/txtAddress.zipCode""), zipCode)",Windows - Chrome 109.0.0.0,,,2023-11-03 19:03:23,2023-11-03 19:03:28,4.705s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Customer_Lookup/txtSSN""), ssn)",Windows - Chrome 109.0.0.0,,,2023-11-03 19:03:28,2023-11-03 19:03:33,4.911s,PASSED
+"click(findTestObject(""Object Repository/Page_ParaBank_Customer_Lookup/btnFindMyLoginInfo""))",Windows - Chrome 109.0.0.0,,,2023-11-03 19:03:33,2023-11-03 19:03:35,2.915s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_ParaBank_Customer_Lookup/h1CustomerLookup""), expectedCustomerLookupText)",Windows - Chrome 109.0.0.0,,,2023-11-03 19:03:35,2023-11-03 19:03:40,4.120s,FAILED
+"verifyElementText(findTestObject(""Object Repository/Page_ParaBank_Customer_Lookup/lblLoginInfoLookUpSuccess""), expectedLoginInfoLookupSuccessMessage)",Windows - Chrome 109.0.0.0,,,2023-11-03 19:03:40,2023-11-03 19:03:44,4.430s,FAILED
+closeBrowser(),Windows - Chrome 109.0.0.0,,,2023-11-03 19:03:44,2023-11-03 19:03:46,1.554s,PASSED
+,,,,,,,
+Test Cases/Main Test Cases/MTC004 - Forgot login info unsuccessful,Windows - Chrome 109.0.0.0,,regression,2023-11-03 19:03:46,2023-11-03 19:05:11,1m - 25.097s,PASSED
+"callTestCase(findTestCase(""Reusable Test Cases/Open the webapp""), [:], CONTINUE_ON_FAILURE)",Windows - Chrome 109.0.0.0,,,2023-11-03 19:03:46,2023-11-03 19:04:33,47.393s,PASSED
+"click(findTestObject(""Object Repository/Page_ParaBank  Welcome  Online Banking/lkForgotLoginInfo""))",Windows - Chrome 109.0.0.0,,,2023-11-03 19:04:33,2023-11-03 19:04:36,2.857s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Customer_Lookup/txtFirstName""), firstName)",Windows - Chrome 109.0.0.0,,,2023-11-03 19:04:36,2023-11-03 19:04:40,3.529s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Customer_Lookup/txtLastName""), lastName)",Windows - Chrome 109.0.0.0,,,2023-11-03 19:04:40,2023-11-03 19:04:43,3.828s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Customer_Lookup/txtAddress.street""), address)",Windows - Chrome 109.0.0.0,,,2023-11-03 19:04:43,2023-11-03 19:04:47,3.825s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Customer_Lookup/txtAddress.city""), city)",Windows - Chrome 109.0.0.0,,,2023-11-03 19:04:47,2023-11-03 19:04:51,3.995s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Customer_Lookup/txtAddress.state""), state)",Windows - Chrome 109.0.0.0,,,2023-11-03 19:04:51,2023-11-03 19:04:55,3.689s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Customer_Lookup/txtAddress.zipCode""), zipCode)",Windows - Chrome 109.0.0.0,,,2023-11-03 19:04:55,2023-11-03 19:04:59,3.865s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Customer_Lookup/txtSSN""), ssn)",Windows - Chrome 109.0.0.0,,,2023-11-03 19:04:59,2023-11-03 19:05:03,4.495s,PASSED
+"click(findTestObject(""Object Repository/Page_ParaBank_Customer_Lookup/btnFindMyLoginInfo""))",Windows - Chrome 109.0.0.0,,,2023-11-03 19:05:03,2023-11-03 19:05:05,2.260s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_ParaBank_Customer_Lookup/h1Error""), expectedErrorMessage)",Windows - Chrome 109.0.0.0,,,2023-11-03 19:05:05,2023-11-03 19:05:08,2.203s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_ParaBank_Customer_Lookup/lblLoginInfoLookUpFailure""), expectedCustomerLookupFailureText)",Windows - Chrome 109.0.0.0,,,2023-11-03 19:05:08,2023-11-03 19:05:10,2.158s,PASSED
+closeBrowser(),Windows - Chrome 109.0.0.0,,,2023-11-03 19:05:10,2023-11-03 19:05:11,0.808s,PASSED
+,,,,,,,
+Test Cases/Main Test Cases/MTC016 - Logout,Windows - Chrome 109.0.0.0,,smoke,2023-11-03 19:05:11,2023-11-03 19:06:15,1m - 4.812s,FAILED
+"callTestCase(findTestCase(""Reusable Test Cases/Login""), [:], CONTINUE_ON_FAILURE)",Windows - Chrome 109.0.0.0,,,2023-11-03 19:05:11,2023-11-03 19:06:09,58.186s,PASSED
+"click(findTestObject(""Page_ParaBank  Accounts Overview/lnkLogOut""))",Windows - Chrome 109.0.0.0,,,2023-11-03 19:06:09,2023-11-03 19:06:11,2.270s,FAILED
+"navigateToUrl(""https://parabank.parasoft.com/parabank/index.htm?ConnType=JDBC"")",Windows - Chrome 109.0.0.0,,,2023-11-03 19:06:11,2023-11-03 19:06:12,0.942s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_ParaBank  Welcome  Online Banking/lnkATMServices""), ""ATM Services"")",Windows - Chrome 109.0.0.0,,,2023-11-03 19:06:12,2023-11-03 19:06:15,2.371s,PASSED
+closeBrowser(),Windows - Chrome 109.0.0.0,,,2023-11-03 19:06:15,2023-11-03 19:06:15,0.949s,PASSED

@@ -1,0 +1,67 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+STS003 - Verify all the links on Main page,MacOS - Safari 16,,,2023-11-03 09:09:14,2023-11-03 09:23:51,14m - 37.664s,FAILED
+,,,,,,,
+Test Cases/Main Test Cases/MTC007 - Verify main page title,MacOS - Safari 16,,smoke,2023-11-03 09:09:14,2023-11-03 09:10:09,55.046s,PASSED
+"callTestCase(findTestCase(""Reusable Test Cases/Open the webapp""), [:], CONTINUE_ON_FAILURE)",MacOS - Safari 16,,,2023-11-03 09:09:14,2023-11-03 09:10:08,53.536s,PASSED
+actualTitle = getWindowTitle(),MacOS - Safari 16,,,2023-11-03 09:10:08,2023-11-03 09:10:08,0.373s,PASSED
+"verifyEqual(actualTitle, expectedTitle)",MacOS - Safari 16,,,2023-11-03 09:10:08,2023-11-03 09:10:08,0.016s,PASSED
+closeBrowser(),MacOS - Safari 16,,,2023-11-03 09:10:08,2023-11-03 09:10:09,0.673s,PASSED
+,,,,,,,
+Test Cases/Main Test Cases/MTC008 - Verify Services link,MacOS - Safari 16,,smoke,2023-11-03 09:10:09,2023-11-03 09:11:00,51.400s,PASSED
+"callTestCase(findTestCase(""Reusable Test Cases/Open the webapp""), [:], CONTINUE_ON_FAILURE)",MacOS - Safari 16,,,2023-11-03 09:10:09,2023-11-03 09:10:56,46.959s,PASSED
+"click(findTestObject(""Object Repository/Page_ParaBank  Welcome  Online Banking/lnkServices""))",MacOS - Safari 16,,,2023-11-03 09:10:56,2023-11-03 09:10:57,1.321s,PASSED
+navigateToUrl(SERVICES_URL),MacOS - Safari 16,,,2023-11-03 09:10:57,2023-11-03 09:10:58,0.777s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_ParaBank  Services/lblAvailableBookstoreSOAPServices""), expectedBookstoreMessage)",MacOS - Safari 16,,,2023-11-03 09:10:58,2023-11-03 09:10:59,1.212s,PASSED
+closeBrowser(),MacOS - Safari 16,,,2023-11-03 09:10:59,2023-11-03 09:11:00,0.979s,PASSED
+,,,,,,,
+Test Cases/Main Test Cases/MTC009 - Verify Products link,MacOS - Safari 16,,smoke,2023-11-03 09:11:00,2023-11-03 09:11:48,47.536s,PASSED
+"callTestCase(findTestCase(""Reusable Test Cases/Open the webapp""), [:], CONTINUE_ON_FAILURE)",MacOS - Safari 16,,,2023-11-03 09:11:00,2023-11-03 09:11:43,42.354s,PASSED
+"click(findTestObject(""Object Repository/Page_ParaBank  Welcome  Online Banking/lnkProducts""))",MacOS - Safari 16,,,2023-11-03 09:11:43,2023-11-03 09:11:44,1.323s,PASSED
+navigateToUrl(PRODUCTS_URL),MacOS - Safari 16,,,2023-11-03 09:11:44,2023-11-03 09:11:44,0.362s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Automated Software Testing Tool Suite _51757b/ParasoftLogo""), """")",MacOS - Safari 16,,,2023-11-03 09:11:44,2023-11-03 09:11:46,1.469s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Automated Software Testing Tool Suite _51757b/lnkProducts""), 0)",MacOS - Safari 16,,,2023-11-03 09:11:46,2023-11-03 09:11:47,0.923s,PASSED
+closeBrowser(),MacOS - Safari 16,,,2023-11-03 09:11:47,2023-11-03 09:11:48,0.981s,PASSED
+,,,,,,,
+Test Cases/Main Test Cases/MTC010 - Verify Locations link,MacOS - Safari 16,,smoke,2023-11-03 09:14:23,2023-11-03 09:15:18,55.031s,FAILED
+"callTestCase(findTestCase(""Reusable Test Cases/Open the webapp""), [:], CONTINUE_ON_FAILURE)",MacOS - Safari 16,,,2023-11-03 09:14:23,2023-11-03 09:15:12,48.475s,PASSED
+"click(findTestObject(""Object Repository/Page_ParaBank  Welcome  Online Banking/lnkLocations""))",MacOS - Safari 16,,,2023-11-03 09:15:12,2023-11-03 09:15:13,1.143s,PASSED
+navigateToUrl(SOLUTIONS_URL),MacOS - Safari 16,,,2023-11-03 09:15:13,2023-11-03 09:15:14,0.563s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Automated Software Testing Solutions F_4f6c59/ParasoftLogo""), 0)",MacOS - Safari 16,,,2023-11-03 09:15:14,2023-11-03 09:15:15,0.915s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Automated Software Testing Solutions F_4f6c59/lnkSolutions""), solutionsLink)",MacOS - Safari 16,,,2023-11-03 09:15:15,2023-11-03 09:15:18,3.060s,FAILED
+closeBrowser(),MacOS - Safari 16,,,2023-11-03 09:15:18,2023-11-03 09:15:18,0.818s,PASSED
+,,,,,,,
+Test Cases/Main Test Cases/MTC011 - Verify Admin Page link,MacOS - Safari 16,,smoke,2023-11-03 09:19:36,2023-11-03 09:20:26,50.889s,FAILED
+"callTestCase(findTestCase(""Reusable Test Cases/Open the webapp""), [:], CONTINUE_ON_FAILURE)",MacOS - Safari 16,,,2023-11-03 09:19:36,2023-11-03 09:20:21,45.955s,PASSED
+"click(findTestObject(""Object Repository/Page_ParaBank  Welcome  Online Banking/lnkAdminPage""))",MacOS - Safari 16,,,2023-11-03 09:20:21,2023-11-03 09:20:23,1.453s,PASSED
+navigateToUrl(ADMIN_PAGE_URL),MacOS - Safari 16,,,2023-11-03 09:20:23,2023-11-03 09:20:23,0.469s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_ParaBank  Administration/h1Administration""), expectedAdministrationHeader)",MacOS - Safari 16,,,2023-11-03 09:20:23,2023-11-03 09:20:26,2.109s,FAILED
+closeBrowser(),MacOS - Safari 16,,,2023-11-03 09:20:26,2023-11-03 09:20:26,0.869s,PASSED
+,,,,,,,
+Test Cases/Main Test Cases/MTC012 - Verify About Us link,MacOS - Safari 16,,smoke,2023-11-03 09:20:26,2023-11-03 09:21:21,54.939s,PASSED
+"callTestCase(findTestCase(""Reusable Test Cases/Open the webapp""), [:], CONTINUE_ON_FAILURE)",MacOS - Safari 16,,,2023-11-03 09:20:27,2023-11-03 09:21:17,50.656s,PASSED
+"click(findTestObject(""Object Repository/Page_ParaBank  Welcome  Online Banking/lnkAboutUs""))",MacOS - Safari 16,,,2023-11-03 09:21:17,2023-11-03 09:21:18,1.208s,PASSED
+navigateToUrl(ABOUT_US_URL),MacOS - Safari 16,,,2023-11-03 09:21:18,2023-11-03 09:21:19,0.873s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_ParaBank  About Us/h1ParaSoftDemoWebsite""), expectedParaSoftDemoWebsiteHeader)",MacOS - Safari 16,,,2023-11-03 09:21:19,2023-11-03 09:21:20,1.216s,PASSED
+closeBrowser(),MacOS - Safari 16,,,2023-11-03 09:21:20,2023-11-03 09:21:21,0.838s,PASSED
+,,,,,,,
+Test Cases/Main Test Cases/MTC013 - Verify Home icon,MacOS - Safari 16,,smoke,2023-11-03 09:21:21,2023-11-03 09:22:06,44.681s,PASSED
+"callTestCase(findTestCase(""Reusable Test Cases/Open the webapp""), [:], CONTINUE_ON_FAILURE)",MacOS - Safari 16,,,2023-11-03 09:21:21,2023-11-03 09:22:02,40.735s,PASSED
+"click(findTestObject(""Object Repository/Page_ParaBank  Welcome  Online Banking/iconHome""))",MacOS - Safari 16,,,2023-11-03 09:22:02,2023-11-03 09:22:03,1.270s,PASSED
+navigateToUrl(URL),MacOS - Safari 16,,,2023-11-03 09:22:03,2023-11-03 09:22:04,0.927s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_ParaBank  Welcome  Online Banking/divArticles""), 0)",MacOS - Safari 16,,,2023-11-03 09:22:04,2023-11-03 09:22:05,0.790s,PASSED
+closeBrowser(),MacOS - Safari 16,,,2023-11-03 09:22:05,2023-11-03 09:22:06,0.845s,PASSED
+,,,,,,,
+Test Cases/Main Test Cases/MTC014 - Verify About icon,MacOS - Safari 16,,smoke,2023-11-03 09:22:06,2023-11-03 09:22:58,52.258s,PASSED
+"callTestCase(findTestCase(""Reusable Test Cases/Open the webapp""), [:], CONTINUE_ON_FAILURE)",MacOS - Safari 16,,,2023-11-03 09:22:06,2023-11-03 09:22:55,48.362s,PASSED
+"click(findTestObject(""Page_ParaBank  Welcome  Online Banking/iconAbout""))",MacOS - Safari 16,,,2023-11-03 09:22:55,2023-11-03 09:22:56,1.199s,PASSED
+navigateToUrl(ABOUT_US_URL),MacOS - Safari 16,,,2023-11-03 09:22:56,2023-11-03 09:22:56,0.465s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_ParaBank  About Us/h1ParaSoftDemoWebsite""), expectedParaSoftDemoWebsiteHeader)",MacOS - Safari 16,,,2023-11-03 09:22:56,2023-11-03 09:22:58,1.336s,PASSED
+closeBrowser(),MacOS - Safari 16,,,2023-11-03 09:22:58,2023-11-03 09:22:58,0.768s,PASSED
+,,,,,,,
+Test Cases/Main Test Cases/MTC015 - Verify Contact icon,MacOS - Safari 16,,smoke,2023-11-03 09:22:58,2023-11-03 09:23:51,53.009s,PASSED
+"callTestCase(findTestCase(""Reusable Test Cases/Open the webapp""), [:], CONTINUE_ON_FAILURE)",MacOS - Safari 16,,,2023-11-03 09:22:58,2023-11-03 09:23:44,46.042s,PASSED
+"click(findTestObject(""Object Repository/Page_ParaBank  Welcome  Online Banking/iconContact""))",MacOS - Safari 16,,,2023-11-03 09:23:44,2023-11-03 09:23:46,1.774s,PASSED
+navigateToUrl(CONTACT_URL),MacOS - Safari 16,,,2023-11-03 09:23:46,2023-11-03 09:23:47,0.797s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_ParaBank  Customer Care/h1CustomerCare""), expectedH1CustomerCareText)",MacOS - Safari 16,,,2023-11-03 09:23:47,2023-11-03 09:23:49,1.713s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_ParaBank  Customer Care/tableCustomerCare                                 _d1ea03""), 0)",MacOS - Safari 16,,,2023-11-03 09:23:49,2023-11-03 09:23:50,1.418s,PASSED
+closeBrowser(),MacOS - Safari 16,,,2023-11-03 09:23:50,2023-11-03 09:23:51,1.132s,PASSED

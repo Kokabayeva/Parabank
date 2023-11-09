@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="STS004 - Account verification" time="171.672" tests="2" failures="0" errors="0">
+   <testsuite name="STS004 - Account verification" tests="2" failures="0" errors="0" time="171.672" skipped="0" timestamp="2023-11-03 19:24:55" hostname="gkokabayeva - USORLGKOKABYE1.us.deloitte.com" id="Test Suites/Smoke Test Suites/STS004 - Account verification">
+      <properties>
+         <property name="deviceName"/>
+         <property name="devicePlatform" value="WINDOWS"/>
+         <property name="logFolder" value="C:\\Users\\GKOKABAYEVA\\Katalon Studio\\Parabank\\Reports\\20231103_192448\\Smoke Test Suites\\STS004 - Account verification\\20231103_192448"/>
+         <property name="logFiles" value="C:\\Users\\GKOKABAYEVA\\Katalon Studio\\Parabank\\Reports\\20231103_192448\\Smoke Test Suites\\STS004 - Account verification\\20231103_192448\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="gkokabayeva - USORLGKOKABYE1.us.deloitte.com"/>
+         <property name="remoteDriverUrl" value="testcloud.katalon.com/hub"/>
+         <property name="desiredCapabilities" value="{&#xa;  &quot;timeouts&quot;: {&#xa;    &quot;implicit&quot;: 0,&#xa;    &quot;pageLoad&quot;: 300000,&#xa;    &quot;script&quot;: 30000&#xa;  },&#xa;  &quot;platform&quot;: &quot;WINDOWS&quot;,&#xa;  &quot;goog:chromeOptions&quot;: {&#xa;    &quot;debuggerAddress&quot;: &quot;&quot;&#xa;  },&#xa;  &quot;requestId&quot;: &quot;ab40d8dd-caa5-43d2-b286-804f94c70493&quot;,&#xa;  &quot;webauthn:extension:credBlob&quot;: true,&#xa;  &quot;acceptInsecureCerts&quot;: true,&#xa;  &quot;browserVersion&quot;: &quot;109.0.0.0&quot;,&#xa;  &quot;browserName&quot;: &quot;chrome&quot;,&#xa;  &quot;javascriptEnabled&quot;: true,&#xa;  &quot;katalon:option&quot;: {&#xa;    &quot;unlimitedExecutionMinutes&quot;: true,&#xa;    &quot;apiKey&quot;: &quot;0564a534-72aa-4e06-807e-be3f23a85aad&quot;,&#xa;    &quot;tunnelMetadataId&quot;: &quot;e414eece-08e0-4d24-878e-c0113cd1895e&quot;,&#xa;    &quot;userId&quot;: 1318437,&#xa;    &quot;organizationId&quot;: &quot;1272612&quot;,&#xa;    &quot;class&quot;: &quot;com.katalon.testcloud.grid.common.tunnel.domain.UserOptionCapability&quot;,&#xa;    &quot;runFromTestCloud&quot;: true,&#xa;    &quot;tenant&quot;: &quot;KatalonStudio&quot;,&#xa;    &quot;usingTunnel&quot;: true,&#xa;    &quot;group&quot;: &quot;abb0c0b9-905f-407f-b117-accd17222bc6&quot;&#xa;  },&#xa;  &quot;platformName&quot;: &quot;WINDOWS&quot;,&#xa;  &quot;setWindowRect&quot;: true,&#xa;  &quot;webauthn:extension:largeBlob&quot;: true,&#xa;  &quot;networkConnectionEnabled&quot;: false,&#xa;  &quot;chrome&quot;: {&#xa;    &quot;chromedriverVersion&quot;: &quot;109.0&quot;,&#xa;    &quot;userDataDir&quot;: &quot;\&quot;C:\\\\Windows\\\\proxy\\\\scoped_dir13044_321754463&quot;&#xa;  },&#xa;  &quot;os&quot;: &quot;windows&quot;,&#xa;  &quot;pageLoadStrategy&quot;: &quot;normal&quot;,&#xa;  &quot;unhandledPromptBehavior&quot;: &quot;dismiss and notify&quot;,&#xa;  &quot;strictFileInteractability&quot;: false,&#xa;  &quot;***:loadExtension&quot;: [&#xa;    &quot;https://prod-magicleap-user-files-us-east-1-v1.s3.amazonaws.com/extensions/orgId-691279/SmartWait.zip&quot;&#xa;  ],&#xa;  &quot;version&quot;: &quot;109&quot;,&#xa;  &quot;se:cdp&quot;: &quot;ws://172.48.13.120:4444/session/SWRXS-WYUS0-NJPYZ-78YEQ/se/cdp&quot;,&#xa;  &quot;se:bidiEnabled&quot;: false,&#xa;  &quot;proxy&quot;: {&#xa;    &quot;proxyType&quot;: &quot;UNSPECIFIED&quot;,&#xa;    &quot;autodetect&quot;: false&#xa;  },&#xa;  &quot;webdriver.remote.sessionid&quot;: &quot;SWRXS-WYUS0-NJPYZ-78YEQ&quot;,&#xa;  &quot;webauthn:virtualAuthenticators&quot;: true&#xa;}"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="remoteOS" value="Windows"/>
+         <property name="katalonVersion" value="9.0.0.212"/>
+         <property name="browser" value="Chrome 109.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.165"/>
+         <property name="sessionId" value="SWRXS-WYUS0-NJPYZ-78YEQ"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Main Test Cases/MTC005 - Accounts Overview" time="76.744" classname="Test Cases/Main Test Cases/MTC005 - Accounts Overview" status="PASSED">
+         <system-out><![CDATA[2023-11-03 19:24:55 - [TEST_CASE][PASSED] - Test Cases/Main Test Cases/MTC005 - Accounts Overview: Test Cases/Main Test Cases/MTC005 - Accounts Overview
+
+2023-11-03 19:24:56 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Reusable Test Cases/Login"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/Reusable Test Cases/Login' successfully
+
+2023-11-03 19:24:56 - [TEST_CASE][PASSED] - Test Cases/Reusable Test Cases/Login: Test Cases/Reusable Test Cases/Login
+
+2023-11-03 19:24:56 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Reusable Test Cases/Open the webapp"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/Reusable Test Cases/Open the webapp' successfully
+
+2023-11-03 19:24:56 - [TEST_CASE][PASSED] - Test Cases/Reusable Test Cases/Open the webapp: Test Cases/Reusable Test Cases/Open the webapp
+
+2023-11-03 19:24:56 - [TEST_STEP][PASSED] - openBrowser(URL): Browser is opened with url: 'https://parabank.parasoft.com/parabank/index.htm'
+
+2023-11-03 19:24:57 - [MESSAGE][INFO] - User set preference: ['os', 'windows']
+
+2023-11-03 19:24:57 - [MESSAGE][INFO] - User set preference: ['browserName', 'chrome']
+
+2023-11-03 19:24:57 - [MESSAGE][INFO] - User set preference: ['browserVersion', '109']
+
+2023-11-03 19:24:57 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=1272612, tunnelId=e414eece-08e0-4d24-878e-c0113cd1895e, usingTunnel=true}']
+
+2023-11-03 19:24:57 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+2023-11-03 19:24:58 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-11-03 19:25:44 - [MESSAGE][PASSED] - Browser is opened with url: 'https://parabank.parasoft.com/parabank/index.htm'
+
+2023-11-03 19:25:44 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-11-03 19:25:44 - [MESSAGE][PASSED] - Current window maximized
+
+2023-11-03 19:25:44 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Reusable Test Cases/Open the webapp' successfully
+
+2023-11-03 19:25:44 - [TEST_STEP][PASSED] - setText(findTestObject("Page_ParaBank  Welcome  Online Banking/txtUsername"), username): Text 'Jdoe' is set on object 'Object Repository/Page_ParaBank  Welcome  Online Banking/txtUsername'
+
+2023-11-03 19:25:48 - [MESSAGE][PASSED] - Text 'Jdoe' is set on object 'Object Repository/Page_ParaBank  Welcome  Online Banking/txtUsername'
+
+2023-11-03 19:25:48 - [TEST_STEP][PASSED] - setText(findTestObject("Page_ParaBank  Welcome  Online Banking/txtPassword"), findTestData("InternalData").getValue("password", 1)): Text 'Password' is set on object 'Object Repository/Page_ParaBank  Welcome  Online Banking/txtPassword'
+
+2023-11-03 19:25:52 - [MESSAGE][PASSED] - Text 'Password' is set on object 'Object Repository/Page_ParaBank  Welcome  Online Banking/txtPassword'
+
+2023-11-03 19:25:52 - [TEST_STEP][PASSED] - click(findTestObject("Page_ParaBank  Welcome  Online Banking/btnLogin")): Object: 'Object Repository/Page_ParaBank  Welcome  Online Banking/btnLogin' is clicked on
+
+2023-11-03 19:25:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ParaBank  Welcome  Online Banking/btnLogin' is clicked on
+
+2023-11-03 19:25:55 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Page_ParaBank  Accounts Overview/h1AccountsOverview"), expectedAccountsOverviewText): Actual text and expected text of test object 'Object Repository/Page_ParaBank  Accounts Overview/h1AccountsOverview' are matched.
+
+2023-11-03 19:25:57 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_ParaBank  Accounts Overview/h1AccountsOverview' are matched.
+
+2023-11-03 19:25:57 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Reusable Test Cases/Login' successfully
+
+2023-11-03 19:25:57 - [TEST_STEP][PASSED] - lkAccount = getText(findTestObject("Object Repository/Page_ParaBank  Accounts Overview/lkAccount")): Text of object 'Object Repository/Page_ParaBank  Accounts Overview/lkAccount' is: '13899'
+
+2023-11-03 19:25:58 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_ParaBank  Accounts Overview/lkAccount' is: '13899'
+
+2023-11-03 19:25:58 - [TEST_STEP][PASSED] - balance = getText(findTestObject("Object Repository/Page_ParaBank  Accounts Overview/lblBalance")): Text of object 'Object Repository/Page_ParaBank  Accounts Overview/lblBalance' is: '$5000.00'
+
+2023-11-03 19:26:00 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_ParaBank  Accounts Overview/lblBalance' is: '$5000.00'
+
+2023-11-03 19:26:00 - [TEST_STEP][PASSED] - availableAmount = getText(findTestObject("Object Repository/Page_ParaBank  Accounts Overview/lblAvailableAmount")): Text of object 'Object Repository/Page_ParaBank  Accounts Overview/lblAvailableAmount' is: '$5000.00'
+
+2023-11-03 19:26:02 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_ParaBank  Accounts Overview/lblAvailableAmount' is: '$5000.00'
+
+2023-11-03 19:26:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_ParaBank  Accounts Overview/lkAccount")): Object: 'Object Repository/Page_ParaBank  Accounts Overview/lkAccount' is clicked on
+
+2023-11-03 19:26:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ParaBank  Accounts Overview/lkAccount' is clicked on
+
+2023-11-03 19:26:04 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_ParaBank  Account Activity/lblAccountNumber"), lkAccount): Actual text and expected text of test object 'Object Repository/Page_ParaBank  Account Activity/lblAccountNumber' are matched.
+
+2023-11-03 19:26:06 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_ParaBank  Account Activity/lblAccountNumber' are matched.
+
+2023-11-03 19:26:06 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_ParaBank  Account Activity/lblBalance"), balance): Actual text and expected text of test object 'Object Repository/Page_ParaBank  Account Activity/lblBalance' are matched.
+
+2023-11-03 19:26:08 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_ParaBank  Account Activity/lblBalance' are matched.
+
+2023-11-03 19:26:08 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_ParaBank  Account Activity/lblAvailable"), availableAmount): Actual text and expected text of test object 'Object Repository/Page_ParaBank  Account Activity/lblAvailable' are matched.
+
+2023-11-03 19:26:09 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_ParaBank  Account Activity/lblAvailable' are matched.
+
+2023-11-03 19:26:09 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_ParaBank  Account Activity/AccountActivityFilters"), 0): Object 'Object Repository/Page_ParaBank  Account Activity/AccountActivityFilters' is present
+
+2023-11-03 19:26:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-03 19:26:11 - [MESSAGE][PASSED] - Object 'Object Repository/Page_ParaBank  Account Activity/AccountActivityFilters' is present
+
+2023-11-03 19:26:11 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-11-03 19:26:12 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Main Test Cases/MTC006 - Open New Account" time="94.707" classname="Test Cases/Main Test Cases/MTC006 - Open New Account" status="PASSED">
+         <system-out><![CDATA[2023-11-03 19:26:12 - [TEST_CASE][PASSED] - Test Cases/Main Test Cases/MTC006 - Open New Account: Test Cases/Main Test Cases/MTC006 - Open New Account
+
+2023-11-03 19:26:12 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Reusable Test Cases/Login"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/Reusable Test Cases/Login' successfully
+
+2023-11-03 19:26:12 - [TEST_CASE][PASSED] - Test Cases/Reusable Test Cases/Login: Test Cases/Reusable Test Cases/Login
+
+2023-11-03 19:26:12 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Reusable Test Cases/Open the webapp"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/Reusable Test Cases/Open the webapp' successfully
+
+2023-11-03 19:26:13 - [TEST_CASE][PASSED] - Test Cases/Reusable Test Cases/Open the webapp: Test Cases/Reusable Test Cases/Open the webapp
+
+2023-11-03 19:26:13 - [TEST_STEP][PASSED] - openBrowser(URL): Browser is opened with url: 'https://parabank.parasoft.com/parabank/index.htm'
+
+2023-11-03 19:26:13 - [MESSAGE][INFO] - User set preference: ['os', 'windows']
+
+2023-11-03 19:26:13 - [MESSAGE][INFO] - User set preference: ['browserName', 'chrome']
+
+2023-11-03 19:26:13 - [MESSAGE][INFO] - User set preference: ['browserVersion', '109']
+
+2023-11-03 19:26:13 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=1272612, tunnelId=e414eece-08e0-4d24-878e-c0113cd1895e, usingTunnel=true}']
+
+2023-11-03 19:26:13 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+2023-11-03 19:26:13 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-11-03 19:27:14 - [MESSAGE][PASSED] - Browser is opened with url: 'https://parabank.parasoft.com/parabank/index.htm'
+
+2023-11-03 19:27:14 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-11-03 19:27:14 - [MESSAGE][PASSED] - Current window maximized
+
+2023-11-03 19:27:14 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Reusable Test Cases/Open the webapp' successfully
+
+2023-11-03 19:27:14 - [TEST_STEP][PASSED] - setText(findTestObject("Page_ParaBank  Welcome  Online Banking/txtUsername"), username): Text 'Jdoe' is set on object 'Object Repository/Page_ParaBank  Welcome  Online Banking/txtUsername'
+
+2023-11-03 19:27:19 - [MESSAGE][PASSED] - Text 'Jdoe' is set on object 'Object Repository/Page_ParaBank  Welcome  Online Banking/txtUsername'
+
+2023-11-03 19:27:19 - [TEST_STEP][PASSED] - setText(findTestObject("Page_ParaBank  Welcome  Online Banking/txtPassword"), findTestData("InternalData").getValue("password", 1)): Text 'Password' is set on object 'Object Repository/Page_ParaBank  Welcome  Online Banking/txtPassword'
+
+2023-11-03 19:27:23 - [MESSAGE][PASSED] - Text 'Password' is set on object 'Object Repository/Page_ParaBank  Welcome  Online Banking/txtPassword'
+
+2023-11-03 19:27:23 - [TEST_STEP][PASSED] - click(findTestObject("Page_ParaBank  Welcome  Online Banking/btnLogin")): Object: 'Object Repository/Page_ParaBank  Welcome  Online Banking/btnLogin' is clicked on
+
+2023-11-03 19:27:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ParaBank  Welcome  Online Banking/btnLogin' is clicked on
+
+2023-11-03 19:27:27 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Page_ParaBank  Accounts Overview/h1AccountsOverview"), expectedAccountsOverviewText): Actual text and expected text of test object 'Object Repository/Page_ParaBank  Accounts Overview/h1AccountsOverview' are matched.
+
+2023-11-03 19:27:29 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_ParaBank  Accounts Overview/h1AccountsOverview' are matched.
+
+2023-11-03 19:27:29 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Reusable Test Cases/Login' successfully
+
+2023-11-03 19:27:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_ParaBank  Accounts Overview/lnkOpenNewAccount")): Object: 'Object Repository/Page_ParaBank  Accounts Overview/lnkOpenNewAccount' is clicked on
+
+2023-11-03 19:27:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ParaBank  Accounts Overview/lnkOpenNewAccount' is clicked on
+
+2023-11-03 19:27:32 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_ParaBank  Open Account/h1OpenNewAccount"), expectedOpenAccountHeaderText): Actual text and expected text of test object 'Object Repository/Page_ParaBank  Open Account/h1OpenNewAccount' are matched.
+
+2023-11-03 19:27:34 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_ParaBank  Open Account/h1OpenNewAccount' are matched.
+
+2023-11-03 19:27:34 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_ParaBank  Open Account/lblAccountTypeQuestion"), expectedAccountTypeQuestion): Actual text and expected text of test object 'Object Repository/Page_ParaBank  Open Account/lblAccountTypeQuestion' are matched.
+
+2023-11-03 19:27:37 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_ParaBank  Open Account/lblAccountTypeQuestion' are matched.
+
+2023-11-03 19:27:37 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_ParaBank  Open Account/lblMinimumDeposit"), expectedMinimumAmountText): Actual text and expected text of test object 'Object Repository/Page_ParaBank  Open Account/lblMinimumDeposit' are matched.
+
+2023-11-03 19:27:39 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_ParaBank  Open Account/lblMinimumDeposit' are matched.
+
+2023-11-03 19:27:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_ParaBank  Open Account/btnOpen")): Object: 'Object Repository/Page_ParaBank  Open Account/btnOpen' is clicked on
+
+2023-11-03 19:27:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ParaBank  Open Account/btnOpen' is clicked on
+
+2023-11-03 19:27:42 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_ParaBank  Open Account/h1AccountOpened"), expectedH1AccountOpened): Actual text and expected text of test object 'Object Repository/Page_ParaBank  Open Account/h1AccountOpened' are matched.
+
+2023-11-03 19:27:44 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_ParaBank  Open Account/h1AccountOpened' are matched.
+
+2023-11-03 19:27:44 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_ParaBank  Open Account/lblCongratulationsAccountOpen"), expectedCongratesAccountOpenMessage): Actual text and expected text of test object 'Object Repository/Page_ParaBank  Open Account/lblCongratulationsAccountOpen' are matched.
+
+2023-11-03 19:27:46 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_ParaBank  Open Account/lblCongratulationsAccountOpen' are matched.
+
+2023-11-03 19:27:46 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-11-03 19:27:47 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-11-03 19:24:55 - [TEST_SUITE][PASSED] - STS004 - Account verification: Test Cases/Main Test Cases/MTC006 - Open New Account]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
