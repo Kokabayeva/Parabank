@@ -28,5 +28,7 @@ WebUI.verifyElementText(findTestObject('Object Repository/Page_ParaBank  Custome
 WebUI.verifyElementPresent(findTestObject('Object Repository/Page_ParaBank  Customer Care/tableCustomerCare                                 _d1ea03'), 
     0)
 
+WebUI.takeScreenshotAsCheckpoint('CustomerCarePage')
+
 WebUI.closeBrowser()
 

@@ -25,5 +25,7 @@ WebUI.navigateToUrl(GlobalVariable.URL)
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Page_ParaBank  Welcome  Online Banking/divArticles'), 0)
 
+WebUI.takeScreenshotAsCheckpoint('HomePage')
+
 WebUI.closeBrowser()
 

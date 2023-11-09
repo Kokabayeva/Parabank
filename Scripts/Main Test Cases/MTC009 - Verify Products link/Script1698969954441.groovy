@@ -29,5 +29,7 @@ WebUI.verifyElementText(findTestObject('Object Repository/Page_Automated Softwar
 WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Automated Software Testing Tool Suite _51757b/lnkProducts'), 
     0)
 
+WebUI.takeScreenshotAsCheckpoint('ProductsPage')
+
 WebUI.closeBrowser()
 

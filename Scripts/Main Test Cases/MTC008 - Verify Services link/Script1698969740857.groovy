@@ -25,5 +25,7 @@ WebUI.navigateToUrl(GlobalVariable.SERVICES_URL)
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_ParaBank  Services/lblAvailableBookstoreSOAPServices'), expectedBookstoreMessage)
 
+WebUI.takeScreenshotAsCheckpoint('ServicesPage')
+
 WebUI.closeBrowser()
 

@@ -25,5 +25,7 @@ WebUI.navigateToUrl(GlobalVariable.ADMIN_PAGE_URL)
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_ParaBank  Administration/h1Administration'), expectedAdministrationHeader)
 
+WebUI.takeScreenshotAsCheckpoint('AdminPage')
+
 WebUI.closeBrowser()
 

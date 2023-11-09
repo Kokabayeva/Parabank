@@ -5,12 +5,6 @@
    <tag>smoke</tag>
    <comment></comment>
    <testCaseGuid>9ed91edb-9e5d-4cdd-acb8-d0d024debb2c</testCaseGuid>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>f058952c-acfd-410b-ad57-ebe11e444430</variableId>
-   </variableLinks>
    <variable>
       <defaultValue>'ParaSoft Demo Website'</defaultValue>
       <description></description>

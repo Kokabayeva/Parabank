@@ -29,5 +29,7 @@ WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Automated Soft
 WebUI.verifyElementText(findTestObject('Object Repository/Page_Automated Software Testing Solutions F_4f6c59/lnkSolutions'), 
     solutionsLink)
 
+WebUI.takeScreenshotAsCheckpoint('LocationsPage')
+
 WebUI.closeBrowser()
 

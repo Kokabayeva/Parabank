@@ -25,5 +25,7 @@ WebUI.navigateToUrl(GlobalVariable.ABOUT_US_URL)
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_ParaBank  About Us/h1ParaSoftDemoWebsite'), expectedParaSoftDemoWebsiteHeader)
 
+WebUI.takeScreenshotAsCheckpoint('AboutUsPage')
+
 WebUI.closeBrowser()
 

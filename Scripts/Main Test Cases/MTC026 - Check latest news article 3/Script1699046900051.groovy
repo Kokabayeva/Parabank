@@ -25,5 +25,7 @@ WebUI.navigateToUrl(GlobalVariable.NEWS_URL)
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_ParaBank  News/h1ParaBankNews'), expectedH1ParaBankNews)
 
+WebUI.takeScreenshotAsCheckpoint('Article3Page')
+
 WebUI.closeBrowser()
 
