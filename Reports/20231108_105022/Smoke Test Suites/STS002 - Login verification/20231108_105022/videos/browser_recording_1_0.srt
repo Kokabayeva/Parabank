@@ -1,0 +1,28 @@
+1
+00:00:00,000 --> 00:00:00,000
+1. callTestCase(findTestCase("Reusable Test Cases/Open the webapp"), [:], CONTINUE_ON_FAILURE)
+
+2
+00:00:00,000 --> 00:00:00,000
+1. openBrowser(URL)
+
+3
+00:00:00,000 --> 00:00:00,000
+5. maximizeWindow()
+
+4
+00:00:00,000 --> 00:00:00,000
+5. setText(findTestObject("Page_ParaBank  Welcome  Online Banking/txtUsername"), username)
+
+5
+00:00:00,000 --> 00:00:00,000
+9. setText(findTestObject("Page_ParaBank  Welcome  Online Banking/txtPassword"), findTestData("InternalData").getValue("password", 1))
+
+6
+00:00:00,000 --> 00:00:00,000
+13. click(findTestObject("Page_ParaBank  Welcome  Online Banking/btnLogin"))
+
+7
+00:00:00,000 --> 00:00:00,000
+17. verifyElementText(findTestObject("Page_ParaBank  Accounts Overview/h1AccountsOverview"), expectedAccountsOverviewText)
+

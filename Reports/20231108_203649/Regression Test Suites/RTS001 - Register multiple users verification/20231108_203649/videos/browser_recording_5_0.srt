@@ -1,0 +1,72 @@
+1
+00:00:00,000 --> 00:00:00,000
+1. callTestCase(findTestCase("Reusable Test Cases/Open the webapp"), [:], CONTINUE_ON_FAILURE)
+
+2
+00:00:00,000 --> 00:00:00,000
+1. openBrowser(URL)
+
+3
+00:00:00,000 --> 00:00:00,000
+5. maximizeWindow()
+
+4
+00:00:00,000 --> 00:00:00,000
+5. click(findTestObject("Object Repository/Page_ParaBank  Welcome  Online Banking/lkRegister"))
+
+5
+00:00:00,000 --> 00:00:00,000
+9. setText(findTestObject("Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtFirstName"), firstName)
+
+6
+00:00:00,000 --> 00:00:00,000
+13. setText(findTestObject("Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtLastName"), lastName)
+
+7
+00:00:00,000 --> 00:00:00,000
+17. setText(findTestObject("Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtAddress"), address)
+
+8
+00:00:00,000 --> 00:00:00,000
+21. setText(findTestObject("Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtCity"), city)
+
+9
+00:00:00,000 --> 00:00:00,000
+25. setText(findTestObject("Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtState"), state)
+
+10
+00:00:00,000 --> 00:00:00,000
+29. setText(findTestObject("Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtZipCode"), zipCode)
+
+11
+00:00:00,000 --> 00:00:00,000
+33. setText(findTestObject("Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtPhoneNumber"), phone)
+
+12
+00:00:00,000 --> 00:00:00,000
+37. setText(findTestObject("Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtSSN"), ssn)
+
+13
+00:00:00,000 --> 00:00:00,000
+41. setText(findTestObject("Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtUsername"), username)
+
+14
+00:00:00,000 --> 00:00:00,000
+45. setText(findTestObject("Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtPassword"), password)
+
+15
+00:00:00,000 --> 00:00:00,000
+49. setText(findTestObject("Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtRepeatedPassword"), password)
+
+16
+00:00:00,000 --> 00:00:00,000
+53. click(findTestObject("Object Repository/Page_ParaBank_Register_for_Free_Online_Account/btnRegister"))
+
+17
+00:00:00,000 --> 00:00:00,000
+57. verifyElementText(findTestObject("Page_ParaBank_Register_for_Free_Online_Account/lblAccountAlreadyExists"), expectedAccountAlreadyExistsMessage)
+
+18
+00:00:00,000 --> 00:00:00,000
+61. closeBrowser()
+

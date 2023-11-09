@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>Test Env</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://parabank.parasoft.com/parabank/index.htm'</initValue>
+      <name>URL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'John'</initValue>
+      <name>firstName</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Doe'</initValue>
+      <name>lastName</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'123 Dublin Dr'</initValue>
+      <name>address</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Lake Mary'</initValue>
+      <name>city</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Florida'</initValue>
+      <name>state</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'32746'</initValue>
+      <name>zipCode</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'123-456-7890'</initValue>
+      <name>phone</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'123-45-6789'</initValue>
+      <name>ssn</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Jdoe'</initValue>
+      <name>username</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Password'</initValue>
+      <name>password</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Welcome '</initValue>
+      <name>expectedWelcomeMessage</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Your account was created successfully. You are now logged in.'</initValue>
+      <name>expectedSuccessfulAccountCreationMessage</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'If you have an account with us you can sign-up for free instant online access. You will have to provide some personal information.'</initValue>
+      <name>expectedAccountAlreadyExistsMessage</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Accounts Overview'</initValue>
+      <name>expectedAccountsOverviewText</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Your login information was located successfully. You are now logged in.'</initValue>
+      <name>expectedLoginInfoLookupSuccessMessage</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Username: Jdoe\r\nPassword: Password'</initValue>
+      <name>expectedUsernamePasswordInfo</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Customer Lookup'</initValue>
+      <name>expectedCustomerLookupText</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Error!'</initValue>
+      <name>expectedErrorMessage</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'The customer information provided could not be found.'</initValue>
+      <name>expectedCustomerLookupFailureText</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://parabank.parasoft.com/parabank/contact.htm'</initValue>
+      <name>CONTACT_URL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://parabank.parasoft.com/parabank/about.htm'</initValue>
+      <name>ABOUT_US_URL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://parabank.parasoft.com/parabank/admin.htm'</initValue>
+      <name>ADMIN_PAGE_URL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://www.parasoft.com/solutions/'</initValue>
+      <name>SOLUTIONS_URL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://www.parasoft.com/products/'</initValue>
+      <name>PRODUCTS_URL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://parabank.parasoft.com/parabank/services.htm'</initValue>
+      <name>SERVICES_URL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://parabank.parasoft.com/parabank/news.htm#6'</initValue>
+      <name>NEWS_URL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://parabank.parasoft.com/parabank/updateprofile.htm'</initValue>
+      <name>UPDATE_PROFILE_URL</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

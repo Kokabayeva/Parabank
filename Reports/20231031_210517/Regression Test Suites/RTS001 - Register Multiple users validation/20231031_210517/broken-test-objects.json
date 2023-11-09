@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_ParaBank_Welcome_Online_Banking/lkRegister",
+      "brokenLocator": "//div[@id\u003d\u0027loginPanel\u0027]/p[2]/a",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "p:nth-of-type(2) \u003e a",
+      "proposedLocatorMethod": "CSS",
+      "recoveryMethod": "CSS",
+      "pathToScreenshot": "Reports/20231031_210517/Regression Test Suites/RTS001 - Register Multiple users validation/20231031_210517/Object Repository/Page_ParaBank_Welcome_Online_Banking/lkRegister_CSS.png"
+    }
+  ]
+}

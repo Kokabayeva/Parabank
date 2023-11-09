@@ -1,0 +1,596 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="STS003 - Main page links verification" time="119.812" tests="12" failures="0" errors="0">
+   <testsuite name="STS003 - Main page links verification" tests="12" failures="0" errors="0" time="119.812" skipped="0" timestamp="2023-11-08 22:07:50" hostname="gkokabayeva - USORLGKOKABYE1.us.deloitte.com" id="Test Suites/Smoke Test Suites/STS003 - Main page links verification">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\GKOKABAYEVA\\Katalon Studio\\Parabank\\Reports\\20231108_220743\\Smoke Test Suites\\STS003 - Main page links verification\\20231108_220743"/>
+         <property name="logFiles" value="C:\\Users\\GKOKABAYEVA\\Katalon Studio\\Parabank\\Reports\\20231108_220743\\Smoke Test Suites\\STS003 - Main page links verification\\20231108_220743\\execution0.log"/>
+         <property name="attachments" value="keyes\keyes-ServicesPage.png, keyes\keyes-ProductsPage.png, keyes\keyes-LocationsPage.png, keyes\keyes-AdminPage.png, keyes\keyes-AboutUsPage.png, keyes\keyes-HomePage.png, keyes\keyes-AboutUsPage.png, keyes\keyes-CustomerCarePage.png, keyes\keyes-Article1Page.png, keyes\keyes-Article2Page.png, keyes\keyes-Article3Page.png"/>
+         <property name="hostName" value="gkokabayeva - USORLGKOKABYE1.us.deloitte.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.0.0.212"/>
+         <property name="browser" value="Chrome 118.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.165"/>
+         <property name="sessionId" value="5c22795850af130f1249bcce6b34f24a"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Main Test Cases/MTC007 - Verify main page title" time="9.512" classname="Test Cases/Main Test Cases/MTC007 - Verify main page title" status="PASSED">
+         <system-out><![CDATA[2023-11-08 22:07:50 - [TEST_CASE][PASSED] - Test Cases/Main Test Cases/MTC007 - Verify main page title: Test Cases/Main Test Cases/MTC007 - Verify main page title
+
+2023-11-08 22:07:51 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Reusable Test Cases/Open the webapp"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/Reusable Test Cases/Open the webapp' successfully
+
+2023-11-08 22:07:51 - [TEST_CASE][PASSED] - Test Cases/Reusable Test Cases/Open the webapp: Test Cases/Reusable Test Cases/Open the webapp
+
+2023-11-08 22:07:51 - [TEST_STEP][PASSED] - openBrowser(URL): Browser is opened with url: 'https://parabank.parasoft.com/parabank/index.htm'
+
+2023-11-08 22:07:52 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-11-08 22:07:52 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-11-08 22:07:56 - [MESSAGE][WARNING] - FFmpeg was not installed! Browser Recording will be disabled. Please follow this document to install FFmpeg first: https://docs.katalon.com/katalon-studio/docs/screenshots-videos.html#browser-based-recorder
+
+2023-11-08 22:07:59 - [MESSAGE][PASSED] - Browser is opened with url: 'https://parabank.parasoft.com/parabank/index.htm'
+
+2023-11-08 22:07:59 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-11-08 22:07:59 - [MESSAGE][PASSED] - Current window maximized
+
+2023-11-08 22:07:59 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Reusable Test Cases/Open the webapp' successfully
+
+2023-11-08 22:07:59 - [TEST_STEP][PASSED] - actualTitle = getWindowTitle(): Current window's title is: 'ParaBank | Welcome | Online Banking'
+
+2023-11-08 22:07:59 - [MESSAGE][PASSED] - Current window's title is: 'ParaBank | Welcome | Online Banking'
+
+2023-11-08 22:07:59 - [TEST_STEP][PASSED] - verifyEqual(actualTitle, expectedTitle): Actual object 'ParaBank | Welcome | Online Banking' and expected object 'ParaBank | Welcome | Online Banking' are equal
+
+2023-11-08 22:07:59 - [MESSAGE][PASSED] - Actual object 'ParaBank | Welcome | Online Banking' and expected object 'ParaBank | Welcome | Online Banking' are equal
+
+2023-11-08 22:07:59 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-11-08 22:08:00 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Main Test Cases/MTC008 - Verify Services link" time="10.901" classname="Test Cases/Main Test Cases/MTC008 - Verify Services link" status="PASSED">
+         <system-out><![CDATA[2023-11-08 22:08:00 - [TEST_CASE][PASSED] - Test Cases/Main Test Cases/MTC008 - Verify Services link: Test Cases/Main Test Cases/MTC008 - Verify Services link
+
+2023-11-08 22:08:00 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Reusable Test Cases/Open the webapp"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/Reusable Test Cases/Open the webapp' successfully
+
+2023-11-08 22:08:00 - [TEST_CASE][PASSED] - Test Cases/Reusable Test Cases/Open the webapp: Test Cases/Reusable Test Cases/Open the webapp
+
+2023-11-08 22:08:00 - [TEST_STEP][PASSED] - openBrowser(URL): Browser is opened with url: 'https://parabank.parasoft.com/parabank/index.htm'
+
+2023-11-08 22:08:00 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-11-08 22:08:00 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-11-08 22:08:03 - [MESSAGE][WARNING] - FFmpeg was not installed! Browser Recording will be disabled. Please follow this document to install FFmpeg first: https://docs.katalon.com/katalon-studio/docs/screenshots-videos.html#browser-based-recorder
+
+2023-11-08 22:08:06 - [MESSAGE][PASSED] - Browser is opened with url: 'https://parabank.parasoft.com/parabank/index.htm'
+
+2023-11-08 22:08:06 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-11-08 22:08:07 - [MESSAGE][PASSED] - Current window maximized
+
+2023-11-08 22:08:07 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Reusable Test Cases/Open the webapp' successfully
+
+2023-11-08 22:08:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_ParaBank  Welcome  Online Banking/lnkServices")): Object: 'Object Repository/Page_ParaBank  Welcome  Online Banking/lnkServices' is clicked on
+
+2023-11-08 22:08:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ParaBank  Welcome  Online Banking/lnkServices' is clicked on
+
+2023-11-08 22:08:08 - [TEST_STEP][PASSED] - navigateToUrl(SERVICES_URL): Navigate to 'https://parabank.parasoft.com/parabank/services.htm' successfully
+
+2023-11-08 22:08:09 - [MESSAGE][PASSED] - Navigate to 'https://parabank.parasoft.com/parabank/services.htm' successfully
+
+2023-11-08 22:08:09 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_ParaBank  Services/lblAvailableBookstoreSOAPServices"), expectedBookstoreMessage): Actual text and expected text of test object 'Object Repository/Page_ParaBank  Services/lblAvailableBookstoreSOAPServices' are matched.
+
+2023-11-08 22:08:09 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_ParaBank  Services/lblAvailableBookstoreSOAPServices' are matched.
+
+2023-11-08 22:08:09 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("ServicesPage"): Taking screenshot successfully
+
+2023-11-08 22:08:10 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2023-11-08 22:08:10 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-ServicesPage.png]]
+
+2023-11-08 22:08:10 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-11-08 22:08:10 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Main Test Cases/MTC009 - Verify Products link" time="13.181" classname="Test Cases/Main Test Cases/MTC009 - Verify Products link" status="PASSED">
+         <system-out><![CDATA[2023-11-08 22:08:10 - [TEST_CASE][PASSED] - Test Cases/Main Test Cases/MTC009 - Verify Products link: Test Cases/Main Test Cases/MTC009 - Verify Products link
+
+2023-11-08 22:08:11 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Reusable Test Cases/Open the webapp"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/Reusable Test Cases/Open the webapp' successfully
+
+2023-11-08 22:08:11 - [TEST_CASE][PASSED] - Test Cases/Reusable Test Cases/Open the webapp: Test Cases/Reusable Test Cases/Open the webapp
+
+2023-11-08 22:08:11 - [TEST_STEP][PASSED] - openBrowser(URL): Browser is opened with url: 'https://parabank.parasoft.com/parabank/index.htm'
+
+2023-11-08 22:08:11 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-11-08 22:08:11 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-11-08 22:08:14 - [MESSAGE][WARNING] - FFmpeg was not installed! Browser Recording will be disabled. Please follow this document to install FFmpeg first: https://docs.katalon.com/katalon-studio/docs/screenshots-videos.html#browser-based-recorder
+
+2023-11-08 22:08:17 - [MESSAGE][PASSED] - Browser is opened with url: 'https://parabank.parasoft.com/parabank/index.htm'
+
+2023-11-08 22:08:17 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-11-08 22:08:17 - [MESSAGE][PASSED] - Current window maximized
+
+2023-11-08 22:08:17 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Reusable Test Cases/Open the webapp' successfully
+
+2023-11-08 22:08:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_ParaBank  Welcome  Online Banking/lnkProducts")): Object: 'Object Repository/Page_ParaBank  Welcome  Online Banking/lnkProducts' is clicked on
+
+2023-11-08 22:08:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ParaBank  Welcome  Online Banking/lnkProducts' is clicked on
+
+2023-11-08 22:08:20 - [TEST_STEP][PASSED] - navigateToUrl(PRODUCTS_URL): Navigate to 'https://www.parasoft.com/products/' successfully
+
+2023-11-08 22:08:21 - [MESSAGE][PASSED] - Navigate to 'https://www.parasoft.com/products/' successfully
+
+2023-11-08 22:08:21 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Automated Software Testing Tool Suite _51757b/ParasoftLogo"), ""): Actual text and expected text of test object 'Object Repository/Page_Automated Software Testing Tool Suite _51757b/ParasoftLogo' are matched.
+
+2023-11-08 22:08:22 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Automated Software Testing Tool Suite _51757b/ParasoftLogo' are matched.
+
+2023-11-08 22:08:22 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Automated Software Testing Tool Suite _51757b/lnkProducts"), 0): Object 'Object Repository/Page_Automated Software Testing Tool Suite _51757b/lnkProducts' is present
+
+2023-11-08 22:08:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-08 22:08:22 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Automated Software Testing Tool Suite _51757b/lnkProducts' is present
+
+2023-11-08 22:08:22 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("ProductsPage"): Taking screenshot successfully
+
+2023-11-08 22:08:23 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2023-11-08 22:08:23 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-ProductsPage.png]]
+
+2023-11-08 22:08:23 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-11-08 22:08:24 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Main Test Cases/MTC010 - Verify Locations link" time="11.098" classname="Test Cases/Main Test Cases/MTC010 - Verify Locations link" status="PASSED">
+         <system-out><![CDATA[2023-11-08 22:08:24 - [TEST_CASE][PASSED] - Test Cases/Main Test Cases/MTC010 - Verify Locations link: Test Cases/Main Test Cases/MTC010 - Verify Locations link
+
+2023-11-08 22:08:24 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Reusable Test Cases/Open the webapp"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/Reusable Test Cases/Open the webapp' successfully
+
+2023-11-08 22:08:24 - [TEST_CASE][PASSED] - Test Cases/Reusable Test Cases/Open the webapp: Test Cases/Reusable Test Cases/Open the webapp
+
+2023-11-08 22:08:24 - [TEST_STEP][PASSED] - openBrowser(URL): Browser is opened with url: 'https://parabank.parasoft.com/parabank/index.htm'
+
+2023-11-08 22:08:24 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-11-08 22:08:24 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-11-08 22:08:27 - [MESSAGE][WARNING] - FFmpeg was not installed! Browser Recording will be disabled. Please follow this document to install FFmpeg first: https://docs.katalon.com/katalon-studio/docs/screenshots-videos.html#browser-based-recorder
+
+2023-11-08 22:08:30 - [MESSAGE][PASSED] - Browser is opened with url: 'https://parabank.parasoft.com/parabank/index.htm'
+
+2023-11-08 22:08:30 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-11-08 22:08:30 - [MESSAGE][PASSED] - Current window maximized
+
+2023-11-08 22:08:30 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Reusable Test Cases/Open the webapp' successfully
+
+2023-11-08 22:08:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_ParaBank  Welcome  Online Banking/lnkLocations")): Object: 'Object Repository/Page_ParaBank  Welcome  Online Banking/lnkLocations' is clicked on
+
+2023-11-08 22:08:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ParaBank  Welcome  Online Banking/lnkLocations' is clicked on
+
+2023-11-08 22:08:32 - [TEST_STEP][PASSED] - navigateToUrl(SOLUTIONS_URL): Navigate to 'https://www.parasoft.com/solutions/' successfully
+
+2023-11-08 22:08:32 - [MESSAGE][PASSED] - Navigate to 'https://www.parasoft.com/solutions/' successfully
+
+2023-11-08 22:08:32 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Automated Software Testing Solutions F_4f6c59/ParasoftLogo"), 0): Object 'Object Repository/Page_Automated Software Testing Solutions F_4f6c59/ParasoftLogo' is present
+
+2023-11-08 22:08:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-08 22:08:33 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Automated Software Testing Solutions F_4f6c59/ParasoftLogo' is present
+
+2023-11-08 22:08:33 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Automated Software Testing Solutions F_4f6c59/lnkSolutions"), solutionsLink): Actual text and expected text of test object 'Object Repository/Page_Automated Software Testing Solutions F_4f6c59/lnkSolutions' are matched.
+
+2023-11-08 22:08:33 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Automated Software Testing Solutions F_4f6c59/lnkSolutions' are matched.
+
+2023-11-08 22:08:33 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("LocationsPage"): Taking screenshot successfully
+
+2023-11-08 22:08:34 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2023-11-08 22:08:34 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-LocationsPage.png]]
+
+2023-11-08 22:08:34 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-11-08 22:08:35 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Main Test Cases/MTC011 - Verify Admin Page link" time="9.278" classname="Test Cases/Main Test Cases/MTC011 - Verify Admin Page link" status="PASSED">
+         <system-out><![CDATA[2023-11-08 22:08:35 - [TEST_CASE][PASSED] - Test Cases/Main Test Cases/MTC011 - Verify Admin Page link: Test Cases/Main Test Cases/MTC011 - Verify Admin Page link
+
+2023-11-08 22:08:35 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Reusable Test Cases/Open the webapp"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/Reusable Test Cases/Open the webapp' successfully
+
+2023-11-08 22:08:35 - [TEST_CASE][PASSED] - Test Cases/Reusable Test Cases/Open the webapp: Test Cases/Reusable Test Cases/Open the webapp
+
+2023-11-08 22:08:35 - [TEST_STEP][PASSED] - openBrowser(URL): Browser is opened with url: 'https://parabank.parasoft.com/parabank/index.htm'
+
+2023-11-08 22:08:35 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-11-08 22:08:35 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-11-08 22:08:38 - [MESSAGE][WARNING] - FFmpeg was not installed! Browser Recording will be disabled. Please follow this document to install FFmpeg first: https://docs.katalon.com/katalon-studio/docs/screenshots-videos.html#browser-based-recorder
+
+2023-11-08 22:08:41 - [MESSAGE][PASSED] - Browser is opened with url: 'https://parabank.parasoft.com/parabank/index.htm'
+
+2023-11-08 22:08:41 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-11-08 22:08:41 - [MESSAGE][PASSED] - Current window maximized
+
+2023-11-08 22:08:41 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Reusable Test Cases/Open the webapp' successfully
+
+2023-11-08 22:08:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_ParaBank  Welcome  Online Banking/lnkAdminPage")): Object: 'Object Repository/Page_ParaBank  Welcome  Online Banking/lnkAdminPage' is clicked on
+
+2023-11-08 22:08:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ParaBank  Welcome  Online Banking/lnkAdminPage' is clicked on
+
+2023-11-08 22:08:42 - [TEST_STEP][PASSED] - navigateToUrl(ADMIN_PAGE_URL): Navigate to 'https://parabank.parasoft.com/parabank/admin.htm' successfully
+
+2023-11-08 22:08:42 - [MESSAGE][PASSED] - Navigate to 'https://parabank.parasoft.com/parabank/admin.htm' successfully
+
+2023-11-08 22:08:42 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_ParaBank  Administration/h1Administration"), expectedAdministrationHeader): Actual text and expected text of test object 'Object Repository/Page_ParaBank  Administration/h1Administration' are matched.
+
+2023-11-08 22:08:43 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_ParaBank  Administration/h1Administration' are matched.
+
+2023-11-08 22:08:43 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("AdminPage"): Taking screenshot successfully
+
+2023-11-08 22:08:43 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2023-11-08 22:08:44 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-AdminPage.png]]
+
+2023-11-08 22:08:44 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-11-08 22:08:44 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Main Test Cases/MTC012 - Verify About Us link" time="9.029" classname="Test Cases/Main Test Cases/MTC012 - Verify About Us link" status="PASSED">
+         <system-out><![CDATA[2023-11-08 22:08:44 - [TEST_CASE][PASSED] - Test Cases/Main Test Cases/MTC012 - Verify About Us link: Test Cases/Main Test Cases/MTC012 - Verify About Us link
+
+2023-11-08 22:08:44 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Reusable Test Cases/Open the webapp"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/Reusable Test Cases/Open the webapp' successfully
+
+2023-11-08 22:08:44 - [TEST_CASE][PASSED] - Test Cases/Reusable Test Cases/Open the webapp: Test Cases/Reusable Test Cases/Open the webapp
+
+2023-11-08 22:08:44 - [TEST_STEP][PASSED] - openBrowser(URL): Browser is opened with url: 'https://parabank.parasoft.com/parabank/index.htm'
+
+2023-11-08 22:08:44 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-11-08 22:08:44 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-11-08 22:08:48 - [MESSAGE][WARNING] - FFmpeg was not installed! Browser Recording will be disabled. Please follow this document to install FFmpeg first: https://docs.katalon.com/katalon-studio/docs/screenshots-videos.html#browser-based-recorder
+
+2023-11-08 22:08:50 - [MESSAGE][PASSED] - Browser is opened with url: 'https://parabank.parasoft.com/parabank/index.htm'
+
+2023-11-08 22:08:50 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-11-08 22:08:50 - [MESSAGE][PASSED] - Current window maximized
+
+2023-11-08 22:08:50 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Reusable Test Cases/Open the webapp' successfully
+
+2023-11-08 22:08:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_ParaBank  Welcome  Online Banking/lnkAboutUs")): Object: 'Object Repository/Page_ParaBank  Welcome  Online Banking/lnkAboutUs' is clicked on
+
+2023-11-08 22:08:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ParaBank  Welcome  Online Banking/lnkAboutUs' is clicked on
+
+2023-11-08 22:08:51 - [TEST_STEP][PASSED] - navigateToUrl(ABOUT_US_URL): Navigate to 'https://parabank.parasoft.com/parabank/about.htm' successfully
+
+2023-11-08 22:08:52 - [MESSAGE][PASSED] - Navigate to 'https://parabank.parasoft.com/parabank/about.htm' successfully
+
+2023-11-08 22:08:52 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_ParaBank  About Us/h1ParaSoftDemoWebsite"), expectedParaSoftDemoWebsiteHeader): Actual text and expected text of test object 'Object Repository/Page_ParaBank  About Us/h1ParaSoftDemoWebsite' are matched.
+
+2023-11-08 22:08:52 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_ParaBank  About Us/h1ParaSoftDemoWebsite' are matched.
+
+2023-11-08 22:08:52 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("AboutUsPage"): Taking screenshot successfully
+
+2023-11-08 22:08:53 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2023-11-08 22:08:53 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-AboutUsPage.png]]
+
+2023-11-08 22:08:53 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-11-08 22:08:53 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Main Test Cases/MTC013 - Verify Home icon" time="9.237" classname="Test Cases/Main Test Cases/MTC013 - Verify Home icon" status="PASSED">
+         <system-out><![CDATA[2023-11-08 22:08:53 - [TEST_CASE][PASSED] - Test Cases/Main Test Cases/MTC013 - Verify Home icon: Test Cases/Main Test Cases/MTC013 - Verify Home icon
+
+2023-11-08 22:08:53 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Reusable Test Cases/Open the webapp"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/Reusable Test Cases/Open the webapp' successfully
+
+2023-11-08 22:08:53 - [TEST_CASE][PASSED] - Test Cases/Reusable Test Cases/Open the webapp: Test Cases/Reusable Test Cases/Open the webapp
+
+2023-11-08 22:08:53 - [TEST_STEP][PASSED] - openBrowser(URL): Browser is opened with url: 'https://parabank.parasoft.com/parabank/index.htm'
+
+2023-11-08 22:08:53 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-11-08 22:08:53 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-11-08 22:08:56 - [MESSAGE][WARNING] - FFmpeg was not installed! Browser Recording will be disabled. Please follow this document to install FFmpeg first: https://docs.katalon.com/katalon-studio/docs/screenshots-videos.html#browser-based-recorder
+
+2023-11-08 22:08:59 - [MESSAGE][PASSED] - Browser is opened with url: 'https://parabank.parasoft.com/parabank/index.htm'
+
+2023-11-08 22:08:59 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-11-08 22:08:59 - [MESSAGE][PASSED] - Current window maximized
+
+2023-11-08 22:08:59 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Reusable Test Cases/Open the webapp' successfully
+
+2023-11-08 22:08:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_ParaBank  Welcome  Online Banking/iconHome")): Object: 'Object Repository/Page_ParaBank  Welcome  Online Banking/iconHome' is clicked on
+
+2023-11-08 22:09:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ParaBank  Welcome  Online Banking/iconHome' is clicked on
+
+2023-11-08 22:09:00 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://parabank.parasoft.com/parabank/index.htm' successfully
+
+2023-11-08 22:09:01 - [MESSAGE][PASSED] - Navigate to 'https://parabank.parasoft.com/parabank/index.htm' successfully
+
+2023-11-08 22:09:01 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_ParaBank  Welcome  Online Banking/divArticles"), 0): Object 'Object Repository/Page_ParaBank  Welcome  Online Banking/divArticles' is present
+
+2023-11-08 22:09:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-08 22:09:01 - [MESSAGE][PASSED] - Object 'Object Repository/Page_ParaBank  Welcome  Online Banking/divArticles' is present
+
+2023-11-08 22:09:01 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("HomePage"): Taking screenshot successfully
+
+2023-11-08 22:09:02 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2023-11-08 22:09:02 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-HomePage.png]]
+
+2023-11-08 22:09:02 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-11-08 22:09:02 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Main Test Cases/MTC014 - Verify About icon" time="9.128" classname="Test Cases/Main Test Cases/MTC014 - Verify About icon" status="PASSED">
+         <system-out><![CDATA[2023-11-08 22:09:02 - [TEST_CASE][PASSED] - Test Cases/Main Test Cases/MTC014 - Verify About icon: Test Cases/Main Test Cases/MTC014 - Verify About icon
+
+2023-11-08 22:09:03 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Reusable Test Cases/Open the webapp"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/Reusable Test Cases/Open the webapp' successfully
+
+2023-11-08 22:09:03 - [TEST_CASE][PASSED] - Test Cases/Reusable Test Cases/Open the webapp: Test Cases/Reusable Test Cases/Open the webapp
+
+2023-11-08 22:09:03 - [TEST_STEP][PASSED] - openBrowser(URL): Browser is opened with url: 'https://parabank.parasoft.com/parabank/index.htm'
+
+2023-11-08 22:09:03 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-11-08 22:09:03 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-11-08 22:09:06 - [MESSAGE][WARNING] - FFmpeg was not installed! Browser Recording will be disabled. Please follow this document to install FFmpeg first: https://docs.katalon.com/katalon-studio/docs/screenshots-videos.html#browser-based-recorder
+
+2023-11-08 22:09:08 - [MESSAGE][PASSED] - Browser is opened with url: 'https://parabank.parasoft.com/parabank/index.htm'
+
+2023-11-08 22:09:08 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-11-08 22:09:08 - [MESSAGE][PASSED] - Current window maximized
+
+2023-11-08 22:09:08 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Reusable Test Cases/Open the webapp' successfully
+
+2023-11-08 22:09:08 - [TEST_STEP][PASSED] - click(findTestObject("Page_ParaBank  Welcome  Online Banking/iconAbout")): Object: 'Object Repository/Page_ParaBank  Welcome  Online Banking/iconAbout' is clicked on
+
+2023-11-08 22:09:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ParaBank  Welcome  Online Banking/iconAbout' is clicked on
+
+2023-11-08 22:09:09 - [TEST_STEP][PASSED] - navigateToUrl(ABOUT_US_URL): Navigate to 'https://parabank.parasoft.com/parabank/about.htm' successfully
+
+2023-11-08 22:09:10 - [MESSAGE][PASSED] - Navigate to 'https://parabank.parasoft.com/parabank/about.htm' successfully
+
+2023-11-08 22:09:10 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_ParaBank  About Us/h1ParaSoftDemoWebsite"), expectedParaSoftDemoWebsiteHeader): Actual text and expected text of test object 'Object Repository/Page_ParaBank  About Us/h1ParaSoftDemoWebsite' are matched.
+
+2023-11-08 22:09:10 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_ParaBank  About Us/h1ParaSoftDemoWebsite' are matched.
+
+2023-11-08 22:09:10 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("AboutUsPage"): Taking screenshot successfully
+
+2023-11-08 22:09:11 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2023-11-08 22:09:11 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-AboutUsPage.png]]
+
+2023-11-08 22:09:11 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-11-08 22:09:11 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Main Test Cases/MTC015 - Verify Contact icon" time="8.895" classname="Test Cases/Main Test Cases/MTC015 - Verify Contact icon" status="PASSED">
+         <system-out><![CDATA[2023-11-08 22:09:11 - [TEST_CASE][PASSED] - Test Cases/Main Test Cases/MTC015 - Verify Contact icon: Test Cases/Main Test Cases/MTC015 - Verify Contact icon
+
+2023-11-08 22:09:12 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Reusable Test Cases/Open the webapp"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/Reusable Test Cases/Open the webapp' successfully
+
+2023-11-08 22:09:12 - [TEST_CASE][PASSED] - Test Cases/Reusable Test Cases/Open the webapp: Test Cases/Reusable Test Cases/Open the webapp
+
+2023-11-08 22:09:12 - [TEST_STEP][PASSED] - openBrowser(URL): Browser is opened with url: 'https://parabank.parasoft.com/parabank/index.htm'
+
+2023-11-08 22:09:12 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-11-08 22:09:12 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-11-08 22:09:15 - [MESSAGE][WARNING] - FFmpeg was not installed! Browser Recording will be disabled. Please follow this document to install FFmpeg first: https://docs.katalon.com/katalon-studio/docs/screenshots-videos.html#browser-based-recorder
+
+2023-11-08 22:09:17 - [MESSAGE][PASSED] - Browser is opened with url: 'https://parabank.parasoft.com/parabank/index.htm'
+
+2023-11-08 22:09:17 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-11-08 22:09:17 - [MESSAGE][PASSED] - Current window maximized
+
+2023-11-08 22:09:17 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Reusable Test Cases/Open the webapp' successfully
+
+2023-11-08 22:09:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_ParaBank  Welcome  Online Banking/iconContact")): Object: 'Object Repository/Page_ParaBank  Welcome  Online Banking/iconContact' is clicked on
+
+2023-11-08 22:09:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ParaBank  Welcome  Online Banking/iconContact' is clicked on
+
+2023-11-08 22:09:18 - [TEST_STEP][PASSED] - navigateToUrl(CONTACT_URL): Navigate to 'https://parabank.parasoft.com/parabank/contact.htm' successfully
+
+2023-11-08 22:09:18 - [MESSAGE][PASSED] - Navigate to 'https://parabank.parasoft.com/parabank/contact.htm' successfully
+
+2023-11-08 22:09:18 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_ParaBank  Customer Care/h1CustomerCare"), expectedH1CustomerCareText): Actual text and expected text of test object 'Object Repository/Page_ParaBank  Customer Care/h1CustomerCare' are matched.
+
+2023-11-08 22:09:19 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_ParaBank  Customer Care/h1CustomerCare' are matched.
+
+2023-11-08 22:09:19 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_ParaBank  Customer Care/tableCustomerCare                                 _d1ea03"), 0): Object 'Object Repository/Page_ParaBank  Customer Care/tableCustomerCare                                 _d1ea03' is present
+
+2023-11-08 22:09:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-08 22:09:19 - [MESSAGE][PASSED] - Object 'Object Repository/Page_ParaBank  Customer Care/tableCustomerCare                                 _d1ea03' is present
+
+2023-11-08 22:09:19 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("CustomerCarePage"): Taking screenshot successfully
+
+2023-11-08 22:09:20 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2023-11-08 22:09:20 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-CustomerCarePage.png]]
+
+2023-11-08 22:09:20 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-11-08 22:09:20 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Main Test Cases/MTC024 - Check latest news article 1" time="9.614" classname="Test Cases/Main Test Cases/MTC024 - Check latest news article 1" status="PASSED">
+         <system-out><![CDATA[2023-11-08 22:09:20 - [TEST_CASE][PASSED] - Test Cases/Main Test Cases/MTC024 - Check latest news article 1: Test Cases/Main Test Cases/MTC024 - Check latest news article 1
+
+2023-11-08 22:09:21 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Reusable Test Cases/Open the webapp"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/Reusable Test Cases/Open the webapp' successfully
+
+2023-11-08 22:09:21 - [TEST_CASE][PASSED] - Test Cases/Reusable Test Cases/Open the webapp: Test Cases/Reusable Test Cases/Open the webapp
+
+2023-11-08 22:09:21 - [TEST_STEP][PASSED] - openBrowser(URL): Browser is opened with url: 'https://parabank.parasoft.com/parabank/index.htm'
+
+2023-11-08 22:09:21 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-11-08 22:09:21 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-11-08 22:09:25 - [MESSAGE][WARNING] - FFmpeg was not installed! Browser Recording will be disabled. Please follow this document to install FFmpeg first: https://docs.katalon.com/katalon-studio/docs/screenshots-videos.html#browser-based-recorder
+
+2023-11-08 22:09:27 - [MESSAGE][PASSED] - Browser is opened with url: 'https://parabank.parasoft.com/parabank/index.htm'
+
+2023-11-08 22:09:27 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-11-08 22:09:28 - [MESSAGE][PASSED] - Current window maximized
+
+2023-11-08 22:09:28 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Reusable Test Cases/Open the webapp' successfully
+
+2023-11-08 22:09:28 - [TEST_STEP][PASSED] - click(findTestObject("Page_ParaBank  Welcome  Online Banking/article3NewOnlineAccountTransfers")): Object: 'Object Repository/Page_ParaBank  Welcome  Online Banking/article3NewOnlineAccountTransfers' is clicked on
+
+2023-11-08 22:09:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ParaBank  Welcome  Online Banking/article3NewOnlineAccountTransfers' is clicked on
+
+2023-11-08 22:09:28 - [TEST_STEP][PASSED] - navigateToUrl(NEWS_URL): Navigate to 'https://parabank.parasoft.com/parabank/news.htm#6' successfully
+
+2023-11-08 22:09:29 - [MESSAGE][PASSED] - Navigate to 'https://parabank.parasoft.com/parabank/news.htm#6' successfully
+
+2023-11-08 22:09:29 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_ParaBank  News/h1ParaBankNews"), expectedH1ParaBankNews): Actual text and expected text of test object 'Object Repository/Page_ParaBank  News/h1ParaBankNews' are matched.
+
+2023-11-08 22:09:29 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_ParaBank  News/h1ParaBankNews' are matched.
+
+2023-11-08 22:09:29 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("Article1Page"): Taking screenshot successfully
+
+2023-11-08 22:09:30 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2023-11-08 22:09:30 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-Article1Page.png]]
+
+2023-11-08 22:09:30 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-11-08 22:09:30 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Main Test Cases/MTC025 - Check latest news article 2" time="9.867" classname="Test Cases/Main Test Cases/MTC025 - Check latest news article 2" status="PASSED">
+         <system-out><![CDATA[2023-11-08 22:09:30 - [TEST_CASE][PASSED] - Test Cases/Main Test Cases/MTC025 - Check latest news article 2: Test Cases/Main Test Cases/MTC025 - Check latest news article 2
+
+2023-11-08 22:09:30 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Reusable Test Cases/Open the webapp"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/Reusable Test Cases/Open the webapp' successfully
+
+2023-11-08 22:09:30 - [TEST_CASE][PASSED] - Test Cases/Reusable Test Cases/Open the webapp: Test Cases/Reusable Test Cases/Open the webapp
+
+2023-11-08 22:09:30 - [TEST_STEP][PASSED] - openBrowser(URL): Browser is opened with url: 'https://parabank.parasoft.com/parabank/index.htm'
+
+2023-11-08 22:09:30 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-11-08 22:09:30 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-11-08 22:09:33 - [MESSAGE][WARNING] - FFmpeg was not installed! Browser Recording will be disabled. Please follow this document to install FFmpeg first: https://docs.katalon.com/katalon-studio/docs/screenshots-videos.html#browser-based-recorder
+
+2023-11-08 22:09:36 - [MESSAGE][PASSED] - Browser is opened with url: 'https://parabank.parasoft.com/parabank/index.htm'
+
+2023-11-08 22:09:36 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-11-08 22:09:36 - [MESSAGE][PASSED] - Current window maximized
+
+2023-11-08 22:09:36 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Reusable Test Cases/Open the webapp' successfully
+
+2023-11-08 22:09:36 - [TEST_STEP][PASSED] - click(findTestObject("Page_ParaBank  Welcome  Online Banking/article2NewOnlineBillPay")): Object: 'Object Repository/Page_ParaBank  Welcome  Online Banking/article2NewOnlineBillPay' is clicked on
+
+2023-11-08 22:09:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ParaBank  Welcome  Online Banking/article2NewOnlineBillPay' is clicked on
+
+2023-11-08 22:09:38 - [TEST_STEP][PASSED] - navigateToUrl(NEWS_URL): Navigate to 'https://parabank.parasoft.com/parabank/news.htm#6' successfully
+
+2023-11-08 22:09:38 - [MESSAGE][PASSED] - Navigate to 'https://parabank.parasoft.com/parabank/news.htm#6' successfully
+
+2023-11-08 22:09:38 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_ParaBank  News/h1ParaBankNews"), expectedH1ParaBankNews): Actual text and expected text of test object 'Object Repository/Page_ParaBank  News/h1ParaBankNews' are matched.
+
+2023-11-08 22:09:39 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_ParaBank  News/h1ParaBankNews' are matched.
+
+2023-11-08 22:09:39 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("Article2Page"): Taking screenshot successfully
+
+2023-11-08 22:09:39 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2023-11-08 22:09:39 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-Article2Page.png]]
+
+2023-11-08 22:09:39 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-11-08 22:09:40 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Main Test Cases/MTC026 - Check latest news article 3" time="9.753" classname="Test Cases/Main Test Cases/MTC026 - Check latest news article 3" status="PASSED">
+         <system-out><![CDATA[2023-11-08 22:09:40 - [TEST_CASE][PASSED] - Test Cases/Main Test Cases/MTC026 - Check latest news article 3: Test Cases/Main Test Cases/MTC026 - Check latest news article 3
+
+2023-11-08 22:09:40 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Reusable Test Cases/Open the webapp"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/Reusable Test Cases/Open the webapp' successfully
+
+2023-11-08 22:09:40 - [TEST_CASE][PASSED] - Test Cases/Reusable Test Cases/Open the webapp: Test Cases/Reusable Test Cases/Open the webapp
+
+2023-11-08 22:09:40 - [TEST_STEP][PASSED] - openBrowser(URL): Browser is opened with url: 'https://parabank.parasoft.com/parabank/index.htm'
+
+2023-11-08 22:09:40 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-11-08 22:09:40 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-11-08 22:09:43 - [MESSAGE][WARNING] - FFmpeg was not installed! Browser Recording will be disabled. Please follow this document to install FFmpeg first: https://docs.katalon.com/katalon-studio/docs/screenshots-videos.html#browser-based-recorder
+
+2023-11-08 22:09:46 - [MESSAGE][PASSED] - Browser is opened with url: 'https://parabank.parasoft.com/parabank/index.htm'
+
+2023-11-08 22:09:46 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-11-08 22:09:46 - [MESSAGE][PASSED] - Current window maximized
+
+2023-11-08 22:09:46 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Reusable Test Cases/Open the webapp' successfully
+
+2023-11-08 22:09:46 - [TEST_STEP][PASSED] - click(findTestObject("Page_ParaBank  Welcome  Online Banking/article3NewOnlineAccountTransfers")): Object: 'Object Repository/Page_ParaBank  Welcome  Online Banking/article3NewOnlineAccountTransfers' is clicked on
+
+2023-11-08 22:09:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ParaBank  Welcome  Online Banking/article3NewOnlineAccountTransfers' is clicked on
+
+2023-11-08 22:09:48 - [TEST_STEP][PASSED] - navigateToUrl(NEWS_URL): Navigate to 'https://parabank.parasoft.com/parabank/news.htm#6' successfully
+
+2023-11-08 22:09:48 - [MESSAGE][PASSED] - Navigate to 'https://parabank.parasoft.com/parabank/news.htm#6' successfully
+
+2023-11-08 22:09:48 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_ParaBank  News/h1ParaBankNews"), expectedH1ParaBankNews): Actual text and expected text of test object 'Object Repository/Page_ParaBank  News/h1ParaBankNews' are matched.
+
+2023-11-08 22:09:48 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_ParaBank  News/h1ParaBankNews' are matched.
+
+2023-11-08 22:09:48 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("Article3Page"): Taking screenshot successfully
+
+2023-11-08 22:09:49 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2023-11-08 22:09:49 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-Article3Page.png]]
+
+2023-11-08 22:09:49 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-11-08 22:09:50 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-11-08 22:07:50 - [TEST_SUITE][PASSED] - STS003 - Main page links verification: Test Cases/Main Test Cases/MTC026 - Check latest news article 3]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>MTC011 - Verify Admin Page link</name>
+   <tag>smoke</tag>
+   <comment></comment>
+   <testCaseGuid>c596d032-fed1-40de-9769-4ba4bd411a79</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>79005dd7-ca78-4667-aee1-dcb8e91e24af</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Administration'</defaultValue>
+      <description></description>
+      <id>79005dd7-ca78-4667-aee1-dcb8e91e24af</id>
+      <masked>false</masked>
+      <name>expectedAdministrationHeader</name>
+   </variable>
+</TestCaseEntity>

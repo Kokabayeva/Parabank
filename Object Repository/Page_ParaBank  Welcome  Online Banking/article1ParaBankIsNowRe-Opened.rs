@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>article1ParaBankIsNowRe-Opened</name>
+   <tag></tag>
+   <elementGuidId>65b2a20b-6468-4228-871d-6fe517a4a453</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>ul.events > li:nth-of-type(2) > a</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='rightPanel']/ul[3]/li[2]/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>a3b2fb05-242d-42e3-bcd2-8b3f2be5ebef</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>news.htm#6</value>
+      <webElementGuid>85c6f292-9d13-4b6f-a056-b692baee49a4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>ParaBank Is Now Re-Opened</value>
+      <webElementGuid>5ce8b9e6-eb23-48e3-9dea-eca105068582</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;rightPanel&quot;)/ul[@class=&quot;events&quot;]/li[2]/a[1]</value>
+      <webElementGuid>7df52735-cc38-4ce2-b7dc-3e77bd09b4fe</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='rightPanel']/ul[3]/li[2]/a</value>
+      <webElementGuid>59aff11d-dc22-449a-a4a3-07218c1e4bdd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'ParaBank Is Now Re-Opened')]</value>
+      <webElementGuid>33fa04c9-16d3-45ef-9f20-79e6a0fcb008</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'news.htm#6')]</value>
+      <webElementGuid>4dc8cf0a-d99c-4690-8df8-e871a6536c53</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//ul[3]/li[2]/a</value>
+      <webElementGuid>b6db222f-6871-430c-8d42-d778a029bddb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'news.htm#6' and (text() = 'ParaBank Is Now Re-Opened' or . = 'ParaBank Is Now Re-Opened')]</value>
+      <webElementGuid>d606f409-eeb4-4f52-aa8c-1907471a00d7</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

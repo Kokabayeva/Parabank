@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>lkForgotLoginInfo</name>
+   <tag></tag>
+   <elementGuidId>6d73d44a-7c2c-455a-bcb4-0878ce5a66ba</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>p > a</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='loginPanel']/p/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>358b7286-e2bb-4104-a3c5-e3db2142346a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>lookup.htm;jsessionid=09767EEC04EBA189FA0C95BEB2640DC9</value>
+      <webElementGuid>475ecfa9-3431-4b60-9706-77f0bc359e3d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Forgot login info?</value>
+      <webElementGuid>2e0d56ca-9080-4420-af09-e8bd64876a93</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;loginPanel&quot;)/p[1]/a[1]</value>
+      <webElementGuid>2d0a9636-714a-493f-a621-85f5fad1484c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='loginPanel']/p/a</value>
+      <webElementGuid>bb350160-f5ab-48ce-ac90-ef1d1ab1b29c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Forgot login info?')]</value>
+      <webElementGuid>2caef41d-1a2d-4c42-b71d-c7355cc29f3a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'lookup.htm;jsessionid=09767EEC04EBA189FA0C95BEB2640DC9')]</value>
+      <webElementGuid>0603ac2b-49e1-4db4-82e4-21fc49acf903</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//p/a</value>
+      <webElementGuid>6f511ffb-13e0-4935-92ef-e960b89cd566</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'lookup.htm;jsessionid=09767EEC04EBA189FA0C95BEB2640DC9' and (text() = 'Forgot login info?' or . = 'Forgot login info?')]</value>
+      <webElementGuid>7952a165-6d27-464c-9bd6-62c4a2e62b9a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

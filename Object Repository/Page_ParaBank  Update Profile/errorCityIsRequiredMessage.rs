@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>errorCityIsRequiredMessage</name>
+   <tag></tag>
+   <elementGuidId>cc2f979f-d1e1-4042-840f-d55682bb5741</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.error.ng-scope</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='rightPanel']/div/div/form/table/tbody/tr[4]/td[3]/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>0e373297-b974-47fb-bd5c-e2dbe74f8e20</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-if</name>
+      <type>Main</type>
+      <value>customer &amp;&amp; !customer.address.city</value>
+      <webElementGuid>ed8104ad-b100-4a27-9f1c-85d852644907</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>error ng-scope</value>
+      <webElementGuid>772678d9-57cb-492e-a08d-ed5f29fc7c2c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>City is required.</value>
+      <webElementGuid>beb9b24b-5c14-4382-81a1-da47def05d3d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;rightPanel&quot;)/div[@class=&quot;ng-scope&quot;]/div[@class=&quot;ng-scope&quot;]/form[@class=&quot;ng-valid ng-dirty ng-valid-parse ng-submitted&quot;]/table[@class=&quot;form2&quot;]/tbody[1]/tr[4]/td[3]/span[@class=&quot;error ng-scope&quot;]</value>
+      <webElementGuid>4cd93bda-39e4-4b3a-8ad4-09209b15972b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='rightPanel']/div/div/form/table/tbody/tr[4]/td[3]/span</value>
+      <webElementGuid>0f9480f6-b4a1-400d-b02f-2788dfb30aa2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span</value>
+      <webElementGuid>1d5713fa-7c9e-4938-8829-d56eec297184</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'City is required.' or . = 'City is required.')]</value>
+      <webElementGuid>82313dcf-cf37-44c5-adec-8919112f37e7</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

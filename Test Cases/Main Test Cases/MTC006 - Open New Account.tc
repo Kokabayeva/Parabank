@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>MTC006 - Open New Account</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3b2210f3-706f-4fb1-bf38-ab8470297be6</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>14e53078-c66f-4446-badb-abc3b3a0111a</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ce31e6ca-e287-4694-92fe-207c09a96275</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>90895fd7-d23e-426c-a4a7-7ea92d44912b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>24198e9a-26e8-440b-9d84-d733125249a9</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7ca5733a-9d78-4f91-a857-ff7007850eab</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Open New Account'</defaultValue>
+      <description></description>
+      <id>14e53078-c66f-4446-badb-abc3b3a0111a</id>
+      <masked>false</masked>
+      <name>expectedOpenAccountHeaderText</name>
+   </variable>
+   <variable>
+      <defaultValue>'What type of Account would you like to open?'</defaultValue>
+      <description></description>
+      <id>ce31e6ca-e287-4694-92fe-207c09a96275</id>
+      <masked>false</masked>
+      <name>expectedAccountTypeQuestion</name>
+   </variable>
+   <variable>
+      <defaultValue>'A minimum of $100.00 must be deposited into this account at time of opening. Please choose an existing account to transfer funds into the new account.'</defaultValue>
+      <description></description>
+      <id>90895fd7-d23e-426c-a4a7-7ea92d44912b</id>
+      <masked>false</masked>
+      <name>expectedMinimumAmountText</name>
+   </variable>
+   <variable>
+      <defaultValue>'Account Opened!'</defaultValue>
+      <description></description>
+      <id>24198e9a-26e8-440b-9d84-d733125249a9</id>
+      <masked>false</masked>
+      <name>expectedH1AccountOpened</name>
+   </variable>
+   <variable>
+      <defaultValue>'Congratulations, your account is now open.'</defaultValue>
+      <description></description>
+      <id>7ca5733a-9d78-4f91-a857-ff7007850eab</id>
+      <masked>false</masked>
+      <name>expectedCongratesAccountOpenMessage</name>
+   </variable>
+</TestCaseEntity>

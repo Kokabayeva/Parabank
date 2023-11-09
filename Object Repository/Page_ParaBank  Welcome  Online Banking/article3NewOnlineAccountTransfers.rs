@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>article3NewOnlineAccountTransfers</name>
+   <tag></tag>
+   <elementGuidId>fa2c2ee1-b91f-4c2c-9e22-9080611fa987</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>ul.events > li:nth-of-type(4) > a</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='rightPanel']/ul[3]/li[4]/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>d3eac757-84fd-4142-a069-fbc4146b898e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>news.htm;jsessionid=AB529BC80FD1BA475E9C4714F2D3E2BE#4</value>
+      <webElementGuid>ce0c63df-9f98-4b62-86d4-5946f0221d2a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>New! Online Account Transfers</value>
+      <webElementGuid>fea0b893-2fde-4318-ad0f-e308467ac3ac</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;rightPanel&quot;)/ul[@class=&quot;events&quot;]/li[4]/a[1]</value>
+      <webElementGuid>104b4a69-df08-4909-bfb5-9d275c1eba20</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='rightPanel']/ul[3]/li[4]/a</value>
+      <webElementGuid>3be7891d-906c-4e33-9426-c2677d1bca3f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'New! Online Account Transfers')]</value>
+      <webElementGuid>07997a26-952e-41a5-b6f1-e7402bd1bc2f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'news.htm;jsessionid=AB529BC80FD1BA475E9C4714F2D3E2BE#4')]</value>
+      <webElementGuid>45611b6e-d8d1-499b-b342-a7da1f460bb7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//ul[3]/li[4]/a</value>
+      <webElementGuid>b2e57811-8ed6-47b8-82b6-479e759dd7a8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'news.htm;jsessionid=AB529BC80FD1BA475E9C4714F2D3E2BE#4' and (text() = 'New! Online Account Transfers' or . = 'New! Online Account Transfers')]</value>
+      <webElementGuid>39866776-f11f-4795-8cbe-f8a3263bc3a6</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

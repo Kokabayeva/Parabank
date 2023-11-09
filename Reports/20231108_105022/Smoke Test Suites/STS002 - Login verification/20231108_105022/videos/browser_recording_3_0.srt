@@ -1,0 +1,60 @@
+1
+00:00:00,000 --> 00:00:00,000
+1. callTestCase(findTestCase("Reusable Test Cases/Open the webapp"), [:], CONTINUE_ON_FAILURE)
+
+2
+00:00:00,000 --> 00:00:00,000
+1. openBrowser(URL)
+
+3
+00:00:00,000 --> 00:00:00,000
+5. maximizeWindow()
+
+4
+00:00:00,000 --> 00:00:00,000
+5. click(findTestObject("Object Repository/Page_ParaBank  Welcome  Online Banking/lkForgotLoginInfo"))
+
+5
+00:00:00,000 --> 00:00:00,000
+9. setText(findTestObject("Object Repository/Page_ParaBank_Customer_Lookup/txtFirstName"), firstName)
+
+6
+00:00:00,000 --> 00:00:00,000
+13. setText(findTestObject("Object Repository/Page_ParaBank_Customer_Lookup/txtLastName"), lastName)
+
+7
+00:00:00,000 --> 00:00:00,000
+17. setText(findTestObject("Object Repository/Page_ParaBank_Customer_Lookup/txtAddress.street"), address)
+
+8
+00:00:00,000 --> 00:00:00,000
+21. setText(findTestObject("Object Repository/Page_ParaBank_Customer_Lookup/txtAddress.city"), city)
+
+9
+00:00:00,000 --> 00:00:00,000
+25. setText(findTestObject("Object Repository/Page_ParaBank_Customer_Lookup/txtAddress.state"), state)
+
+10
+00:00:00,000 --> 00:00:00,000
+29. setText(findTestObject("Object Repository/Page_ParaBank_Customer_Lookup/txtAddress.zipCode"), zipCode)
+
+11
+00:00:00,000 --> 00:00:00,000
+33. setText(findTestObject("Object Repository/Page_ParaBank_Customer_Lookup/txtSSN"), ssn)
+
+12
+00:00:00,000 --> 00:00:00,000
+37. click(findTestObject("Object Repository/Page_ParaBank_Customer_Lookup/btnFindMyLoginInfo"))
+
+13
+00:00:00,000 --> 00:00:00,000
+41. verifyElementText(findTestObject("Object Repository/Page_ParaBank_Customer_Lookup/h1Error"), expectedErrorMessage)
+
+14
+00:00:00,000 --> 00:00:00,000
+45. verifyElementText(findTestObject("Object Repository/Page_ParaBank_Customer_Lookup/lblLoginInfoLookUpFailure"), expectedCustomerLookupFailureText)
+
+15
+00:00:00,000 --> 00:00:00,000
+49. closeBrowser()
+

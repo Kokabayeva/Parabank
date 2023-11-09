@@ -1,0 +1,88 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+STS003 - Main page links verification,Chrome 118.0.0.0,,,2023-11-06 10:52:16,2023-11-06 10:54:27,2m - 10.225s,FAILED
+,,,,,,,
+Test Cases/Main Test Cases/MTC007 - Verify main page title,Chrome 118.0.0.0,,smoke,2023-11-06 10:52:17,2023-11-06 10:52:27,10.142s,FAILED
+"callTestCase(findTestCase(""Reusable Test Cases/Open the webapp""), [:], CONTINUE_ON_FAILURE)",Chrome 118.0.0.0,,,2023-11-06 10:52:17,2023-11-06 10:52:26,9.349s,PASSED
+actualTitle = getWindowTitle(),Chrome 118.0.0.0,,,2023-11-06 10:52:26,2023-11-06 10:52:26,0.041s,PASSED
+"verifyEqual(actualTitle, expectedTitle)",Chrome 118.0.0.0,,,2023-11-06 10:52:26,2023-11-06 10:52:26,0.038s,FAILED
+closeBrowser(),Chrome 118.0.0.0,,,2023-11-06 10:52:26,2023-11-06 10:52:27,0.316s,PASSED
+,,,,,,,
+Test Cases/Main Test Cases/MTC008 - Verify Services link,Chrome 118.0.0.0,,smoke,2023-11-06 10:52:27,2023-11-06 10:52:35,8.320s,PASSED
+"callTestCase(findTestCase(""Reusable Test Cases/Open the webapp""), [:], CONTINUE_ON_FAILURE)",Chrome 118.0.0.0,,,2023-11-06 10:52:27,2023-11-06 10:52:33,5.877s,PASSED
+"click(findTestObject(""Object Repository/Page_ParaBank  Welcome  Online Banking/lnkServices""))",Chrome 118.0.0.0,,,2023-11-06 10:52:33,2023-11-06 10:52:34,1.236s,PASSED
+navigateToUrl(SERVICES_URL),Chrome 118.0.0.0,,,2023-11-06 10:52:34,2023-11-06 10:52:34,0.337s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_ParaBank  Services/lblAvailableBookstoreSOAPServices""), expectedBookstoreMessage)",Chrome 118.0.0.0,,,2023-11-06 10:52:34,2023-11-06 10:52:35,0.530s,PASSED
+closeBrowser(),Chrome 118.0.0.0,,,2023-11-06 10:52:35,2023-11-06 10:52:35,0.219s,PASSED
+,,,,,,,
+Test Cases/Main Test Cases/MTC009 - Verify Products link,Chrome 118.0.0.0,,smoke,2023-11-06 10:52:35,2023-11-06 10:52:46,11.359s,PASSED
+"callTestCase(findTestCase(""Reusable Test Cases/Open the webapp""), [:], CONTINUE_ON_FAILURE)",Chrome 118.0.0.0,,,2023-11-06 10:52:35,2023-11-06 10:52:41,5.568s,PASSED
+"click(findTestObject(""Object Repository/Page_ParaBank  Welcome  Online Banking/lnkProducts""))",Chrome 118.0.0.0,,,2023-11-06 10:52:41,2023-11-06 10:52:45,3.796s,PASSED
+navigateToUrl(PRODUCTS_URL),Chrome 118.0.0.0,,,2023-11-06 10:52:45,2023-11-06 10:52:45,0.463s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Automated Software Testing Tool Suite _51757b/ParasoftLogo""), """")",Chrome 118.0.0.0,,,2023-11-06 10:52:45,2023-11-06 10:52:46,0.804s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Automated Software Testing Tool Suite _51757b/lnkProducts""), 0)",Chrome 118.0.0.0,,,2023-11-06 10:52:46,2023-11-06 10:52:46,0.320s,PASSED
+closeBrowser(),Chrome 118.0.0.0,,,2023-11-06 10:52:46,2023-11-06 10:52:46,0.329s,PASSED
+,,,,,,,
+Test Cases/Main Test Cases/MTC010 - Verify Locations link,Chrome 118.0.0.0,,smoke,2023-11-06 10:52:46,2023-11-06 10:52:56,9.891s,PASSED
+"callTestCase(findTestCase(""Reusable Test Cases/Open the webapp""), [:], CONTINUE_ON_FAILURE)",Chrome 118.0.0.0,,,2023-11-06 10:52:47,2023-11-06 10:52:53,6.462s,PASSED
+"click(findTestObject(""Object Repository/Page_ParaBank  Welcome  Online Banking/lnkLocations""))",Chrome 118.0.0.0,,,2023-11-06 10:52:53,2023-11-06 10:52:55,1.720s,PASSED
+navigateToUrl(SOLUTIONS_URL),Chrome 118.0.0.0,,,2023-11-06 10:52:55,2023-11-06 10:52:55,0.298s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Automated Software Testing Solutions F_4f6c59/ParasoftLogo""), 0)",Chrome 118.0.0.0,,,2023-11-06 10:52:55,2023-11-06 10:52:56,0.762s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Automated Software Testing Solutions F_4f6c59/lnkSolutions""), solutionsLink)",Chrome 118.0.0.0,,,2023-11-06 10:52:56,2023-11-06 10:52:56,0.301s,PASSED
+closeBrowser(),Chrome 118.0.0.0,,,2023-11-06 10:52:56,2023-11-06 10:52:56,0.235s,PASSED
+,,,,,,,
+Test Cases/Main Test Cases/MTC011 - Verify Admin Page link,Chrome 118.0.0.0,,smoke,2023-11-06 10:52:56,2023-11-06 10:53:03,6.984s,FAILED
+"callTestCase(findTestCase(""Reusable Test Cases/Open the webapp""), [:], CONTINUE_ON_FAILURE)",Chrome 118.0.0.0,,,2023-11-06 10:52:56,2023-11-06 10:53:01,5.057s,PASSED
+"click(findTestObject(""Object Repository/Page_ParaBank  Welcome  Online Banking/lnkAdminPage""))",Chrome 118.0.0.0,,,2023-11-06 10:53:01,2023-11-06 10:53:02,0.838s,PASSED
+navigateToUrl(ADMIN_PAGE_URL),Chrome 118.0.0.0,,,2023-11-06 10:53:02,2023-11-06 10:53:03,0.271s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_ParaBank  Administration/h1Administration""), expectedAdministrationHeader)",Chrome 118.0.0.0,,,2023-11-06 10:53:03,2023-11-06 10:53:03,0.506s,FAILED
+closeBrowser(),Chrome 118.0.0.0,,,2023-11-06 10:53:03,2023-11-06 10:53:03,0.226s,PASSED
+,,,,,,,
+Test Cases/Main Test Cases/MTC012 - Verify About Us link,Chrome 118.0.0.0,,smoke,2023-11-06 10:53:03,2023-11-06 10:53:10,6.873s,PASSED
+"callTestCase(findTestCase(""Reusable Test Cases/Open the webapp""), [:], CONTINUE_ON_FAILURE)",Chrome 118.0.0.0,,,2023-11-06 10:53:03,2023-11-06 10:53:09,5.335s,PASSED
+"click(findTestObject(""Object Repository/Page_ParaBank  Welcome  Online Banking/lnkAboutUs""))",Chrome 118.0.0.0,,,2023-11-06 10:53:09,2023-11-06 10:53:09,0.738s,PASSED
+navigateToUrl(ABOUT_US_URL),Chrome 118.0.0.0,,,2023-11-06 10:53:09,2023-11-06 10:53:10,0.179s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_ParaBank  About Us/h1ParaSoftDemoWebsite""), expectedParaSoftDemoWebsiteHeader)",Chrome 118.0.0.0,,,2023-11-06 10:53:10,2023-11-06 10:53:10,0.304s,PASSED
+closeBrowser(),Chrome 118.0.0.0,,,2023-11-06 10:53:10,2023-11-06 10:53:10,0.221s,PASSED
+,,,,,,,
+Test Cases/Main Test Cases/MTC013 - Verify Home icon,Chrome 118.0.0.0,,smoke,2023-11-06 10:53:10,2023-11-06 10:53:17,6.991s,PASSED
+"callTestCase(findTestCase(""Reusable Test Cases/Open the webapp""), [:], CONTINUE_ON_FAILURE)",Chrome 118.0.0.0,,,2023-11-06 10:53:10,2023-11-06 10:53:15,4.591s,PASSED
+"click(findTestObject(""Object Repository/Page_ParaBank  Welcome  Online Banking/iconHome""))",Chrome 118.0.0.0,,,2023-11-06 10:53:15,2023-11-06 10:53:16,1.067s,PASSED
+navigateToUrl(URL),Chrome 118.0.0.0,,,2023-11-06 10:53:16,2023-11-06 10:53:17,0.750s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_ParaBank  Welcome  Online Banking/divArticles""), 0)",Chrome 118.0.0.0,,,2023-11-06 10:53:17,2023-11-06 10:53:17,0.297s,PASSED
+closeBrowser(),Chrome 118.0.0.0,,,2023-11-06 10:53:17,2023-11-06 10:53:17,0.218s,PASSED
+,,,,,,,
+Test Cases/Main Test Cases/MTC014 - Verify About icon,Chrome 118.0.0.0,,smoke,2023-11-06 10:53:17,2023-11-06 10:53:24,6.798s,PASSED
+"callTestCase(findTestCase(""Reusable Test Cases/Open the webapp""), [:], CONTINUE_ON_FAILURE)",Chrome 118.0.0.0,,,2023-11-06 10:53:17,2023-11-06 10:53:23,5.490s,PASSED
+"click(findTestObject(""Page_ParaBank  Welcome  Online Banking/iconAbout""))",Chrome 118.0.0.0,,,2023-11-06 10:53:23,2023-11-06 10:53:23,0.544s,PASSED
+navigateToUrl(ABOUT_US_URL),Chrome 118.0.0.0,,,2023-11-06 10:53:23,2023-11-06 10:53:23,0.167s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_ParaBank  About Us/h1ParaSoftDemoWebsite""), expectedParaSoftDemoWebsiteHeader)",Chrome 118.0.0.0,,,2023-11-06 10:53:23,2023-11-06 10:53:24,0.305s,PASSED
+closeBrowser(),Chrome 118.0.0.0,,,2023-11-06 10:53:24,2023-11-06 10:53:24,0.218s,PASSED
+,,,,,,,
+Test Cases/Main Test Cases/MTC015 - Verify Contact icon,Chrome 118.0.0.0,,smoke,2023-11-06 10:53:24,2023-11-06 10:53:31,7.192s,PASSED
+"callTestCase(findTestCase(""Reusable Test Cases/Open the webapp""), [:], CONTINUE_ON_FAILURE)",Chrome 118.0.0.0,,,2023-11-06 10:53:24,2023-11-06 10:53:29,5.332s,PASSED
+"click(findTestObject(""Object Repository/Page_ParaBank  Welcome  Online Banking/iconContact""))",Chrome 118.0.0.0,,,2023-11-06 10:53:29,2023-11-06 10:53:30,0.612s,PASSED
+navigateToUrl(CONTACT_URL),Chrome 118.0.0.0,,,2023-11-06 10:53:30,2023-11-06 10:53:30,0.372s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_ParaBank  Customer Care/h1CustomerCare""), expectedH1CustomerCareText)",Chrome 118.0.0.0,,,2023-11-06 10:53:30,2023-11-06 10:53:31,0.296s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_ParaBank  Customer Care/tableCustomerCare                                 _d1ea03""), 0)",Chrome 118.0.0.0,,,2023-11-06 10:53:31,2023-11-06 10:53:31,0.290s,PASSED
+closeBrowser(),Chrome 118.0.0.0,,,2023-11-06 10:53:31,2023-11-06 10:53:31,0.220s,PASSED
+,,,,,,,
+Test Cases/Main Test Cases/MTC024 - Check latest news article 1,Chrome 118.0.0.0,,regression,2023-11-06 10:53:31,2023-11-06 10:54:02,30.452s,FAILED
+"callTestCase(findTestCase(""Reusable Test Cases/Open the webapp""), [:], CONTINUE_ON_FAILURE)",Chrome 118.0.0.0,,,2023-11-06 10:53:31,2023-11-06 10:53:36,5.113s,PASSED
+"click(findTestObject(""Page_ParaBank  Welcome  Online Banking/article3NewOnlineAccountTransfers""))",Chrome 118.0.0.0,,,2023-11-06 10:53:36,2023-11-06 10:54:01,24.182s,FAILED
+navigateToUrl(NEWS_URL),Chrome 118.0.0.0,,,2023-11-06 10:54:01,2023-11-06 10:54:01,0.313s,FAILED
+"verifyElementText(findTestObject(""Object Repository/Page_ParaBank  News/h1ParaBankNews""), expectedH1ParaBankNews)",Chrome 118.0.0.0,,,2023-11-06 10:54:01,2023-11-06 10:54:01,0.345s,FAILED
+closeBrowser(),Chrome 118.0.0.0,,,2023-11-06 10:54:01,2023-11-06 10:54:01,0.154s,PASSED
+,,,,,,,
+Test Cases/Main Test Cases/MTC025 - Check latest news article 2,Chrome 118.0.0.0,,regression,2023-11-06 10:54:02,2023-11-06 10:54:15,13.683s,FAILED
+"callTestCase(findTestCase(""Reusable Test Cases/Open the webapp""), [:], CONTINUE_ON_FAILURE)",Chrome 118.0.0.0,,,2023-11-06 10:54:02,2023-11-06 10:54:06,4.656s,PASSED
+"click(findTestObject(""Page_ParaBank  Welcome  Online Banking/article2NewOnlineBillPay""))",Chrome 118.0.0.0,,,2023-11-06 10:54:06,2023-11-06 10:54:14,7.892s,FAILED
+navigateToUrl(NEWS_URL),Chrome 118.0.0.0,,,2023-11-06 10:54:14,2023-11-06 10:54:15,0.272s,FAILED
+"verifyElementText(findTestObject(""Object Repository/Page_ParaBank  News/h1ParaBankNews""), expectedH1ParaBankNews)",Chrome 118.0.0.0,,,2023-11-06 10:54:15,2023-11-06 10:54:15,0.351s,FAILED
+closeBrowser(),Chrome 118.0.0.0,,,2023-11-06 10:54:15,2023-11-06 10:54:15,0.143s,PASSED
+,,,,,,,
+Test Cases/Main Test Cases/MTC026 - Check latest news article 3,Chrome 118.0.0.0,,regression,2023-11-06 10:54:15,2023-11-06 10:54:27,11.260s,FAILED
+"callTestCase(findTestCase(""Reusable Test Cases/Open the webapp""), [:], CONTINUE_ON_FAILURE)",Chrome 118.0.0.0,,,2023-11-06 10:54:15,2023-11-06 10:54:20,4.620s,PASSED
+"click(findTestObject(""Page_ParaBank  Welcome  Online Banking/article3NewOnlineAccountTransfers""))",Chrome 118.0.0.0,,,2023-11-06 10:54:20,2023-11-06 10:54:25,5.505s,FAILED
+navigateToUrl(NEWS_URL),Chrome 118.0.0.0,,,2023-11-06 10:54:25,2023-11-06 10:54:26,0.306s,FAILED
+"verifyElementText(findTestObject(""Object Repository/Page_ParaBank  News/h1ParaBankNews""), expectedH1ParaBankNews)",Chrome 118.0.0.0,,,2023-11-06 10:54:26,2023-11-06 10:54:26,0.355s,FAILED
+closeBrowser(),Chrome 118.0.0.0,,,2023-11-06 10:54:26,2023-11-06 10:54:26,0.140s,PASSED

@@ -1,0 +1,32 @@
+1
+00:00:00,000 --> 00:00:00,000
+1. callTestCase(findTestCase("Reusable Test Cases/Open the webapp"), [:], CONTINUE_ON_FAILURE)
+
+2
+00:00:00,000 --> 00:00:00,000
+1. openBrowser(URL)
+
+3
+00:00:00,000 --> 00:00:00,000
+5. maximizeWindow()
+
+4
+00:00:00,000 --> 00:00:00,000
+5. click(findTestObject("Object Repository/Page_ParaBank  Welcome  Online Banking/lnkServices"))
+
+5
+00:00:00,000 --> 00:00:00,000
+9. navigateToUrl(SERVICES_URL)
+
+6
+00:00:00,000 --> 00:00:00,000
+13. verifyElementText(findTestObject("Object Repository/Page_ParaBank  Services/lblAvailableBookstoreSOAPServices"), expectedBookstoreMessage)
+
+7
+00:00:00,000 --> 00:00:00,000
+17. takeScreenshotAsCheckpoint("ServicesPage")
+
+8
+00:00:00,000 --> 00:00:00,000
+21. closeBrowser()
+

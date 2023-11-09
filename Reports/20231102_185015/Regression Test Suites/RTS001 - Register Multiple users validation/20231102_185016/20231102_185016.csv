@@ -1,0 +1,150 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+RTS001 - Register Multiple users validation,MacOS - Edge Chromium 118,This test suite validates registration of multiple users into webapp,,2023-11-02 18:50:24,2023-11-02 19:03:39,13m - 14.666s,PASSED
+,,,,,,,
+Test Cases/Main Test Cases/MTC001 - User Registration,MacOS - Edge Chromium 118,,smoke,2023-11-02 18:50:25,2023-11-02 18:52:05,1m - 40.684s,PASSED
+"callTestCase(findTestCase(""Reusable Test Cases/Open the webapp""), [:], CONTINUE_ON_FAILURE)",MacOS - Edge Chromium 118,,,2023-11-02 18:50:25,2023-11-02 18:51:14,49.076s,PASSED
+"click(findTestObject(""Object Repository/Page_ParaBank_Welcome_Online_Banking/lkRegister""))",MacOS - Edge Chromium 118,,,2023-11-02 18:51:14,2023-11-02 18:51:17,2.719s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtFirstName""), firstName)",MacOS - Edge Chromium 118,,,2023-11-02 18:51:17,2023-11-02 18:51:21,3.859s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtLastName""), lastName)",MacOS - Edge Chromium 118,,,2023-11-02 18:51:21,2023-11-02 18:51:24,3.473s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtAddress""), address)",MacOS - Edge Chromium 118,,,2023-11-02 18:51:24,2023-11-02 18:51:28,3.877s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtCity""), city)",MacOS - Edge Chromium 118,,,2023-11-02 18:51:28,2023-11-02 18:51:32,3.700s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtState""), state)",MacOS - Edge Chromium 118,,,2023-11-02 18:51:32,2023-11-02 18:51:36,4.047s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtZipCode""), zipCode)",MacOS - Edge Chromium 118,,,2023-11-02 18:51:36,2023-11-02 18:51:39,3.513s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtPhoneNumber""), phone)",MacOS - Edge Chromium 118,,,2023-11-02 18:51:39,2023-11-02 18:51:44,4.301s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtSSN""), ssn)",MacOS - Edge Chromium 118,,,2023-11-02 18:51:44,2023-11-02 18:51:47,3.684s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtUsername""), username)",MacOS - Edge Chromium 118,,,2023-11-02 18:51:47,2023-11-02 18:51:51,3.802s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtPassword""), password)",MacOS - Edge Chromium 118,,,2023-11-02 18:51:51,2023-11-02 18:51:55,3.490s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtRepeatedPassword""), password)",MacOS - Edge Chromium 118,,,2023-11-02 18:51:55,2023-11-02 18:51:58,3.342s,PASSED
+"click(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/btnRegister""))",MacOS - Edge Chromium 118,,,2023-11-02 18:51:58,2023-11-02 18:52:00,2.392s,PASSED
+"verifyElementText(findTestObject(""Page_ParaBank_Customer_Created/lblWelcome""), expectedWelcomeMessage + username)",MacOS - Edge Chromium 118,,,2023-11-02 18:52:00,2023-11-02 18:52:02,1.697s,PASSED
+"verifyElementText(findTestObject(""Page_ParaBank_Customer_Created/lblSuccessfulAccountCreation""), expectedSuccessfulAccountCreationMessage)",MacOS - Edge Chromium 118,,,2023-11-02 18:52:02,2023-11-02 18:52:04,1.672s,PASSED
+closeBrowser(),MacOS - Edge Chromium 118,,,2023-11-02 18:52:04,2023-11-02 18:52:05,1.426s,PASSED
+,,,,,,,
+Test Cases/Main Test Cases/MTC001 - User Registration,MacOS - Edge Chromium 118,,smoke,2023-11-02 18:52:05,2023-11-02 18:53:44,1m - 38.222s,PASSED
+"callTestCase(findTestCase(""Reusable Test Cases/Open the webapp""), [:], CONTINUE_ON_FAILURE)",MacOS - Edge Chromium 118,,,2023-11-02 18:52:05,2023-11-02 18:52:54,48.610s,PASSED
+"click(findTestObject(""Object Repository/Page_ParaBank_Welcome_Online_Banking/lkRegister""))",MacOS - Edge Chromium 118,,,2023-11-02 18:52:54,2023-11-02 18:52:57,2.933s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtFirstName""), firstName)",MacOS - Edge Chromium 118,,,2023-11-02 18:52:57,2023-11-02 18:53:01,3.745s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtLastName""), lastName)",MacOS - Edge Chromium 118,,,2023-11-02 18:53:01,2023-11-02 18:53:04,3.619s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtAddress""), address)",MacOS - Edge Chromium 118,,,2023-11-02 18:53:04,2023-11-02 18:53:08,3.631s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtCity""), city)",MacOS - Edge Chromium 118,,,2023-11-02 18:53:08,2023-11-02 18:53:12,3.619s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtState""), state)",MacOS - Edge Chromium 118,,,2023-11-02 18:53:12,2023-11-02 18:53:15,3.432s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtZipCode""), zipCode)",MacOS - Edge Chromium 118,,,2023-11-02 18:53:15,2023-11-02 18:53:19,3.545s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtPhoneNumber""), phone)",MacOS - Edge Chromium 118,,,2023-11-02 18:53:19,2023-11-02 18:53:23,4.094s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtSSN""), ssn)",MacOS - Edge Chromium 118,,,2023-11-02 18:53:23,2023-11-02 18:53:26,3.508s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtUsername""), username)",MacOS - Edge Chromium 118,,,2023-11-02 18:53:26,2023-11-02 18:53:30,3.704s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtPassword""), password)",MacOS - Edge Chromium 118,,,2023-11-02 18:53:30,2023-11-02 18:53:33,3.395s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtRepeatedPassword""), password)",MacOS - Edge Chromium 118,,,2023-11-02 18:53:33,2023-11-02 18:53:37,3.437s,PASSED
+"click(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/btnRegister""))",MacOS - Edge Chromium 118,,,2023-11-02 18:53:37,2023-11-02 18:53:39,2.463s,PASSED
+"verifyElementText(findTestObject(""Page_ParaBank_Customer_Created/lblWelcome""), expectedWelcomeMessage + username)",MacOS - Edge Chromium 118,,,2023-11-02 18:53:39,2023-11-02 18:53:41,1.739s,PASSED
+"verifyElementText(findTestObject(""Page_ParaBank_Customer_Created/lblSuccessfulAccountCreation""), expectedSuccessfulAccountCreationMessage)",MacOS - Edge Chromium 118,,,2023-11-02 18:53:41,2023-11-02 18:53:43,1.802s,PASSED
+closeBrowser(),MacOS - Edge Chromium 118,,,2023-11-02 18:53:43,2023-11-02 18:53:44,0.910s,PASSED
+,,,,,,,
+Test Cases/Main Test Cases/MTC001 - User Registration,MacOS - Edge Chromium 118,,smoke,2023-11-02 18:53:44,2023-11-02 18:55:30,1m - 46.171s,PASSED
+"callTestCase(findTestCase(""Reusable Test Cases/Open the webapp""), [:], CONTINUE_ON_FAILURE)",MacOS - Edge Chromium 118,,,2023-11-02 18:53:44,2023-11-02 18:54:34,50.005s,PASSED
+"click(findTestObject(""Object Repository/Page_ParaBank_Welcome_Online_Banking/lkRegister""))",MacOS - Edge Chromium 118,,,2023-11-02 18:54:34,2023-11-02 18:54:37,3.227s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtFirstName""), firstName)",MacOS - Edge Chromium 118,,,2023-11-02 18:54:37,2023-11-02 18:54:41,4.327s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtLastName""), lastName)",MacOS - Edge Chromium 118,,,2023-11-02 18:54:41,2023-11-02 18:54:45,3.782s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtAddress""), address)",MacOS - Edge Chromium 118,,,2023-11-02 18:54:45,2023-11-02 18:54:49,4.049s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtCity""), city)",MacOS - Edge Chromium 118,,,2023-11-02 18:54:49,2023-11-02 18:54:53,3.914s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtState""), state)",MacOS - Edge Chromium 118,,,2023-11-02 18:54:53,2023-11-02 18:54:57,4.164s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtZipCode""), zipCode)",MacOS - Edge Chromium 118,,,2023-11-02 18:54:57,2023-11-02 18:55:02,4.394s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtPhoneNumber""), phone)",MacOS - Edge Chromium 118,,,2023-11-02 18:55:02,2023-11-02 18:55:06,4.289s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtSSN""), ssn)",MacOS - Edge Chromium 118,,,2023-11-02 18:55:06,2023-11-02 18:55:10,4.200s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtUsername""), username)",MacOS - Edge Chromium 118,,,2023-11-02 18:55:10,2023-11-02 18:55:14,3.886s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtPassword""), password)",MacOS - Edge Chromium 118,,,2023-11-02 18:55:14,2023-11-02 18:55:18,4.333s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtRepeatedPassword""), password)",MacOS - Edge Chromium 118,,,2023-11-02 18:55:18,2023-11-02 18:55:22,4.031s,PASSED
+"click(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/btnRegister""))",MacOS - Edge Chromium 118,,,2023-11-02 18:55:22,2023-11-02 18:55:25,2.592s,PASSED
+"verifyElementText(findTestObject(""Page_ParaBank_Customer_Created/lblWelcome""), expectedWelcomeMessage + username)",MacOS - Edge Chromium 118,,,2023-11-02 18:55:25,2023-11-02 18:55:27,2.170s,PASSED
+"verifyElementText(findTestObject(""Page_ParaBank_Customer_Created/lblSuccessfulAccountCreation""), expectedSuccessfulAccountCreationMessage)",MacOS - Edge Chromium 118,,,2023-11-02 18:55:27,2023-11-02 18:55:29,1.722s,PASSED
+closeBrowser(),MacOS - Edge Chromium 118,,,2023-11-02 18:55:29,2023-11-02 18:55:30,1.051s,PASSED
+,,,,,,,
+Test Cases/Main Test Cases/MTC001 - User Registration,MacOS - Edge Chromium 118,,smoke,2023-11-02 18:55:30,2023-11-02 18:57:08,1m - 37.487s,PASSED
+"callTestCase(findTestCase(""Reusable Test Cases/Open the webapp""), [:], CONTINUE_ON_FAILURE)",MacOS - Edge Chromium 118,,,2023-11-02 18:55:30,2023-11-02 18:56:15,44.701s,PASSED
+"click(findTestObject(""Object Repository/Page_ParaBank_Welcome_Online_Banking/lkRegister""))",MacOS - Edge Chromium 118,,,2023-11-02 18:56:15,2023-11-02 18:56:17,2.375s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtFirstName""), firstName)",MacOS - Edge Chromium 118,,,2023-11-02 18:56:17,2023-11-02 18:56:21,4.115s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtLastName""), lastName)",MacOS - Edge Chromium 118,,,2023-11-02 18:56:21,2023-11-02 18:56:25,3.978s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtAddress""), address)",MacOS - Edge Chromium 118,,,2023-11-02 18:56:25,2023-11-02 18:56:29,3.952s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtCity""), city)",MacOS - Edge Chromium 118,,,2023-11-02 18:56:29,2023-11-02 18:56:33,3.935s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtState""), state)",MacOS - Edge Chromium 118,,,2023-11-02 18:56:33,2023-11-02 18:56:37,4.058s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtZipCode""), zipCode)",MacOS - Edge Chromium 118,,,2023-11-02 18:56:37,2023-11-02 18:56:41,3.946s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtPhoneNumber""), phone)",MacOS - Edge Chromium 118,,,2023-11-02 18:56:41,2023-11-02 18:56:45,4.027s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtSSN""), ssn)",MacOS - Edge Chromium 118,,,2023-11-02 18:56:45,2023-11-02 18:56:49,3.735s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtUsername""), username)",MacOS - Edge Chromium 118,,,2023-11-02 18:56:49,2023-11-02 18:56:53,4.021s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtPassword""), password)",MacOS - Edge Chromium 118,,,2023-11-02 18:56:53,2023-11-02 18:56:57,3.935s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtRepeatedPassword""), password)",MacOS - Edge Chromium 118,,,2023-11-02 18:56:57,2023-11-02 18:57:01,3.876s,PASSED
+"click(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/btnRegister""))",MacOS - Edge Chromium 118,,,2023-11-02 18:57:01,2023-11-02 18:57:03,2.165s,PASSED
+"verifyElementText(findTestObject(""Page_ParaBank_Customer_Created/lblWelcome""), expectedWelcomeMessage + username)",MacOS - Edge Chromium 118,,,2023-11-02 18:57:03,2023-11-02 18:57:05,1.874s,PASSED
+"verifyElementText(findTestObject(""Page_ParaBank_Customer_Created/lblSuccessfulAccountCreation""), expectedSuccessfulAccountCreationMessage)",MacOS - Edge Chromium 118,,,2023-11-02 18:57:05,2023-11-02 18:57:07,1.817s,PASSED
+closeBrowser(),MacOS - Edge Chromium 118,,,2023-11-02 18:57:07,2023-11-02 18:57:08,0.956s,PASSED
+,,,,,,,
+Test Cases/Main Test Cases/MTC002 - User Registration Failure,MacOS - Edge Chromium 118,,regression,2023-11-02 18:57:08,2023-11-02 18:58:48,1m - 40.360s,PASSED
+"callTestCase(findTestCase(""Reusable Test Cases/Open the webapp""), [:], CONTINUE_ON_FAILURE)",MacOS - Edge Chromium 118,,,2023-11-02 18:57:08,2023-11-02 18:57:55,47.081s,PASSED
+"click(findTestObject(""Object Repository/Page_ParaBank_Welcome_Online_Banking/lkRegister""))",MacOS - Edge Chromium 118,,,2023-11-02 18:57:55,2023-11-02 18:57:57,2.381s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtFirstName""), firstName)",MacOS - Edge Chromium 118,,,2023-11-02 18:57:57,2023-11-02 18:58:02,4.142s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtLastName""), lastName)",MacOS - Edge Chromium 118,,,2023-11-02 18:58:02,2023-11-02 18:58:06,4.142s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtAddress""), address)",MacOS - Edge Chromium 118,,,2023-11-02 18:58:06,2023-11-02 18:58:10,4.011s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtCity""), city)",MacOS - Edge Chromium 118,,,2023-11-02 18:58:10,2023-11-02 18:58:14,3.872s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtState""), state)",MacOS - Edge Chromium 118,,,2023-11-02 18:58:14,2023-11-02 18:58:18,4.131s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtZipCode""), zipCode)",MacOS - Edge Chromium 118,,,2023-11-02 18:58:18,2023-11-02 18:58:22,4.289s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtPhoneNumber""), phone)",MacOS - Edge Chromium 118,,,2023-11-02 18:58:22,2023-11-02 18:58:26,4.254s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtSSN""), ssn)",MacOS - Edge Chromium 118,,,2023-11-02 18:58:26,2023-11-02 18:58:30,4.030s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtUsername""), username)",MacOS - Edge Chromium 118,,,2023-11-02 18:58:30,2023-11-02 18:58:34,3.852s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtPassword""), password)",MacOS - Edge Chromium 118,,,2023-11-02 18:58:34,2023-11-02 18:58:38,4.127s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtRepeatedPassword""), password)",MacOS - Edge Chromium 118,,,2023-11-02 18:58:38,2023-11-02 18:58:43,4.582s,PASSED
+"click(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/btnRegister""))",MacOS - Edge Chromium 118,,,2023-11-02 18:58:43,2023-11-02 18:58:45,2.261s,PASSED
+"verifyElementText(findTestObject(""Page_ParaBank_Register_for_Free_Online_Account/lblAccountAlreadyExists""), expectedAccountAlreadyExistsMessage)",MacOS - Edge Chromium 118,,,2023-11-02 18:58:45,2023-11-02 18:58:47,2.069s,PASSED
+closeBrowser(),MacOS - Edge Chromium 118,,,2023-11-02 18:58:47,2023-11-02 18:58:48,0.897s,PASSED
+,,,,,,,
+Test Cases/Main Test Cases/MTC002 - User Registration Failure,MacOS - Edge Chromium 118,,regression,2023-11-02 18:58:48,2023-11-02 19:00:27,1m - 38.939s,PASSED
+"callTestCase(findTestCase(""Reusable Test Cases/Open the webapp""), [:], CONTINUE_ON_FAILURE)",MacOS - Edge Chromium 118,,,2023-11-02 18:58:48,2023-11-02 18:59:34,46.098s,PASSED
+"click(findTestObject(""Object Repository/Page_ParaBank_Welcome_Online_Banking/lkRegister""))",MacOS - Edge Chromium 118,,,2023-11-02 18:59:34,2023-11-02 18:59:37,3.062s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtFirstName""), firstName)",MacOS - Edge Chromium 118,,,2023-11-02 18:59:37,2023-11-02 18:59:42,4.121s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtLastName""), lastName)",MacOS - Edge Chromium 118,,,2023-11-02 18:59:42,2023-11-02 18:59:46,4.260s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtAddress""), address)",MacOS - Edge Chromium 118,,,2023-11-02 18:59:46,2023-11-02 18:59:50,4.004s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtCity""), city)",MacOS - Edge Chromium 118,,,2023-11-02 18:59:50,2023-11-02 18:59:54,3.971s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtState""), state)",MacOS - Edge Chromium 118,,,2023-11-02 18:59:54,2023-11-02 18:59:58,3.973s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtZipCode""), zipCode)",MacOS - Edge Chromium 118,,,2023-11-02 18:59:58,2023-11-02 19:00:02,4.247s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtPhoneNumber""), phone)",MacOS - Edge Chromium 118,,,2023-11-02 19:00:02,2023-11-02 19:00:06,4.508s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtSSN""), ssn)",MacOS - Edge Chromium 118,,,2023-11-02 19:00:06,2023-11-02 19:00:11,4.044s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtUsername""), username)",MacOS - Edge Chromium 118,,,2023-11-02 19:00:11,2023-11-02 19:00:14,3.804s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtPassword""), password)",MacOS - Edge Chromium 118,,,2023-11-02 19:00:14,2023-11-02 19:00:18,3.798s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtRepeatedPassword""), password)",MacOS - Edge Chromium 118,,,2023-11-02 19:00:18,2023-11-02 19:00:22,3.970s,PASSED
+"click(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/btnRegister""))",MacOS - Edge Chromium 118,,,2023-11-02 19:00:22,2023-11-02 19:00:25,2.400s,PASSED
+"verifyElementText(findTestObject(""Page_ParaBank_Register_for_Free_Online_Account/lblAccountAlreadyExists""), expectedAccountAlreadyExistsMessage)",MacOS - Edge Chromium 118,,,2023-11-02 19:00:25,2023-11-02 19:00:26,1.797s,PASSED
+closeBrowser(),MacOS - Edge Chromium 118,,,2023-11-02 19:00:26,2023-11-02 19:00:27,0.860s,PASSED
+,,,,,,,
+Test Cases/Main Test Cases/MTC002 - User Registration Failure,MacOS - Edge Chromium 118,,regression,2023-11-02 19:00:27,2023-11-02 19:02:01,1m - 33.877s,PASSED
+"callTestCase(findTestCase(""Reusable Test Cases/Open the webapp""), [:], CONTINUE_ON_FAILURE)",MacOS - Edge Chromium 118,,,2023-11-02 19:00:27,2023-11-02 19:01:12,44.395s,PASSED
+"click(findTestObject(""Object Repository/Page_ParaBank_Welcome_Online_Banking/lkRegister""))",MacOS - Edge Chromium 118,,,2023-11-02 19:01:12,2023-11-02 19:01:14,2.227s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtFirstName""), firstName)",MacOS - Edge Chromium 118,,,2023-11-02 19:01:14,2023-11-02 19:01:18,4.030s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtLastName""), lastName)",MacOS - Edge Chromium 118,,,2023-11-02 19:01:18,2023-11-02 19:01:22,3.973s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtAddress""), address)",MacOS - Edge Chromium 118,,,2023-11-02 19:01:22,2023-11-02 19:01:26,4.053s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtCity""), city)",MacOS - Edge Chromium 118,,,2023-11-02 19:01:26,2023-11-02 19:01:30,3.657s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtState""), state)",MacOS - Edge Chromium 118,,,2023-11-02 19:01:30,2023-11-02 19:01:34,3.982s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtZipCode""), zipCode)",MacOS - Edge Chromium 118,,,2023-11-02 19:01:34,2023-11-02 19:01:37,3.561s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtPhoneNumber""), phone)",MacOS - Edge Chromium 118,,,2023-11-02 19:01:37,2023-11-02 19:01:41,3.748s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtSSN""), ssn)",MacOS - Edge Chromium 118,,,2023-11-02 19:01:41,2023-11-02 19:01:45,3.914s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtUsername""), username)",MacOS - Edge Chromium 118,,,2023-11-02 19:01:45,2023-11-02 19:01:49,3.725s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtPassword""), password)",MacOS - Edge Chromium 118,,,2023-11-02 19:01:49,2023-11-02 19:01:52,3.683s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtRepeatedPassword""), password)",MacOS - Edge Chromium 118,,,2023-11-02 19:01:52,2023-11-02 19:01:56,3.726s,PASSED
+"click(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/btnRegister""))",MacOS - Edge Chromium 118,,,2023-11-02 19:01:56,2023-11-02 19:01:58,2.141s,PASSED
+"verifyElementText(findTestObject(""Page_ParaBank_Register_for_Free_Online_Account/lblAccountAlreadyExists""), expectedAccountAlreadyExistsMessage)",MacOS - Edge Chromium 118,,,2023-11-02 19:01:58,2023-11-02 19:02:00,2.008s,PASSED
+closeBrowser(),MacOS - Edge Chromium 118,,,2023-11-02 19:02:00,2023-11-02 19:02:01,1.024s,PASSED
+,,,,,,,
+Test Cases/Main Test Cases/MTC002 - User Registration Failure,MacOS - Edge Chromium 118,,regression,2023-11-02 19:02:01,2023-11-02 19:03:39,1m - 37.439s,PASSED
+"callTestCase(findTestCase(""Reusable Test Cases/Open the webapp""), [:], CONTINUE_ON_FAILURE)",MacOS - Edge Chromium 118,,,2023-11-02 19:02:01,2023-11-02 19:02:45,43.165s,PASSED
+"click(findTestObject(""Object Repository/Page_ParaBank_Welcome_Online_Banking/lkRegister""))",MacOS - Edge Chromium 118,,,2023-11-02 19:02:45,2023-11-02 19:02:48,3.268s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtFirstName""), firstName)",MacOS - Edge Chromium 118,,,2023-11-02 19:02:48,2023-11-02 19:02:52,4.038s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtLastName""), lastName)",MacOS - Edge Chromium 118,,,2023-11-02 19:02:52,2023-11-02 19:02:56,4.011s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtAddress""), address)",MacOS - Edge Chromium 118,,,2023-11-02 19:02:56,2023-11-02 19:03:00,4.100s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtCity""), city)",MacOS - Edge Chromium 118,,,2023-11-02 19:03:00,2023-11-02 19:03:04,4.137s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtState""), state)",MacOS - Edge Chromium 118,,,2023-11-02 19:03:04,2023-11-02 19:03:08,4.076s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtZipCode""), zipCode)",MacOS - Edge Chromium 118,,,2023-11-02 19:03:08,2023-11-02 19:03:13,4.457s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtPhoneNumber""), phone)",MacOS - Edge Chromium 118,,,2023-11-02 19:03:13,2023-11-02 19:03:16,3.826s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtSSN""), ssn)",MacOS - Edge Chromium 118,,,2023-11-02 19:03:16,2023-11-02 19:03:20,3.964s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtUsername""), username)",MacOS - Edge Chromium 118,,,2023-11-02 19:03:20,2023-11-02 19:03:24,3.822s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtPassword""), password)",MacOS - Edge Chromium 118,,,2023-11-02 19:03:24,2023-11-02 19:03:29,4.393s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtRepeatedPassword""), password)",MacOS - Edge Chromium 118,,,2023-11-02 19:03:29,2023-11-02 19:03:33,4.265s,PASSED
+"click(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/btnRegister""))",MacOS - Edge Chromium 118,,,2023-11-02 19:03:33,2023-11-02 19:03:35,2.533s,PASSED
+"verifyElementText(findTestObject(""Page_ParaBank_Register_for_Free_Online_Account/lblAccountAlreadyExists""), expectedAccountAlreadyExistsMessage)",MacOS - Edge Chromium 118,,,2023-11-02 19:03:35,2023-11-02 19:03:38,2.363s,PASSED
+closeBrowser(),MacOS - Edge Chromium 118,,,2023-11-02 19:03:38,2023-11-02 19:03:39,0.998s,PASSED

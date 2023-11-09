@@ -1,0 +1,64 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+STS001 - A new customer registration validation,Chrome 118.0.0.0,All the test cases related to a new customer registration to the web application,,2023-10-31 20:36:35,2023-10-31 20:38:01,1m - 26.021s,FAILED
+,,,,,,,
+Test Cases/Reusable Test Cases/Open the webapp,Chrome 118.0.0.0,,,2023-10-31 20:36:36,2023-10-31 20:36:44,8.801s,PASSED
+openBrowser(URL),Chrome 118.0.0.0,,,2023-10-31 20:36:36,2023-10-31 20:36:44,8.178s,PASSED
+maximizeWindow(),Chrome 118.0.0.0,,,2023-10-31 20:36:44,2023-10-31 20:36:44,0.215s,PASSED
+,,,,,,,
+Test Cases/Reusable Test Cases/Enter a new user info,Chrome 118.0.0.0,,,2023-10-31 20:36:45,2023-10-31 20:36:57,12.293s,PASSED
+"click(findTestObject(""Object Repository/Page_ParaBank_Welcome_Online_Banking/lkRegister""))",Chrome 118.0.0.0,,,2023-10-31 20:36:45,2023-10-31 20:36:47,1.776s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtFirstName""), firstName)",Chrome 118.0.0.0,,,2023-10-31 20:36:47,2023-10-31 20:36:48,0.908s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtLastName""), lastName)",Chrome 118.0.0.0,,,2023-10-31 20:36:48,2023-10-31 20:36:49,0.823s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtAddress""), address)",Chrome 118.0.0.0,,,2023-10-31 20:36:49,2023-10-31 20:36:49,0.837s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtCity""), city)",Chrome 118.0.0.0,,,2023-10-31 20:36:49,2023-10-31 20:36:50,0.817s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtState""), state)",Chrome 118.0.0.0,,,2023-10-31 20:36:50,2023-10-31 20:36:51,0.846s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtZipCode""), zipCode)",Chrome 118.0.0.0,,,2023-10-31 20:36:51,2023-10-31 20:36:52,0.820s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtPhoneNumber""), phone)",Chrome 118.0.0.0,,,2023-10-31 20:36:52,2023-10-31 20:36:53,0.837s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtSSN""), ssn)",Chrome 118.0.0.0,,,2023-10-31 20:36:53,2023-10-31 20:36:54,0.846s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtUsername""), username)",Chrome 118.0.0.0,,,2023-10-31 20:36:54,2023-10-31 20:36:54,0.796s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtPassword""), password)",Chrome 118.0.0.0,,,2023-10-31 20:36:54,2023-10-31 20:36:55,0.797s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtRepeatedPassword""), password)",Chrome 118.0.0.0,,,2023-10-31 20:36:55,2023-10-31 20:36:56,0.808s,PASSED
+"click(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/btnRegister""))",Chrome 118.0.0.0,,,2023-10-31 20:36:56,2023-10-31 20:36:57,1.041s,PASSED
+,,,,,,,
+Test Cases/Reusable Test Cases/Enter a new user info,Chrome 118.0.0.0,,,2023-10-31 20:36:57,2023-10-31 20:37:23,25.175s,FAILED
+"click(findTestObject(""Object Repository/Page_ParaBank_Welcome_Online_Banking/lkRegister""))",Chrome 118.0.0.0,,,2023-10-31 20:36:57,2023-10-31 20:37:21,23.845s,FAILED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtFirstName""), firstName)",Chrome 118.0.0.0,,,2023-10-31 20:37:21,2023-10-31 20:37:21,0.116s,FAILED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtLastName""), lastName)",Chrome 118.0.0.0,,,2023-10-31 20:37:21,2023-10-31 20:37:21,0.142s,FAILED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtAddress""), address)",Chrome 118.0.0.0,,,2023-10-31 20:37:21,2023-10-31 20:37:22,0.108s,FAILED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtCity""), city)",Chrome 118.0.0.0,,,2023-10-31 20:37:22,2023-10-31 20:37:22,0.095s,FAILED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtState""), state)",Chrome 118.0.0.0,,,2023-10-31 20:37:22,2023-10-31 20:37:22,0.114s,FAILED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtZipCode""), zipCode)",Chrome 118.0.0.0,,,2023-10-31 20:37:22,2023-10-31 20:37:22,0.098s,FAILED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtPhoneNumber""), phone)",Chrome 118.0.0.0,,,2023-10-31 20:37:22,2023-10-31 20:37:22,0.098s,FAILED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtSSN""), ssn)",Chrome 118.0.0.0,,,2023-10-31 20:37:22,2023-10-31 20:37:22,0.102s,FAILED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtUsername""), username)",Chrome 118.0.0.0,,,2023-10-31 20:37:22,2023-10-31 20:37:22,0.102s,FAILED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtPassword""), password)",Chrome 118.0.0.0,,,2023-10-31 20:37:22,2023-10-31 20:37:22,0.104s,FAILED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtRepeatedPassword""), password)",Chrome 118.0.0.0,,,2023-10-31 20:37:22,2023-10-31 20:37:22,0.111s,FAILED
+"click(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/btnRegister""))",Chrome 118.0.0.0,,,2023-10-31 20:37:22,2023-10-31 20:37:23,0.101s,FAILED
+,,,,,,,
+Test Cases/Reusable Test Cases/Enter a new user info,Chrome 118.0.0.0,,,2023-10-31 20:37:23,2023-10-31 20:37:24,1.395s,FAILED
+"click(findTestObject(""Object Repository/Page_ParaBank_Welcome_Online_Banking/lkRegister""))",Chrome 118.0.0.0,,,2023-10-31 20:37:23,2023-10-31 20:37:23,0.101s,FAILED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtFirstName""), firstName)",Chrome 118.0.0.0,,,2023-10-31 20:37:23,2023-10-31 20:37:23,0.111s,FAILED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtLastName""), lastName)",Chrome 118.0.0.0,,,2023-10-31 20:37:23,2023-10-31 20:37:23,0.100s,FAILED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtAddress""), address)",Chrome 118.0.0.0,,,2023-10-31 20:37:23,2023-10-31 20:37:23,0.104s,FAILED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtCity""), city)",Chrome 118.0.0.0,,,2023-10-31 20:37:23,2023-10-31 20:37:23,0.097s,FAILED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtState""), state)",Chrome 118.0.0.0,,,2023-10-31 20:37:23,2023-10-31 20:37:23,0.100s,FAILED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtZipCode""), zipCode)",Chrome 118.0.0.0,,,2023-10-31 20:37:23,2023-10-31 20:37:24,0.113s,FAILED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtPhoneNumber""), phone)",Chrome 118.0.0.0,,,2023-10-31 20:37:24,2023-10-31 20:37:24,0.092s,FAILED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtSSN""), ssn)",Chrome 118.0.0.0,,,2023-10-31 20:37:24,2023-10-31 20:37:24,0.112s,FAILED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtUsername""), username)",Chrome 118.0.0.0,,,2023-10-31 20:37:24,2023-10-31 20:37:24,0.101s,FAILED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtPassword""), password)",Chrome 118.0.0.0,,,2023-10-31 20:37:24,2023-10-31 20:37:24,0.103s,FAILED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/txtRepeatedPassword""), password)",Chrome 118.0.0.0,,,2023-10-31 20:37:24,2023-10-31 20:37:24,0.098s,FAILED
+"click(findTestObject(""Object Repository/Page_ParaBank_Register_for_Free_Online_Account/btnRegister""))",Chrome 118.0.0.0,,,2023-10-31 20:37:24,2023-10-31 20:37:24,0.105s,FAILED
+,,,,,,,
+Test Cases/Main Test Cases/MTC001 - Register,Chrome 118.0.0.0,,smoke,2023-10-31 20:37:24,2023-10-31 20:37:44,19.372s,FAILED
+"callTestCase(findTestCase(""Reusable Test Cases/Open the webapp""), [:], STOP_ON_FAILURE)",Chrome 118.0.0.0,,,2023-10-31 20:37:24,2023-10-31 20:37:30,5.855s,PASSED
+"callTestCase(findTestCase(""Reusable Test Cases/Enter a new user info""), [:], STOP_ON_FAILURE)",Chrome 118.0.0.0,,,2023-10-31 20:37:30,2023-10-31 20:37:42,11.500s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_ParaBank_Customer_Created/lblWelcome""), expectedWelcomeMessage + username)",Chrome 118.0.0.0,,,2023-10-31 20:37:42,2023-10-31 20:37:43,0.827s,FAILED
+"verifyElementText(findTestObject(""Object Repository/Page_ParaBank_Customer_Created/lblSuccessfulAccountCreation""), expectedSuccessfulAccountCreationMessage)",Chrome 118.0.0.0,,,2023-10-31 20:37:43,2023-10-31 20:37:43,0.707s,FAILED
+closeBrowser(),Chrome 118.0.0.0,,,2023-10-31 20:37:43,2023-10-31 20:37:44,0.227s,PASSED
+,,,,,,,
+Test Cases/Main Test Cases/Register Failure,Chrome 118.0.0.0,,smoke,2023-10-31 20:37:44,2023-10-31 20:38:01,17.877s,PASSED
+"callTestCase(findTestCase(""Reusable Test Cases/Open the webapp""), [:], STOP_ON_FAILURE)",Chrome 118.0.0.0,,,2023-10-31 20:37:44,2023-10-31 20:37:49,5.557s,PASSED
+"callTestCase(findTestCase(""Reusable Test Cases/Enter a new user info""), [:], STOP_ON_FAILURE)",Chrome 118.0.0.0,,,2023-10-31 20:37:49,2023-10-31 20:38:01,11.540s,PASSED
+"verifyElementText(findTestObject(""Page_ParaBank_Register_for_Free_Online_Account/lblAccountAlreadyExists""), expectedAccountAlreadyExistsMessage)",Chrome 118.0.0.0,,,2023-10-31 20:38:01,2023-10-31 20:38:01,0.389s,PASSED
+closeBrowser(),Chrome 118.0.0.0,,,2023-10-31 20:38:01,2023-10-31 20:38:01,0.201s,PASSED

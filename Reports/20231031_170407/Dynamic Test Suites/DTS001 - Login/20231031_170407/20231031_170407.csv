@@ -1,0 +1,42 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+DTS001 - Login,Chrome 118.0.0.0,,,2023-10-31 17:04:15,2023-10-31 17:05:22,1m - 6.954s,FAILED
+,,,,,,,
+Test Cases/Main Test Cases/Accounts Overview,Chrome 118.0.0.0,,smoke,2023-10-31 17:04:16,2023-10-31 17:04:32,16.593s,PASSED
+"callTestCase(findTestCase(""Reusable Test Cases/Login""), [:], CONTINUE_ON_FAILURE)",Chrome 118.0.0.0,,,2023-10-31 17:04:16,2023-10-31 17:04:28,11.714s,PASSED
+"lkAccount = getText(findTestObject(""Object Repository/Page_ParaBank_Accounts_Overview/lkAccount""))",Chrome 118.0.0.0,,,2023-10-31 17:04:28,2023-10-31 17:04:28,0.392s,PASSED
+"balance = getText(findTestObject(""Object Repository/Page_ParaBank_Accounts_Overview/lblBalance""))",Chrome 118.0.0.0,,,2023-10-31 17:04:28,2023-10-31 17:04:29,0.374s,PASSED
+"availableAmount = getText(findTestObject(""Object Repository/Page_ParaBank_Accounts_Overview/lblAvailableAmount""))",Chrome 118.0.0.0,,,2023-10-31 17:04:29,2023-10-31 17:04:29,0.406s,PASSED
+"click(findTestObject(""Object Repository/Page_ParaBank_Accounts_Overview/lkAccount""))",Chrome 118.0.0.0,,,2023-10-31 17:04:29,2023-10-31 17:04:30,0.995s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_ParaBank  Account Activity/lblAccountNumber""), lkAccount)",Chrome 118.0.0.0,,,2023-10-31 17:04:30,2023-10-31 17:04:31,0.727s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_ParaBank  Account Activity/lblBalance""), balance)",Chrome 118.0.0.0,,,2023-10-31 17:04:31,2023-10-31 17:04:31,0.410s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_ParaBank  Account Activity/lblAvailable""), availableAmount)",Chrome 118.0.0.0,,,2023-10-31 17:04:31,2023-10-31 17:04:32,0.390s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_ParaBank  Account Activity/AccountActivityFilters""), 0)",Chrome 118.0.0.0,,,2023-10-31 17:04:32,2023-10-31 17:04:32,0.389s,PASSED
+closeBrowser(),Chrome 118.0.0.0,,,2023-10-31 17:04:32,2023-10-31 17:04:32,0.254s,PASSED
+,,,,,,,
+Test Cases/Main Test Cases/Forgot login info successful,Chrome 118.0.0.0,,smoke,2023-10-31 17:04:32,2023-10-31 17:04:47,14.882s,PASSED
+"callTestCase(findTestCase(""Reusable Test Cases/Open the webapp""), [:], CONTINUE_ON_FAILURE)",Chrome 118.0.0.0,,,2023-10-31 17:04:33,2023-10-31 17:04:38,5.588s,PASSED
+"click(findTestObject(""Object Repository/Page_ParaBank_Welcome_Online_Banking/lkForgotLoginInfo""))",Chrome 118.0.0.0,,,2023-10-31 17:04:38,2023-10-31 17:04:39,1.211s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Customer_Lookup/txtFirstName""), firstName)",Chrome 118.0.0.0,,,2023-10-31 17:04:39,2023-10-31 17:04:40,0.858s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Customer_Lookup/txtLastName""), lastName)",Chrome 118.0.0.0,,,2023-10-31 17:04:40,2023-10-31 17:04:41,0.824s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Customer_Lookup/txtAddress.street""), address)",Chrome 118.0.0.0,,,2023-10-31 17:04:41,2023-10-31 17:04:42,0.787s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Customer_Lookup/txtAddress.city""), city)",Chrome 118.0.0.0,,,2023-10-31 17:04:42,2023-10-31 17:04:43,0.811s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Customer_Lookup/txtAddress.state""), state)",Chrome 118.0.0.0,,,2023-10-31 17:04:43,2023-10-31 17:04:43,0.784s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Customer_Lookup/txtAddress.zipCode""), zipCode)",Chrome 118.0.0.0,,,2023-10-31 17:04:43,2023-10-31 17:04:44,0.764s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank_Customer_Lookup/txtSSN""), ssn)",Chrome 118.0.0.0,,,2023-10-31 17:04:44,2023-10-31 17:04:45,0.832s,PASSED
+"click(findTestObject(""Object Repository/Page_ParaBank_Customer_Lookup/btnFindMyLoginInfo""))",Chrome 118.0.0.0,,,2023-10-31 17:04:45,2023-10-31 17:04:46,1.184s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_ParaBank_Customer_Lookup/h1CustomerLookup""), expectedCustomerLookupText)",Chrome 118.0.0.0,,,2023-10-31 17:04:46,2023-10-31 17:04:47,0.387s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_ParaBank_Customer_Lookup/lblLoginInfoLookUpSuccess""), expectedLoginInfoLookupSuccessMessage)",Chrome 118.0.0.0,,,2023-10-31 17:04:47,2023-10-31 17:04:47,0.405s,PASSED
+closeBrowser(),Chrome 118.0.0.0,,,2023-10-31 17:04:47,2023-10-31 17:04:47,0.182s,PASSED
+,,,,,,,
+Test Cases/Main Test Cases/MTC001 - Register,Chrome 118.0.0.0,,smoke,2023-10-31 17:04:47,2023-10-31 17:05:06,18.330s,FAILED
+"callTestCase(findTestCase(""Reusable Test Cases/Open the webapp""), [:], STOP_ON_FAILURE)",Chrome 118.0.0.0,,,2023-10-31 17:04:47,2023-10-31 17:04:53,5.167s,PASSED
+"callTestCase(findTestCase(""Reusable Test Cases/Enter a new user info""), [:], STOP_ON_FAILURE)",Chrome 118.0.0.0,,,2023-10-31 17:04:53,2023-10-31 17:05:04,11.326s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_ParaBank_Customer_Created/lblWelcome""), expectedWelcomeMessage + username)",Chrome 118.0.0.0,,,2023-10-31 17:05:04,2023-10-31 17:05:05,0.759s,FAILED
+"verifyElementText(findTestObject(""Object Repository/Page_ParaBank_Customer_Created/lblSuccessfulAccountCreation""), expectedSuccessfulAccountCreationMessage)",Chrome 118.0.0.0,,,2023-10-31 17:05:05,2023-10-31 17:05:05,0.710s,FAILED
+closeBrowser(),Chrome 118.0.0.0,,,2023-10-31 17:05:05,2023-10-31 17:05:06,0.158s,PASSED
+,,,,,,,
+Test Cases/Main Test Cases/Register Failure,Chrome 118.0.0.0,,smoke,2023-10-31 17:05:06,2023-10-31 17:05:22,16.848s,PASSED
+"callTestCase(findTestCase(""Reusable Test Cases/Open the webapp""), [:], STOP_ON_FAILURE)",Chrome 118.0.0.0,,,2023-10-31 17:05:06,2023-10-31 17:05:11,5.307s,PASSED
+"callTestCase(findTestCase(""Reusable Test Cases/Enter a new user info""), [:], STOP_ON_FAILURE)",Chrome 118.0.0.0,,,2023-10-31 17:05:11,2023-10-31 17:05:22,10.814s,PASSED
+"verifyElementText(findTestObject(""Page_ParaBank_Register_for_Free_Online_Account/lblAccountAlreadyExists""), expectedAccountAlreadyExistsMessage)",Chrome 118.0.0.0,,,2023-10-31 17:05:22,2023-10-31 17:05:22,0.387s,PASSED
+closeBrowser(),Chrome 118.0.0.0,,,2023-10-31 17:05:22,2023-10-31 17:05:22,0.162s,PASSED

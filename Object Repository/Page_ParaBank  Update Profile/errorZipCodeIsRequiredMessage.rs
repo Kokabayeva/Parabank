@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>errorZipCodeIsRequiredMessage</name>
+   <tag></tag>
+   <elementGuidId>f6d0345f-97c5-4852-8149-a634434837a9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.error.ng-scope</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='rightPanel']/div/div/form/table/tbody/tr[6]/td[3]/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>a9732fab-bca2-4c14-a68f-50c27607daa3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-if</name>
+      <type>Main</type>
+      <value>customer &amp;&amp; !customer.address.zipCode</value>
+      <webElementGuid>3deac8bd-a950-4277-9759-bce688f6ebf7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>error ng-scope</value>
+      <webElementGuid>45a8ff2b-c6bf-474f-9371-6fad1681c244</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Zip Code is required.</value>
+      <webElementGuid>dfe5c11c-ebd2-4cff-8b25-b8b7dcdacead</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;rightPanel&quot;)/div[@class=&quot;ng-scope&quot;]/div[@class=&quot;ng-scope&quot;]/form[@class=&quot;ng-valid ng-dirty ng-valid-parse ng-submitted&quot;]/table[@class=&quot;form2&quot;]/tbody[1]/tr[6]/td[3]/span[@class=&quot;error ng-scope&quot;]</value>
+      <webElementGuid>ae25c361-b9c1-4184-bc8c-74ec06f20281</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='rightPanel']/div/div/form/table/tbody/tr[6]/td[3]/span</value>
+      <webElementGuid>60943700-799e-48df-a8e4-0ab35f2cf7cd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span</value>
+      <webElementGuid>83319755-ef02-41d5-8cf6-b930e8e1510e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Zip Code is required.' or . = 'Zip Code is required.')]</value>
+      <webElementGuid>0c1bf1e0-c9f6-403e-ab62-9b563b6a236a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

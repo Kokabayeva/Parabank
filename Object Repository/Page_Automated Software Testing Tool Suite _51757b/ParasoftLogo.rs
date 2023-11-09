@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>ParasoftLogo</name>
+   <tag></tag>
+   <elementGuidId>3c7ab9d2-2dec-4939-98b8-cd0980a595b3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>img</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//img[contains(@src,'https://www.parasoft.com/wp-content/uploads/2020/06/parasoft.svg')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>81089dd0-2e84-4054-8823-dcff2ea81115</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>https://www.parasoft.com/wp-content/uploads/2020/06/parasoft.svg</value>
+      <webElementGuid>788073d8-ea65-4894-afea-20227e524624</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;js&quot;]/body[@class=&quot;page-template-default page page-id-231 page-parent wp-embed-responsive preload group-blog innerpage webp-support&quot;]/header[@class=&quot;inner-header&quot;]/div[@class=&quot;header-wrap navigation&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;home-logo&quot;]/a[1]/img[1]</value>
+      <webElementGuid>a26e3ed0-4b0e-42e6-bcd2-04b36376a6c1</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:img</name>
+      <type>Main</type>
+      <value>//img[contains(@src,'https://www.parasoft.com/wp-content/uploads/2020/06/parasoft.svg')]</value>
+      <webElementGuid>3c27a171-2c37-436c-a26f-c507e0b549b6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//img</value>
+      <webElementGuid>b834c196-2771-47f3-92c5-8072d0bdf147</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = 'https://www.parasoft.com/wp-content/uploads/2020/06/parasoft.svg']</value>
+      <webElementGuid>8666bea8-4200-49ed-9f4f-4f7e8615a1dc</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

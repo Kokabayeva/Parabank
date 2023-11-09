@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>lnkProducts</name>
+   <tag></tag>
+   <elementGuidId>2f8e15c2-17f7-4022-89a6-9d05d1969121</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.inner-banner-cont > span</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[2]/div/div/div/div/div/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>4bc30a7b-36aa-4a14-884f-e1a91065e8f1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Products</value>
+      <webElementGuid>85dcc2b5-8642-43fa-8684-aa9451956074</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;js&quot;]/body[@class=&quot;page-template-default page page-id-231 page-parent wp-embed-responsive preload group-blog innerpage webp-support&quot;]/section[@class=&quot;pad inner-banner  bgsecimg&quot;]/div[@class=&quot;inner-banner-wrap&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-xl-8 col-lg-8 col-md-8 col-sm-12&quot;]/div[@class=&quot;inner-banner-cont-wrap&quot;]/div[@class=&quot;inner-banner-cont&quot;]/span[1]</value>
+      <webElementGuid>6ae19bbf-8bf5-4403-b206-e65abe30609e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/div/div/span</value>
+      <webElementGuid>1ce2a9e2-d6eb-4004-8176-fe54c4dbf206</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Products' or . = 'Products')]</value>
+      <webElementGuid>7ee3dee3-61ae-47c8-a477-8676429b4eb9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

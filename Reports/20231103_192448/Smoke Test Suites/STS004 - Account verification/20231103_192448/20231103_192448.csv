@@ -1,0 +1,25 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+STS004 - Account verification,Windows - Chrome 109.0.0.0,Bank account related test cases,,2023-11-03 19:24:55,2023-11-03 19:27:47,2m - 51.672s,PASSED
+,,,,,,,
+Test Cases/Main Test Cases/MTC005 - Accounts Overview,Windows - Chrome 109.0.0.0,,smoke,2023-11-03 19:24:55,2023-11-03 19:26:12,1m - 16.744s,PASSED
+"callTestCase(findTestCase(""Reusable Test Cases/Login""), [:], CONTINUE_ON_FAILURE)",Windows - Chrome 109.0.0.0,,,2023-11-03 19:24:56,2023-11-03 19:25:57,1m - 0.744s,PASSED
+"lkAccount = getText(findTestObject(""Object Repository/Page_ParaBank  Accounts Overview/lkAccount""))",Windows - Chrome 109.0.0.0,,,2023-11-03 19:25:57,2023-11-03 19:25:58,1.762s,PASSED
+"balance = getText(findTestObject(""Object Repository/Page_ParaBank  Accounts Overview/lblBalance""))",Windows - Chrome 109.0.0.0,,,2023-11-03 19:25:58,2023-11-03 19:26:00,1.737s,PASSED
+"availableAmount = getText(findTestObject(""Object Repository/Page_ParaBank  Accounts Overview/lblAvailableAmount""))",Windows - Chrome 109.0.0.0,,,2023-11-03 19:26:00,2023-11-03 19:26:02,1.841s,PASSED
+"click(findTestObject(""Object Repository/Page_ParaBank  Accounts Overview/lkAccount""))",Windows - Chrome 109.0.0.0,,,2023-11-03 19:26:02,2023-11-03 19:26:04,2.414s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_ParaBank  Account Activity/lblAccountNumber""), lkAccount)",Windows - Chrome 109.0.0.0,,,2023-11-03 19:26:04,2023-11-03 19:26:06,1.676s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_ParaBank  Account Activity/lblBalance""), balance)",Windows - Chrome 109.0.0.0,,,2023-11-03 19:26:06,2023-11-03 19:26:08,1.640s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_ParaBank  Account Activity/lblAvailable""), availableAmount)",Windows - Chrome 109.0.0.0,,,2023-11-03 19:26:08,2023-11-03 19:26:09,1.680s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_ParaBank  Account Activity/AccountActivityFilters""), 0)",Windows - Chrome 109.0.0.0,,,2023-11-03 19:26:09,2023-11-03 19:26:11,1.133s,PASSED
+closeBrowser(),Windows - Chrome 109.0.0.0,,,2023-11-03 19:26:11,2023-11-03 19:26:12,1.607s,PASSED
+,,,,,,,
+Test Cases/Main Test Cases/MTC006 - Open New Account,Windows - Chrome 109.0.0.0,,,2023-11-03 19:26:12,2023-11-03 19:27:47,1m - 34.707s,PASSED
+"callTestCase(findTestCase(""Reusable Test Cases/Login""), [:], CONTINUE_ON_FAILURE)",Windows - Chrome 109.0.0.0,,,2023-11-03 19:26:12,2023-11-03 19:27:29,1m - 17.112s,PASSED
+"click(findTestObject(""Object Repository/Page_ParaBank  Accounts Overview/lnkOpenNewAccount""))",Windows - Chrome 109.0.0.0,,,2023-11-03 19:27:29,2023-11-03 19:27:32,2.738s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_ParaBank  Open Account/h1OpenNewAccount""), expectedOpenAccountHeaderText)",Windows - Chrome 109.0.0.0,,,2023-11-03 19:27:32,2023-11-03 19:27:34,2.250s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_ParaBank  Open Account/lblAccountTypeQuestion""), expectedAccountTypeQuestion)",Windows - Chrome 109.0.0.0,,,2023-11-03 19:27:34,2023-11-03 19:27:37,2.178s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_ParaBank  Open Account/lblMinimumDeposit""), expectedMinimumAmountText)",Windows - Chrome 109.0.0.0,,,2023-11-03 19:27:37,2023-11-03 19:27:39,2.789s,PASSED
+"click(findTestObject(""Object Repository/Page_ParaBank  Open Account/btnOpen""))",Windows - Chrome 109.0.0.0,,,2023-11-03 19:27:39,2023-11-03 19:27:42,2.300s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_ParaBank  Open Account/h1AccountOpened""), expectedH1AccountOpened)",Windows - Chrome 109.0.0.0,,,2023-11-03 19:27:42,2023-11-03 19:27:44,2.171s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_ParaBank  Open Account/lblCongratulationsAccountOpen""), expectedCongratesAccountOpenMessage)",Windows - Chrome 109.0.0.0,,,2023-11-03 19:27:44,2023-11-03 19:27:46,2.050s,PASSED
+closeBrowser(),Windows - Chrome 109.0.0.0,,,2023-11-03 19:27:46,2023-11-03 19:27:47,0.886s,PASSED

@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+STS001 - A new customer registration validation,Chrome 118.0.0.0,All the test cases related to a new customer registration to the web application,,2023-10-31 16:34:04,2023-10-31 16:34:42,37.622s,PASSED
+,,,,,,,
+Test Cases/Main Test Cases/MTC001 - Register,Chrome 118.0.0.0,,smoke,2023-10-31 16:34:04,2023-10-31 16:34:25,20.223s,PASSED
+"callTestCase(findTestCase(""Reusable Test Cases/Open the webapp""), [:], STOP_ON_FAILURE)",Chrome 118.0.0.0,,,2023-10-31 16:34:05,2023-10-31 16:34:12,6.927s,PASSED
+"callTestCase(findTestCase(""Reusable Test Cases/Enter a new user info""), [:], STOP_ON_FAILURE)",Chrome 118.0.0.0,,,2023-10-31 16:34:12,2023-10-31 16:34:24,11.714s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_ParaBank_Customer_Created/lblWelcome""), expectedWelcomeMessage + username)",Chrome 118.0.0.0,,,2023-10-31 16:34:24,2023-10-31 16:34:24,0.423s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_ParaBank_Customer_Created/lblSuccessfulAccountCreation""), expectedSuccessfulAccountCreationMessage)",Chrome 118.0.0.0,,,2023-10-31 16:34:24,2023-10-31 16:34:24,0.369s,PASSED
+closeBrowser(),Chrome 118.0.0.0,,,2023-10-31 16:34:24,2023-10-31 16:34:25,0.191s,PASSED
+,,,,,,,
+Test Cases/Main Test Cases/Register Failure,Chrome 118.0.0.0,,smoke,2023-10-31 16:34:25,2023-10-31 16:34:42,16.994s,PASSED
+"callTestCase(findTestCase(""Reusable Test Cases/Open the webapp""), [:], STOP_ON_FAILURE)",Chrome 118.0.0.0,,,2023-10-31 16:34:25,2023-10-31 16:34:30,5.640s,PASSED
+"callTestCase(findTestCase(""Reusable Test Cases/Enter a new user info""), [:], STOP_ON_FAILURE)",Chrome 118.0.0.0,,,2023-10-31 16:34:30,2023-10-31 16:34:41,10.556s,PASSED
+"verifyElementText(findTestObject(""Page_ParaBank_Register_for_Free_Online_Account/lblAccountAlreadyExists""), expectedAccountAlreadyExistsMessage)",Chrome 118.0.0.0,,,2023-10-31 16:34:41,2023-10-31 16:34:41,0.407s,PASSED
+closeBrowser(),Chrome 118.0.0.0,,,2023-10-31 16:34:41,2023-10-31 16:34:42,0.209s,PASSED
