@@ -18,9 +18,9 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.w
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.testng.keyword.internal.TestNGDriverCleaner())
 
 
-RunConfiguration.setExecutionSettingFile('C:\\Users\\GKOKAB~1\\AppData\\Local\\Temp\\Katalon\\20231108_105021\\execution.properties')
+RunConfiguration.setExecutionSettingFile('C:\\Users\\GKOKAB~1\\AppData\\Local\\Temp\\Katalon\\Test Cases\\Main Test Cases\\MTC002 - User Registration Failure\\20231108_211930\\execution.properties')
 
 TestCaseMain.beforeStart()
 
-        TestCaseMain.runTestCase('', new TestCaseBinding('',[:]), FailureHandling.STOP_ON_FAILURE , false)
+        TestCaseMain.runTestCase('Test Cases/Main Test Cases/MTC002 - User Registration Failure', new TestCaseBinding('Test Cases/Main Test Cases/MTC002 - User Registration Failure',[:]), FailureHandling.STOP_ON_FAILURE , false)
     

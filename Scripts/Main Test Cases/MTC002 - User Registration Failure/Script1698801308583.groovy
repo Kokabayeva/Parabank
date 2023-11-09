@@ -47,5 +47,7 @@ WebUI.click(findTestObject('Object Repository/Page_ParaBank_Register_for_Free_On
 
 WebUI.verifyElementText(findTestObject('Page_ParaBank_Register_for_Free_Online_Account/lblAccountAlreadyExists'), GlobalVariable.expectedAccountAlreadyExistsMessage)
 
+WebUI.takeScreenshotAsCheckpoint('UsernameAlreadyExists')
+
 WebUI.closeBrowser()
 

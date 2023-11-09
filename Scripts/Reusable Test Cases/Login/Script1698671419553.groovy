@@ -28,3 +28,5 @@ WebUI.click(findTestObject('Page_ParaBank  Welcome  Online Banking/btnLogin'))
 
 WebUI.verifyElementText(findTestObject('Page_ParaBank  Accounts Overview/h1AccountsOverview'), GlobalVariable.expectedAccountsOverviewText)
 
+WebUI.takeScreenshotAsCheckpoint('WelcomePage')
+
